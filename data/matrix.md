@@ -29,12 +29,5 @@ retrieval columns. What stands in the fourth is detection and recognition
 — work that identifies a seal on a page, not work that finds the page
 given a query about the seal.
 
-Those rows are also the least explicable by difficulty: stamps have
-detection systems going back to the 1990s and typography optical font
-recognition going back further, and neither is hard in the sense that
-formula structure is hard. What they lack is not technique but a
-benchmark that annotates them.
 
-Each blank names a channel, a paradigm, and therefore a specific
-experiment: take a system of that paradigm, evaluate it on a resource
-annotating that channel, and report what happens.
+
