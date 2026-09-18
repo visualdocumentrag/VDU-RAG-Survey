@@ -3,18 +3,10 @@
 One table per channel: what the work *does*, what it was measured on,
 and why it matters.
 
-`Brief description` and `Highlight` are our reading of each paper, not
-quotations. **Scores are deliberately absent**: a number without the
-exact benchmark version, split and metric is not comparable, and the
-survey's own meta-analysis is about precisely that. Reported values
-live in [`results_record.csv`](results_record.csv) with the paper each
-was read from.
 
 ## Plain text
 
-The characters and their reading order. Reading order is a property of layout, not of the glyphs, so perfect character accuracy can still yield an unreadable stream.
 
-**Pooling destroys** not the characters but the order and block boundaries that make them a document.
 
 | Literature | Year | Brief description | Dataset / Protocol | Highlight |
 |---|:-:|---|---|---|
@@ -37,7 +29,7 @@ The characters and their reading order. Reading order is a property of layout, n
 
 Columns, blocks, headers, captions, reading order and containment. Layout resists encoding because it is *relational*: a block's meaning depends on its neighbours.
 
-**Pooling destroys containment**: a caption inside a figure box and one beside it become the same caption.
+
 
 | Literature | Year | Brief description | Dataset / Protocol | Highlight |
 |---|:-:|---|---|---|
@@ -66,6 +58,4 @@ and in the [main list](../README.md#channels); what is being added
 here is the *Brief description* and *Highlight* for each, which is a
 reading rather than a lookup and is done one paper at a time.
 
-**[➕ Help fill one](../../../issues/new?template=add-paper.yml)** — a
-one-line description of what a paper does, for a channel you know, is
-more useful than a new citation.
+
