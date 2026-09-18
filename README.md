@@ -2,8 +2,7 @@
 
 ### A survey of retrieval-augmented visual document understanding
 
-**286 papers, 158 of them from 2025–26.**
-Paper list and released record for the survey (under review).
+
 
 ---
 
@@ -12,9 +11,7 @@ parsing, retrieval, generation. This one organises it by **what the page
 contains**: eight content channels that co-occur, and overlap, on the same
 page.
 
-Two of those eight have no retrieval literature at all. That is the
-finding, and it is visible in the tables below before you read a word of
-the paper.
+
 
 ---
 
