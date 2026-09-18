@@ -64,10 +64,4 @@ that cannot be measured will not improve. The four well-served channels
 are also the four on which saturation is observed, which is what one
 would expect: a benchmark saturates on what it measures.
 
-## Adding a dataset
 
-Add a row to [`datasets.csv`](datasets.csv). Take the query and document
-counts **from the introducing paper's own abstract** and mark the row
-`PRIMARY`; if you take them from anywhere else, mark it `SECONDARY` and
-say where in the commit message. The flag exists so that no reader has
-to take a number on trust.
