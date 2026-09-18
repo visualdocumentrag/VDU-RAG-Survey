@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VDU with RAG — a channel-centric survey</title>
+<meta name="description" content="Paper list and released record for a channel-centric survey of visual document understanding with retrieval-augmented generation.">
+<style>
+:root{
+  --ink:#1a1a1a; --mid:#555; --faint:#8a8a8a;
+  --line:#e2e2e2; --bg:#fff; --panel:#fafafa; --accent:#1a1a1a;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --ink:#e8e8e8; --mid:#a8a8a8; --faint:#777;
+         --line:#2e2e2e; --bg:#141414; --panel:#1c1c1c; --accent:#e8e8e8; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:920px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);padding:52px 0 34px;margin-bottom:34px}
+h1{font-size:26px;line-height:1.3;margin:0 0 10px;font-weight:650;letter-spacing:-.01em}
+.sub{color:var(--mid);font-size:15px;margin:0 0 20px}
+.count{font-size:14px;color:var(--faint)}
+.count b{color:var(--ink);font-weight:600}
+.lede{background:var(--panel);border-left:3px solid var(--accent);
+  padding:16px 18px;margin:24px 0;font-size:15px;line-height:1.65}
+.lede p{margin:0 0 10px} .lede p:last-child{margin:0}
+h2{font-size:19px;margin:44px 0 6px;font-weight:650;letter-spacing:-.01em}
+h3{font-size:16px;margin:30px 0 4px;font-weight:600}
+h2+.note,h3+.note{color:var(--mid);font-size:14px;margin:0 0 14px;line-height:1.6}
+.finding{border-left:3px solid var(--accent);padding:10px 0 10px 14px;
+  margin:12px 0 16px;font-size:14.5px;color:var(--ink)}
+.abs{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+  padding:14px 18px;margin:0 0 30px;font-size:14.5px;line-height:1.65}
+.abs summary{cursor:pointer;font-weight:600;font-size:15px;color:var(--ink);
+  list-style:none}
+.abs summary::-webkit-details-marker{display:none}
+.abs summary::before{content:"\25B8 ";color:var(--faint)}
+.abs[open] summary::before{content:"\25BE "}
+.abs[open] summary{margin-bottom:12px}
+.abs p{margin:0 0 12px;color:var(--mid)} .abs p:last-child{margin:0}
+.controls{position:sticky;top:0;background:var(--bg);padding:14px 0;
+  border-bottom:1px solid var(--line);z-index:10;margin-bottom:8px}
+input[type=search]{width:100%;padding:10px 12px;font-size:15px;font-family:inherit;
+  border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+input[type=search]:focus{outline:none;border-color:var(--faint)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{font-size:12.5px;padding:4px 10px;border:1px solid var(--line);
+  border-radius:20px;background:none;color:var(--mid);cursor:pointer;font-family:inherit}
+.chip:hover{border-color:var(--faint)}
+.chip.on{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 4px}
+th{text-align:left;font-weight:600;font-size:12px;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--faint);border-bottom:1px solid var(--line);
+  padding:8px 8px 8px 0}
+td{padding:9px 8px 9px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td.yr{width:52px;color:var(--mid);font-variant-numeric:tabular-nums}
+td.vn{width:150px;color:var(--mid);font-size:13px}
+tr.hide{display:none}
+.empty{color:var(--faint);font-size:14px;padding:16px 0;font-style:italic}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:28px 0 60px;
+  color:var(--mid);font-size:14px}
+a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+a:hover{border-color:var(--ink)}
+code{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;
+  background:var(--panel);padding:1px 5px;border-radius:3px}
+@media(max-width:640px){ td.vn{display:none} th:nth-child(2){display:none} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Eight Channels, One Vector</h1>
+  <p class="sub">A survey of retrieval-augmented visual document understanding</p>
+  <p class="count"><b id="n">—</b> papers &middot; <b id="nr">—</b> from 2025–26 &middot;
+     <a href="https://github.com/ANON-REPO/VDU-RAG-Survey">GitHub</a> &middot; <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/issues/new?template=add-paper.yml">&plus; add a paper</a></p>
+</header>
+
+<div class="lede">
+  <p>Surveys of this literature organise it by <b>where computation
+  happens</b> — parsing, retrieval, generation. This one organises it by
+  <b>what the page contains</b>: eight content channels that co-occur,
+  and overlap, on the same page.</p>
+  <p>Two of those eight have no retrieval literature at all. That is the
+  finding, and it is visible below before you read a word of the paper.</p>
+</div>
+
+<details class="abs">
+  <summary>Abstract</summary>
+  <p>Document collections have outgrown what a model can hold in context,
+  so retrieval is now a precondition for document understanding rather
+  than an optimisation. Existing surveys organise this literature by
+  pipeline stage or by retrieval modality: by where computation happens.
+  We organise it by what the page contains. A page carries up to eight
+  kinds of content at once — plain text, layout, tables, figures,
+  equations, form fields, stamps and seals, and typography — and these
+  overlap spatially rather than partitioning the page. Because they
+  overlap, the pooling that produces a page representation is not
+  injective, and we formalise the resulting <em>channel interference</em>
+  as a second-order interaction between co-located channels.</p>
+  <p>Three things follow. We build a channel&nbsp;&times;&nbsp;paradigm
+  matrix whose empty cells identify directions on which nothing has been
+  reported. Analysing the published record rather than re-running
+  systems, we find that independent reports of the same method,
+  benchmark and metric differ by a median that bounds what any single
+  reported improvement can be taken to mean. We introduce a
+  channel-aware retrieval score and an 18-item reporting checklist, and
+  measure how far current practice meets it.</p>
+  <p>We screened 1,778 records across the venues listed in the paper and
+  cite 286. The screened pool, the result record and the checklist are
+  released here.</p>
+</details>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Search title, author, venue…"
+         autocomplete="off" spellcheck="false">
+  <div class="chips" id="chips"></div>
+</div>
+
+<div id="out"></div>
+
+<div class="lede" style="margin-top:36px">
+  <p><b>Every table in the survey, in full.</b>
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/surveys.md">Surveys</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/channels.md">Channels</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/encoding.md">What encoders keep and lose</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/methods.md">Methods</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/matrix.md">The matrix</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/datasets.md">Datasets</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/venues.md">Venues</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/notation.md">Notation</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/variance.md">Variance</a> &middot;
+  <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/blob/main/data/checklist.md">Checklist</a></p>
+  <p style="color:var(--faint);font-size:13.5px;margin-top:8px">The paper
+  carries compact versions of these and points here for the full ones.</p>
+</div>
+
+<footer>
+  <p><b>The released record.</b> Most paper lists tell you what exists.
+  This one also tells you where each number came from —
+  <code>results_record.csv</code> carries a <code>REPORTED_IN</code>
+  field recording the paper a value was <em>read from</em>, which is not
+  always the paper that produced it.</p>
+  <p>Found an error? <a href="https://github.com/ANON-REPO/VDU-RAG-Survey/issues">Open
+  an issue.</a> The record is meant to be checked, and a correction is
+  more useful to us than a citation.</p>
+  <p style="margin-top:18px;color:var(--faint);font-size:13px">
+  Author details withheld for double-blind review &middot; CC BY 4.0</p>
+</footer>
+
+</div>
+
+<script>
+// ---------------------------------------------------------------
+// The page reads groups.json and screened_pool.csv at load time.
+// TO ADD A PAPER: add a row to data/screened_pool.csv and put its
+// key in the right group in docs/groups.json. Nothing here changes.
+// ---------------------------------------------------------------
+const $ = s => document.querySelector(s);
+
+function parseCSV(t){
+  const rows=[]; let row=[], cell='', q=false;
+  for(let i=0;i<t.length;i++){
+    const c=t[i];
+    if(q){ if(c==='"'){ if(t[i+1]==='"'){cell+='"';i++;} else q=false; } else cell+=c; }
+    else if(c==='"') q=true;
+    else if(c===','){ row.push(cell); cell=''; }
+    else if(c==='\n'){ row.push(cell); rows.push(row); row=[]; cell=''; }
+    else if(c!=='\r') cell+=c;
+  }
+  if(cell||row.length){ row.push(cell); rows.push(row); }
+  const head=rows.shift();
+  return rows.filter(r=>r.length>1).map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]||''])));
+}
+
+const tidy = v => v.replace(/^Proc\. /,'').replace('arXiv preprint','preprint')
+                   .replace(/\s*\([A-Z][A-Za-z]*\)/,'').replace(/arXiv:\S+/,'').trim();
+
+function table(rows){
+  if(!rows.length) return '<p class="empty">No entries yet.</p>';
+  return '<table><thead><tr><th>Year</th><th>Venue</th><th>Paper</th></tr></thead><tbody>'
+    + rows.sort((a,b)=> (b.year-a.year) || a.title.localeCompare(b.title))
+        .map(r=>{
+          const link = r.arxiv ? `https://arxiv.org/abs/${r.arxiv}`
+                    : r.doi   ? `https://doi.org/${r.doi}` : '';
+          const t = link ? `<a href="${link}">${r.title}</a>` : r.title;
+          return `<tr data-s="${(r.title+' '+r.authors+' '+r.venue).toLowerCase()}">
+            <td class="yr">${r.year}</td><td class="vn">${tidy(r.venue)}</td>
+            <td>${t}</td></tr>`;}).join('')
+    + '</tbody></table>';
+}
+
+Promise.all([
+  fetch('groups.json').then(r=>r.json()),
+  fetch('../data/references.csv').then(r=>r.text()).then(parseCSV)
+]).then(([G, pool])=>{
+  const by = Object.fromEntries(pool.map(r=>[r.key,r]));
+  $('#n').textContent  = pool.length;
+  $('#nr').textContent = pool.filter(r=>r.year==='2025'||r.year==='2026').length;
+
+  let html='';
+  for(const sec of G.sections){
+    html += `<h2 id="${sec.id}">${sec.title}</h2>`;
+    if(sec.note) html += `<p class="note">${sec.note}</p>`;
+    for(const g of sec.groups){
+      if(sec.groups.length>1 || g.title!==sec.title) html += `<h3>${g.title}</h3>`;
+      if(g.note)    html += `<p class="note">${g.note}</p>`;
+      if(g.finding) html += `<p class="finding">${g.finding}</p>`;
+      html += table(g.keys.map(k=>by[k]).filter(Boolean));
+    }
+  }
+  $('#out').innerHTML = html;
+
+  // filter chips, built from the section list
+  $('#chips').innerHTML = G.sections.map(s=>
+    `<button class="chip" data-t="${s.id}">${s.short||s.title}</button>`).join('');
+  $('#chips').onclick = e => {
+    if(!e.target.classList.contains('chip')) return;
+    e.target.classList.toggle('on');
+    const on = [...document.querySelectorAll('.chip.on')].map(c=>c.dataset.t);
+    G.sections.forEach(s=>{
+      const show = !on.length || on.includes(s.id);
+      let n = document.getElementById(s.id);
+      while(n && !(n.tagName==='H2' && n.id!==s.id)){
+        n.style.display = show ? '' : 'none';
+        n = n.nextElementSibling;
+      }
+    });
+  };
+
+  // free-text search across every row
+  $('#q').oninput = e => {
+    const q = e.target.value.trim().toLowerCase();
+    document.querySelectorAll('tbody tr').forEach(tr=>
+      tr.classList.toggle('hide', q && !tr.dataset.s.includes(q)));
+  };
+}).catch(e=>{
+  $('#out').innerHTML = '<p class="empty">Could not load the record. '
+    + 'If you are opening this file directly, run a local server instead: '
+    + '<code>python -m http.server</code></p>';
+  console.error(e);
+});
+</script>
+</body>
+</html>

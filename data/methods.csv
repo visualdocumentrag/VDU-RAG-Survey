@@ -1,0 +1,34 @@
+key,method,year,paradigm,brief_description,dataset,granularity,highlight,backbone,index_type,train_free,ocr,code,weights,licence,confidence
+ma2024dse,DSE,2024,Screenshot,Bi-encoder over the rendered page screenshot; one dense vector per page,ViDoRe,page,First to show a page image can be embedded for retrieval without OCR,Phi-3-vision 4.2B,single,no,no,yes,yes,,H
+yuvisrag2025,VisRAG,2025,Screenshot,VLM-based embedder plus generator; end-to-end pipeline over page images,"ViDoRe, custom",page,First end-to-end vision-based RAG over documents,MiniCPM-V 2.0,single,no,no,yes,yes,,H
+sun2025visrag2,VisRAG 2.0,2025,Screenshot,Successor generation with multi-image reasoning,-,page,Successor to the first end-to-end line,,single,no,no,,,,?
+fayssecolpali2025,ColPali,2025,Late interaction,"PaliGemma patch embeddings at D=128, late-interaction MaxSim scoring",ViDoRe v1,page,Dominant formulation; 257.5 KB index per page,PaliGemma-3B,multi,no,no,yes,yes,,H
+masry2025colflor,ColFlor,2025,Late interaction,BERT-size vision-language retriever,ViDoRe,page,Efficiency end of the ColPali line,Florence-2 0.17B,multi,no,no,yes,yes,,H
+masry2025colmate,ColMate,2025,Late interaction,Contrastive late interaction with masked text pretraining,ViDoRe,page,Training-objective contribution to the same family,,multi,no,no,,,,?
+teiletche2025modernvbert,ModernVBERT,2025,Late interaction,Compact bidirectional vision-language encoder,ViDoRe,page,Smaller backbone at comparable accuracy,ModernBERT + SigLIP,multi,no,no,yes,yes,,M
+xiaometaembed2026,MetaEmbed,2026,Late interaction,Test-time control over how many vectors are retained,ViDoRe,page,Makes the storage-accuracy trade-off a runtime choice,,multi,no,no,,,,?
+meng2025vlm2vecv2,VLM2Vec-V2,2025,Late interaction,Unified embedder treating pages as one modality among several,MMEB-V2,page,Document pages inside a general multimodal embedder,Qwen2-VL,multi,no,no,yes,yes,,M
+moreira2026nemotroncolembed,Nemotron ColEmbed,2026,Late interaction,Industrial multi-vector retriever,ViDoRe,page,"Tops current leaderboards; industrial report, not peer-reviewed",Llama/Nemotron VL,multi,no,no,yes,yes,,M
+nguyen2025serval,Serval,2025,Late interaction,Zero-shot visual document retrieval with no task-specific training,ViDoRe,page,Same group as the SIGIR reproducibility study,,multi,yes,no,,,,M
+cho2024m3docvqa,M3DocRAG,2024,End-to-end,Multi-modal multi-page retrieval and generation over document collections,M3DocVQA,page,First multi-document visual RAG,ColPali + Qwen2-VL,multi,no,no,yes,,,M
+chensvrag2025,SV-RAG,2025,End-to-end,Self-adaptive MLLM with LoRA adapters for evidence page retrieval,MP-DocVQA,page,Adapts the reader rather than the retriever,LoRA adapters on an MLLM,,no,no,yes,,,M
+tanakavdocrag2025,VDocRAG,2025,End-to-end,Unified image format for retrieval and generation without parsing,OpenDocVQA,page,Contributes the largest open retrieval+QA corpus,Phi-3-vision,,no,no,yes,yes,,M
+suri2025visdom,VisDoMRAG,2025,End-to-end,Parallel textual and visual pipelines with consistency-constrained fusion,VisDoMBench,page,Makes paradigm disagreement visible rather than silent,,,no,partial,yes,,,M
+cmrag2025,CMRAG,2025,End-to-end,Co-modality RAG combining explicit text and page pixels,-,page,States the routing question from the architecture side,,,,partial,,,,?
+wu2025molorag,MoLoRAG,2025,End-to-end,Logic-aware multimodal retrieval bootstrapping document understanding,-,page,Retrieval guided by reasoning structure,,,,,,,,?
+hybridvector2025,HEAVEN,2026,End-to-end,"Two-stage: single-vector first stage, multi-vector second, layout-guided","VIMDoc, ViDoSeek",page,"Reports compute against accuracy, not storage",DSE + ColQwen2.5,hybrid,no,no,,,,H
+hkrag2025,HKRAG,2025,End-to-end,Holistic knowledge construction over documents,-,-,-,,,,,,,,?
+hikey2026,HiKEY,2026,End-to-end,Hierarchical multimodal retrieval for open-domain document QA,-,-,"Hierarchical retrieval, Sec. VI-C granularity",,,,,,,,?
+lfrag2026,LFRAG,2026,Region-level,Layout-oriented fine-grained retrieval,-,region,Layout as the retrieval unit,,,,,,,,?
+ma-etal-2025-visa,VISA,2025,Region-level,Retrieves the page and returns the bounding box of the supporting evidence,"Wiki-VISA, Paper-VISA",region,Attribution at the region while indexing the page,,,no,no,,,,M
+liregionrag2026,RegionRAG,2026,Region-level,Indexes and returns sub-page regions directly,"ViDoSeek, others",region,Retrieval unit below the page,,,no,no,,,,?
+wangregionslm2026,RegionSLM,2026,Region-level,Region-level retrieval for screenshot-based readers,-,region,Region unit with a small reader,,,,,,,,?
+sourati-etal-2026-lad,LAD-RAG,2026,Region-level,Layout-aware dynamic retrieval with a document graph,-,graph,Structure carried into retrieval as a graph,,graph,,,,,,?
+qin2026lmsretrieval,LMS-Retrieval,2026,Region-level,"Layout-, modality- and structure-aware document retrieval",-,region,Closest prior work on the taxonomy side,,,,,,,,?
+beyondgrid2026,ColParse,2026,Region-level,Parser selects the regions to embed; sub-image vectors fused with a page vector,-,region,"Parsing output reaches the index as UNITS, not as a label",parser + multi-vector,multi,,yes,,,,H
+wang-etal-2025-vidorag,ViDoRAG,2025,Agentic,Multi-agent iterative refinement with Gaussian mixture retrieval,ViDoSeek,page,First agentic visual document RAG,,,no,no,yes,,,M
+sun-etal-2025-docagent,DocAgent,2025,Agentic,Multimodal agent for long document understanding,-,-,-,,,,,,,,?
+han2025mdocagent,MDocAgent,2025,Agentic,Division of labour across specialised text and image agents,MMLongBench-Doc,-,Specialised agents per modality,,,,,yes,,,M
+jin-etal-2026-slideagent,SlideAgent,2026,Agentic,Hierarchical agentic framework for multi-page visual documents,-,-,Hierarchical navigation of long documents,,,,,,,,?
+zhu-etal-2026-doclens,DocLens,2026,Agentic,Tool-augmented multi-agent framework for long visual documents,-,region,Tool use over page regions,,,,,,,,?
+mardoc2026,MARDoc,2026,Agentic,Memory-aware refinement agent for multimodal long document QA,-,-,-,,,,,,,,?

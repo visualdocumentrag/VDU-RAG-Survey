@@ -1,0 +1,3 @@
+method,benchmark,benchmark_version,metric,value,backbone,top_k,ocr_engine,resolution,runs_averaged,eval_code_version,REPORTED_IN,notes
+ColPali,ViDoRe,v1,nDCG@5,,,,,,,,fayssecolpali2025,
+ColPali,ViDoRe,v1,nDCG@5,,,,,,,,,SECOND INDEPENDENT REPORT GOES HERE

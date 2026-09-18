@@ -1,0 +1,88 @@
+name: ➕ Add a paper
+description: Suggest a paper for the list. One paper per issue.
+title: "[paper] "
+labels: ["new paper"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One paper per issue. Everything except the notes is copied
+        straight into `data/references.csv`, so the more exact you are,
+        the less work it is to merge.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Exactly as it appears on the paper
+    validations: { required: true }
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: "Surname, Given and Surname, Given and ..."
+    validations: { required: true }
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      placeholder: "CVPR, ICDAR, TPAMI, or 'arXiv preprint'"
+    validations: { required: true }
+  - type: input
+    id: year
+    attributes:
+      label: Year
+    validations: { required: true }
+  - type: input
+    id: link
+    attributes:
+      label: DOI or arXiv id
+      placeholder: "10.1109/... or 2503.02304"
+    validations: { required: true }
+  - type: dropdown
+    id: group
+    attributes:
+      label: Which section does it belong in?
+      options:
+        - Surveys
+        - "Channel — plain text"
+        - "Channel — layout structure"
+        - "Channel — tables"
+        - "Channel — figures and charts"
+        - "Channel — equations"
+        - "Channel — form fields"
+        - "Channel — stamps and seals"
+        - "Channel — typography"
+        - Pre-2024 lineage
+        - "Method — screenshot embedding"
+        - "Method — late interaction"
+        - "Method — end-to-end visual RAG"
+        - "Method — region and layout level"
+        - "Method — agentic"
+        - "Method — query rewriting and reranking"
+        - "Indexing — chunking and text encoding"
+        - "Indexing — storage, pruning, compression"
+        - "Indexing — graph-structured"
+        - "OCR quality and robustness"
+        - Benchmarks and datasets
+        - Multilingual and script coverage
+        - Metrics and evaluation
+    validations: { required: true }
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Inclusion criteria
+      description: >
+        The list is not everything published; it is what meets the
+        criteria in Sec. III-C of the survey. Tick what applies.
+      options:
+        - label: "The retrieval corpus is a document collection and the unit is a page or page region (C1)"
+        - label: "It reports a quantitative result on a named benchmark, or contributes a benchmark, dataset or metric (C2)"
+        - label: "Peer-reviewed, or a preprint cited by a peer-reviewed work already in the list (C3)"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      placeholder: >
+        If it belongs in a channel that currently has few entries, or if
+        it reports on a channel no retrieval system has evaluated
+        before, say so — those are the entries we most want.

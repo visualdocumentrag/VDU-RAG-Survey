@@ -1,0 +1,18 @@
+key,authors,venue,year,organising_axis,block,channel,interference,audit,metric,multilingual
+gao-etal-2026-scaling,Gao et al.,ACL,2026,"pipeline stage: parse, retrieve, generate",direct,no,no,no,no,partial
+yan2026unlocking,Yan et al.,preprint,2026,"pipeline stage: benchmark, embed, rerank, agent",direct,no,no,no,no,no
+zhang2025rolesmllm,Zhang,AACL,2025,"role of the MLLM: captioner, embedder, representer",direct,no,no,no,no,no
+anon2026documentintelligence,—,TOIS,2026,LLM capability applied to document tasks,direct,no,no,no,no,partial
+ding-etal-2026-survey,Ding et al.,ACL,2026,MLLM framework capability,vrdu,no,no,no,no,partial
+ding2024vrdusurvey,Ding et al.,AI Rev.,2026,"task family: extraction, VQA, layout",vrdu,no,no,no,no,no
+fu-etal-2025-multimodal,Fu et al.,ACL,2025,model architecture for text-rich images,vrdu,no,no,no,no,no
+zhang2024documentparsing,Zhang et al.,preprint,2024,parsing technique,vrdu,no,no,no,no,no
+wang2025documentintelligencellm,Wang et al.,preprint,2025,document task taxonomy,vrdu,no,no,no,no,no
+nandi2024vducomparative,Nandi & Sathya,CVIP,2024,method family,vrdu,no,no,no,no,no
+vrdqasurvey2025,—,preprint,2025,question-answering task,vrdu,no,no,no,no,no
+datagen2026survey,—,preprint,2026,data-generation method,vrdu,no,no,no,no,no
+abootorabi-etal-2025-ask,Abootorabi et al.,ACL,2025,retrieval modality,mmrag,no,no,no,no,partial
+mei2025multimodalragsurvey,Mei et al.,preprint,2025,retrieval modality,mmrag,no,no,no,no,no
+ragvisionsurvey2025,Zhao et al.,preprint,2025,vision task,mmrag,no,no,no,no,no
+gao2023ragsurvey,Gao et al.,preprint,2023,"RAG paradigm: naive, advanced, modular",mmrag,no,no,no,no,no
+qiao2025reproducibility,Qiao et al.,SIGIR,2025,reproducibility of late interaction,audit,no,no,yes,no,no

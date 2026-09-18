@@ -1,0 +1,9 @@
+channel,ocr_to_llm,mllm_native,text_rag,visual_rag
+Plain text,,,,
+Layout structure,,,,
+Tables,,,,
+Figures and charts,,,,
+Equations,,,,EMPTY
+Form fields,,,,
+Stamps and seals,"detection only, not retrieval",EMPTY,EMPTY,EMPTY
+Typography,"recognition only, not retrieval",EMPTY,EMPTY,EMPTY

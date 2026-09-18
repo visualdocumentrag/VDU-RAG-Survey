@@ -1,0 +1,9 @@
+family,preserves,preserves_refs,destroys,destroys_refs
+OCR → text,reading text; word order within a block,smith2007tesseract;li2023trocr,column order; cell adjacency; anything non-textual,song2026ocrquality;sun-etal-2026-good;zhangocr2025
+Structured parsing,"text, layout, tables, formulas and reading order, each reported separately",cui2025paddleocrvl;li2025dotsocr,typography; stamps; figure content beyond a caption,
+Layout-aware LM,bounding boxes; reading order,xu2020layoutlm;lu-etal-2025-bounding,"content type: it knows where a block is, not that the block is a table",
+"Screenshot, single vector",global page appearance,ma2024dse;yuvisrag2025,fine text; cell adjacency; anything below the pooled resolution,
+Multi-vector visual,patch-level appearance,fayssecolpali2025,channel identity: matching is spatial rather than semantic,qiao2025reproducibility
+Compressed visual,whatever survives the pruning budget,zhangdockylin2025;yan2025docpruner,unreported — no work states which channels are dropped,wen-etal-2025-token;liao-etal-2026-using
+Graph-structured,relations the parser emitted,chengraphbased2025;li2025monkeyocr,relations it did not; the pixels behind every node,
+Parse-informed multi-vector,the units the parser returns,beyondgrid2026;qin2026lmsretrieval,"the label on them: the index stores a vector, not a type",

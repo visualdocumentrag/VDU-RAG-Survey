@@ -1,0 +1,495 @@
+{
+ "sections": [
+  {
+   "id": "surveys",
+   "title": "Surveys",
+   "short": "Surveys",
+   "note": "Every survey of this literature or its neighbours, with the axis each organises by. Read them down: pipeline stage, role of the MLLM, LLM capability, task family, modality, QA task. **None is page content.**",
+   "groups": [
+    {
+     "title": "Surveys",
+     "keys": [
+      "ding-etal-2026-survey",
+      "datagen2026survey",
+      "ding2024vrdusurvey",
+      "anon2026documentintelligence",
+      "gao-etal-2026-scaling",
+      "yan2026unlocking",
+      "mei2025multimodalragsurvey",
+      "abootorabi-etal-2025-ask",
+      "wang2025documentintelligencellm",
+      "fu-etal-2025-multimodal",
+      "qiao2025reproducibility",
+      "ragvisionsurvey2025",
+      "zhang2025rolesmllm",
+      "vrdqasurvey2025",
+      "ding2025vrdiu",
+      "zhang2024documentparsing",
+      "nandi2024vducomparative",
+      "gao2023ragsurvey"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "channels",
+   "title": "Channels",
+   "short": "Channels",
+   "note": "The eight content types a page carries. They are not a partition: they overlap, and the overlap is what the survey formalises.",
+   "groups": [
+    {
+     "title": "Plain text",
+     "keys": [
+      "liu2026textmonkey",
+      "guan2025tokenfd",
+      "wei2025deepseekocr",
+      "livathinos2025docling",
+      "li2025monkeyocr",
+      "cui2025paddleocrvl",
+      "li2025dotsocr",
+      "poznanski2025olmocr",
+      "weivary2024",
+      "dhouib2023docparser",
+      "li2023trocr",
+      "davis2022dessurt",
+      "kim2022donut",
+      "shi2017crnn",
+      "smith2007tesseract"
+     ]
+    },
+    {
+     "title": "Layout structure",
+     "keys": [
+      "lu-etal-2025-bounding",
+      "zhua2025",
+      "liaodoclayllm2025",
+      "zhuenhancing2025",
+      "chengraphbased2025",
+      "xing2024dochienet",
+      "zhao2024doclayoutyolo",
+      "dai2024graphmllm",
+      "luo2024layoutllm",
+      "tang2023udop",
+      "huang2022ernielayout",
+      "huang2022layoutlmv3",
+      "wang2022lilt",
+      "powalski2021tilt",
+      "xu2021layoutlmv2",
+      "xu2020layoutlm",
+      "zhong2019publaynet",
+      "shafait2008sixpagesegmentation",
+      "shafait2006sixalgorithms",
+      "breuel2002geometric",
+      "kise1998voronoi",
+      "baird1994backgroundstructure",
+      "ogorman1993docstrum",
+      "nagy1984xytree",
+      "wong1982documentanalysis"
+     ]
+    },
+    {
+     "title": "Tables",
+     "keys": [
+      "zhao2025tabpedia",
+      "kasem2024tablesurvey",
+      "zheng-etal-2024-multimodal",
+      "smock2022pubtables",
+      "li2022tablestructure",
+      "nassar2022tableformer",
+      "zhong2020imagetable",
+      "qasim2019tablegnn",
+      "embley2006tableparadigms",
+      "zanibbi2004tablesurvey",
+      "pyreddy1997tintin"
+     ]
+    },
+    {
+     "title": "Figures and charts",
+     "keys": [
+      "chen2025charthqa",
+      "xuchartmoe2025",
+      "chen-etal-2025-unmasking",
+      "wangcharxiv2024",
+      "masry-etal-2024-chartinstruct",
+      "chen2024onechart",
+      "masry2022chartqa",
+      "methani2020plotqa"
+     ]
+    },
+    {
+     "title": "Equations",
+     "keys": [
+      "cdm2025",
+      "zanibbi2025mathir",
+      "blechernougat2024",
+      "wang2024unimernet",
+      "zanibbi2016multistagemath",
+      "zanibbi2016ntcir12mathir",
+      "aizawa2013ntcir10math",
+      "zanibbi2012mathretrieval",
+      "chan2000mathrecognition"
+     ],
+     "finding": "Two metrics return **opposite verdicts** on the same pair of formula-recognition systems."
+    },
+    {
+     "title": "Form fields",
+     "keys": [
+      "ji-etal-2026-unikie",
+      "perot-etal-2024-lmdx",
+      "masrfund2024",
+      "he2023icld3ie",
+      "lee2022formnet",
+      "xu2022xfund",
+      "jaume2019funsd",
+      "huang2019sroie"
+     ]
+    },
+    {
+     "title": "Stamps and seals",
+     "keys": [
+      "ju2025dkds",
+      "younas2017dstar",
+      "nandedkar2016spods",
+      "alaei2016logosealsurvey",
+      "nandedkar2015textgraphics",
+      "mandal2011signaturecrf",
+      "micenkova2011stampdetection",
+      "ueda1995bankchecks"
+     ],
+     "finding": "**Roughly ten papers across forty years, one dataset released in 2025, and no retrieval system that evaluates on this channel at all.** The thinness is not an artefact of our search; it is the state of the field."
+    },
+    {
+     "title": "Typography",
+     "keys": [
+      "textar2025",
+      "yasukochi2023fontstyleusage",
+      "tsuji2021fontusagetrends",
+      "wang2015deepfont",
+      "marinai2006fontadaptive",
+      "zramdini1998fontrecognition"
+     ],
+     "finding": "**One annotated corpus exists.** One is a sharper finding than none \u2014 the channel *is* annotatable, and has never been retrieved over."
+    }
+   ]
+  },
+  {
+   "id": "lineage",
+   "title": "Pre-2024 lineage",
+   "short": "Lineage",
+   "note": "Retrieval over document images is two decades older than the current literature suggests, and the unit throughout was the word, the formula or the region \u2014 never the page.",
+   "groups": [
+    {
+     "title": "Pre-2024 lineage",
+     "keys": [
+      "dong2024multipagermt",
+      "kang2024multipage",
+      "liu2023instancelevel",
+      "tito2023mpdocvqa",
+      "tito2021dcvqa",
+      "giotis2017wordspottingsurvey",
+      "wilkinson2017neuralctrlf",
+      "sudholt2016phocnet",
+      "rusinol2015segmentationfree",
+      "harley2015rvlcdip",
+      "almazan2014wordspotting",
+      "liu2008mobileretriever",
+      "rath2007wordspotting",
+      "lu2004docimageretrieval"
+     ],
+     "finding": "Question answering over a document *collection* was posed at ICDAR in 2021 \u2014 **four years before the visual-RAG literature rediscovered the task**."
+    }
+   ]
+  },
+  {
+   "id": "methods",
+   "title": "Methods",
+   "short": "Methods",
+   "note": "Grouped by paradigm. Read the years down the region-level group: every system there appeared in 2025 or later, against a page-level literature beginning in 2024.",
+   "groups": [
+    {
+     "title": "Screenshot embedding",
+     "keys": [
+      "sun2025visrag2",
+      "yuvisrag2025",
+      "ma2024dse"
+     ]
+    },
+    {
+     "title": "Late interaction",
+     "keys": [
+      "xiaometaembed2026",
+      "moreira2026nemotroncolembed",
+      "liu2025screenshot",
+      "zhangbridging2025",
+      "masry2025colflor",
+      "masry2025colmate",
+      "fayssecolpali2025",
+      "nacson2025docvlm",
+      "liu2025lamra",
+      "teiletche2025modernvbert",
+      "nguyen2025serval",
+      "meng2025vlm2vecv2",
+      "lee2023pix2struct",
+      "santhanam2021colbertv2",
+      "khattab2020colbert"
+     ]
+    },
+    {
+     "title": "End-to-end visual RAG",
+     "keys": [
+      "hikey2026",
+      "lfrag2026",
+      "cmrag2025",
+      "tian-etal-2025-core",
+      "zeng-etal-2025-enhancing",
+      "hkrag2025",
+      "hybridvector2025",
+      "ju-etal-2025-mire",
+      "wu2025molorag",
+      "chensvrag2025",
+      "tanakavdocrag2025",
+      "suri2025visdom",
+      "cho2024m3docvqa"
+     ]
+    },
+    {
+     "title": "Region- and layout-level",
+     "keys": [
+      "beyondgrid2026",
+      "sourati-etal-2026-lad",
+      "qin2026lmsretrieval",
+      "vennam3grounder2026",
+      "liregionrag2026",
+      "wangregionslm2026",
+      "arial2025",
+      "ma-etal-2025-visa"
+     ],
+     "finding": "Every system here appeared in 2025 or later. Retrieval granularity coarsened to the page in 2024 and has only begun to return."
+    },
+    {
+     "title": "Agentic",
+     "keys": [
+      "zhu-etal-2026-doclens",
+      "liulook2026",
+      "mardoc2026",
+      "jin-etal-2026-slideagent",
+      "yuvisual2026",
+      "han2025mdocagent",
+      "wang-etal-2025-vidorag"
+     ]
+    },
+    {
+     "title": "Query rewriting and reranking",
+     "keys": [
+      "zhugood2026",
+      "uzanguided2026",
+      "mengsuit2026",
+      "tang2025cotraining",
+      "sundynamicrag2025",
+      "wang-etal-2025-infogain",
+      "wangmaferw2025",
+      "yurankrag2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "indexing",
+   "title": "Encoding and indexing",
+   "short": "Indexing",
+   "note": "What happens to a page between parsing and the index, and what it costs to store.",
+   "groups": [
+    {
+     "title": "Chunking and text encoding",
+     "keys": [
+      "zhoubeyond2026",
+      "qin2026semanticlayoutchunking",
+      "visuallatechunking2026",
+      "hichunk2025",
+      "qu2025semanticchunking",
+      "visualchunk2025",
+      "bruch2024fusionfunctions",
+      "jimenoyepes2024financialchunking",
+      "gunther2024latechunking",
+      "duarte2024lumberchunker",
+      "karpukhin2020dpr",
+      "lewis2020rag",
+      "johnson2019faiss",
+      "robertson2009bm25"
+     ]
+    },
+    {
+     "title": "Storage, pruning, compression",
+     "keys": [
+      "macdonalda2026",
+      "kankanampatia2026",
+      "liao-etal-2026-using",
+      "yangcolbertsar2026",
+      "schlattcomparing2026",
+      "liu2026lookmiddle",
+      "crisp2025",
+      "zhangdockylin2025",
+      "yan2025docpruner",
+      "park2025scv",
+      "wen-etal-2025-token",
+      "zongtowards2025",
+      "ma-etal-2025-towards-storage",
+      "scheererwarp2025",
+      "chenefficient2024",
+      "parkhierarchical2024",
+      "dhulipalamuvera2024"
+     ],
+     "finding": "Two halves measuring different quantities: pruning reports **storage** against accuracy, hybrid retrieval reports **compute**. No work reports both with accuracy."
+    },
+    {
+     "title": "Graph-structured indexes",
+     "keys": [
+      "graphragsurvey2024",
+      "huiterative2026",
+      "xiangwhen2026",
+      "wang2025bookrag",
+      "wan2025mmgraphrag",
+      "yang2025superrag",
+      "edge2024graphrag"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ocr",
+   "title": "Does OCR still matter?",
+   "short": "OCR",
+   "note": "Four groups, four venues that do not usually read each other, reported the same thing between 2025 and 2026.",
+   "groups": [
+    {
+     "title": "OCR quality and robustness",
+     "keys": [
+      "napolitanobenchmarking2026",
+      "singh2026devanagariocr",
+      "song2026ocrquality",
+      "zhou2026emorag",
+      "dimt2026competition",
+      "zhangqerag2026",
+      "bhat2026savior",
+      "gao-etal-2026-strunrag",
+      "sun-etal-2026-good",
+      "icdarw2025docvqarag",
+      "most2025lostocr",
+      "piryani2025multiocrqa",
+      "zhangocr2025",
+      "ouyangomnidocbench2025",
+      "li2025readoc"
+     ],
+     "finding": "The agreement is not that OCR is bad \u2014 every one reports accurate recognition. It is that **character-level accuracy is the wrong measurement**, because what breaks retrieval is what recognition *discards*."
+    },
+    {
+     "title": "Long context vs retrieval",
+     "keys": [
+      "yueinference2025",
+      "lilong2025",
+      "jinlongcontext2025",
+      "levy-etal-2025-documents",
+      "liu2024lostinthemiddle"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "benchmarks",
+   "title": "Benchmarks and datasets",
+   "short": "Benchmarks",
+   "note": "Every benchmark in the record. Per-channel coverage is in [`data/datasets.md`](data/datasets.md).",
+   "groups": [
+    {
+     "title": "Benchmarks and datasets",
+     "keys": [
+      "loison2026vidorev3",
+      "irpapers2026",
+      "schimanski2026pdfqa",
+      "bboxdocvqa2025",
+      "mmdocrag2025",
+      "finragbenchv2025",
+      "dong-etal-2025-mmdocir",
+      "wasserman-etal-2025-real",
+      "unidocbench2025",
+      "macevidorev22025",
+      "wang2025vidoseek",
+      "suri2025visdombench",
+      "visrbench2025",
+      "yang2024crag",
+      "docHaystacks2024",
+      "longdocurl2024",
+      "mammlongbenchdoc2024",
+      "li2024arxivqa",
+      "pramanickspiqa2024",
+      "huiuda2024",
+      "vanlandeghem2023dude",
+      "ding2023pdfvqa",
+      "tanaka2023slidevqa",
+      "mathew2022infovqa",
+      "lu2022scienceqa",
+      "zhu2022tatdqa",
+      "mathew2021docvqa",
+      "tanaka2021visualmrc"
+     ],
+     "finding": "**Stamps and typography are absent from every retrieval benchmark here.** A channel no benchmark annotates cannot be measured, and a channel that cannot be measured will not improve."
+    },
+    {
+     "title": "Multilingual and script coverage",
+     "keys": [
+      "indicvisionbench2026",
+      "liu2026m3d",
+      "anugraham4rag2026",
+      "yueseavision2026",
+      "nath2025indicdlp",
+      "osmulski2025miraclvision",
+      "tang2025mtvqa",
+      "vijayan2025indicstr"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "evaluation",
+   "title": "Metrics and evaluation",
+   "short": "Metrics",
+   "note": "The instruments the field measures with, and the work questioning whether they measure the right thing.",
+   "groups": [
+    {
+     "title": "Metrics and evaluation",
+     "keys": [
+      "citevqa2026",
+      "rightway2025",
+      "songmeasuring2025",
+      "mortaheb2025ragcheck",
+      "sunredeep2025",
+      "salemievaluating2024",
+      "niu-etal-2024-ragtruth",
+      "cuconasuthe2024",
+      "page2021prisma",
+      "biten2019stvqa",
+      "jarvelin2002ndcg"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "adjacent",
+   "title": "Adjacent work",
+   "short": "Adjacent",
+   "note": "Knowledge-based VQA over natural images: the corpus is external world knowledge rather than the document collection, so we treat it as adjacent rather than in scope.",
+   "groups": [
+    {
+     "title": "Adjacent: knowledge-based VQA",
+     "keys": [
+      "hu2024mragbench",
+      "wu2025visualrag",
+      "qi2024roravlm",
+      "sun2024surf",
+      "sharifymoghaddam2024unirag"
+     ]
+    }
+   ]
+  }
+ ]
+}

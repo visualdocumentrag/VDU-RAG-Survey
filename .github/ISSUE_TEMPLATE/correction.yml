@@ -1,0 +1,32 @@
+name: 🔍 Report an error
+description: A wrong page range, scale figure, venue or author list.
+title: "[fix] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are the reason this record exists. Three widely
+        circulated dataset figures were checked against their sources
+        and all three disagreed; one had reached our own first-pass
+        record from a competing survey's table. **A correction is more
+        useful to us than a citation.**
+  - type: input
+    id: where
+    attributes:
+      label: Which file and row
+      placeholder: "data/datasets.csv, row for DocVQA"
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what it should be
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes:
+      label: Where you checked
+      placeholder: >
+        Ideally the introducing paper's own abstract or the publisher's
+        record, rather than a downstream table
+    validations: { required: true }
