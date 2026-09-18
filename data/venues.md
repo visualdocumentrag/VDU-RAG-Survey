@@ -1,9 +1,6 @@
 # Venues searched, and their yield
 
-*Retained* counts records kept after title-and-abstract screening;
-*Included* counts records cited in the survey. **Venues at which nothing
-eligible was found are reported rather than omitted** — that is the point
-of the last block.
+
 
 | Venue | Type | Retained | Included | Field |
 |---|---|--:|--:|---|
@@ -50,22 +47,4 @@ of the last block.
 
 ---
 
-## The three zeros that matter
 
-**IJCV 0 · IEEE TIP 0 · IEEE TMM 0**, while retaining 49, 51 and 41
-records respectively. What these journals publish near this topic is scene
-text detection in natural imagery — excluded by scope — and document image
-restoration, which is upstream of retrieval rather than part of it.
-
-The eligible literature is concentrated in document-analysis and
-information-retrieval venues, and **the flagship vision journals publish
-neither half of the combination this survey addresses.**
-
-## What the negative rows cost to produce
-
-78 articles across *Artificial Intelligence* and JAIR, 59 in ACM TIST, and
-roughly 700 in IEEE TNNLS — all read, none eligible. These venues *do*
-publish retrieval-augmented methods; what they do not publish is the
-**task**. The mechanism appears without the application.
-
-No competing survey reports its negative venues, because none looked.
