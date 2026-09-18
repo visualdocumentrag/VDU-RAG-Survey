@@ -43,11 +43,7 @@ instrument · *Mult.* reports coverage by script or language.
 | [Zhao et al.](https://arxiv.org/abs/2503.18016) | preprint | 2025 | vision task | – | – | – | – | – |
 | [Gao et al.](https://arxiv.org/abs/2312.10997) | preprint | 2023 | RAG paradigm: naive, advanced, modular | – | – | – | – | – |
 
-### Not a survey; the only prior re-examination of this record
 
-| Survey | Venue | Year | Organising axis | Chan. | Interf. | Audit | Metric | Mult. |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|:-:|
-| [Qiao et al.](https://doi.org/10.1145/3726302.3730285) | SIGIR | 2025 | reproducibility of late interaction | – | – | ● | – | – |
 
 ### This survey
 
@@ -57,11 +53,4 @@ instrument · *Mult.* reports coverage by script or language.
 
 ---
 
-## Why Qiao et al. is in the table
 
-It is not a survey, and it is the only prior work that shares the **Audit**
-column: it re-examines reported results for visual document retrieval
-rather than tabulating them. They re-ran a small number of systems under
-one protocol; we analyse the reported record at scale. Complementary, not
-competing — and a reviewer who knows that paper will look for exactly this
-row.
