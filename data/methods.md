@@ -1,18 +1,6 @@
 # Methods
 
-Laid out as a performance table: what the system *does*, what it was
-measured on, and why it matters.
 
-The **Gran.** column is the one that argues. Read it downward: page,
-page, page for the whole first half, and **region** only from 2025
-onward.
-
-**† marks a value we believe but did not verify against the paper's own
-text.** Unmarked values were stated by the paper or its repository; a
-dash means we have not filled it. Sixteen of the rows are still largely
-unfilled and are [listed by name](#what-is-missing) rather than left
-quietly blank — a survey that measures how often other papers omit
-their configuration cannot do the same itself.
 
 **Scores are deliberately absent.** They belong in
 [`results_record.csv`](results_record.csv) with the paper each was read
@@ -114,6 +102,4 @@ from the paper itself:
 | DocLens | Annu. Meeting Assoc. | 2026 |
 | [MARDoc](https://arxiv.org/abs/2606.05749) | preprint | 2026 |
 
-**[➕ Fill one](../../../issues/new?template=add-paper.yml)** — from the
-paper, not from another survey's table. A correction to a † is just as
-welcome as a new row.
+**[➕ Fill one](../../../issues/new?template=add-paper.yml)** 
