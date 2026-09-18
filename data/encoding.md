@@ -18,25 +18,3 @@ in a survey to challenge and the hardest to defend afterwards.
 
 ---
 
-## Two rows that should be read together
-
-**Structured parsing** reports text, tables, formulas and reading order
-*separately*. That establishes per-channel reporting is practical rather
-than aspirational, and it is what makes the channel-aware score of the
-survey a proposal rather than a wish.
-
-**Compressed visual** reports nothing at the channel level at all. Five
-compression papers, and not one states which channels survive a given
-budget — so a scheme that destroys seals and preserves body text is
-indistinguishable, under current evaluation, from one that does the
-reverse.
-
-## The last row was corrected after verification
-
-It previously read *structural labels carried into the index*, which would
-have contradicted the survey's own claim on the facing page. ColParse runs
-a parser and embeds the **regions** the parser returns, fusing those
-sub-image embeddings with a global page vector: parsing output reaches the
-index as a choice of *units*, not as a label riding alongside them.
-
-The parser knows the region is a table; the index stores a vector.
