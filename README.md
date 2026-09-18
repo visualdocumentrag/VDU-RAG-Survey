@@ -209,7 +209,7 @@ The eight content types a page carries. They are not a partition: they overlap, 
 
 ### Stamps and seals
 
-> **Roughly ten papers across forty years, one dataset released in 2025, and no retrieval system that evaluates on this channel at all.** The thinness is not an artefact of our search; it is the state of the field.
+
 
 | Paper | Venue | Type | Year | Channel | Link |
 |---|:-:|:-:|:-:|:-:|:-:|
@@ -226,7 +226,6 @@ The eight content types a page carries. They are not a partition: they overlap, 
 
 ### Typography
 
-> **One annotated corpus exists.** One is a sharper finding than none — the channel *is* annotatable, and has never been retrieved over.
 
 | Paper | Venue | Type | Year | Channel | Link |
 |---|:-:|:-:|:-:|:-:|:-:|
@@ -241,9 +240,7 @@ The eight content types a page carries. They are not a partition: they overlap, 
 
 ## Pre-2024 lineage
 
-Retrieval over document images is two decades older than the current literature suggests, and the unit throughout was the word, the formula or the region — never the page.
 
-> Question answering over a document *collection* was posed at ICDAR in 2021 — **four years before the visual-RAG literature rediscovered the task**.
 
 | Paper | Venue | Type | Year | Link |
 |---|:-:|:-:|:-:|:-:|
@@ -266,7 +263,7 @@ Retrieval over document images is two decades older than the current literature 
 
 ## Methods
 
-Grouped by paradigm. Read the years down the region-level group: every system there appeared in 2025 or later, against a page-level literature beginning in 2024.
+
 
 ### Screenshot embedding
 
@@ -322,7 +319,7 @@ Grouped by paradigm. Read the years down the region-level group: every system th
 
 ### Region- and layout-level
 
-> Every system here appeared in 2025 or later. Retrieval granularity coarsened to the page in 2024 and has only begun to return.
+
 
 | Paper | Venue | Type | Year | Link |
 |---|:-:|:-:|:-:|:-:|
@@ -393,7 +390,7 @@ What happens to a page between parsing and the index, and what it costs to store
 
 ### Storage, pruning, compression
 
-> Two halves measuring different quantities: pruning reports **storage** against accuracy, hybrid retrieval reports **compute**. No work reports both with accuracy.
+
 
 | Paper | Venue | Type | Year | Link |
 |---|:-:|:-:|:-:|:-:|
@@ -433,11 +430,10 @@ What happens to a page between parsing and the index, and what it costs to store
 
 ## Does OCR still matter?
 
-Four groups, four venues that do not usually read each other, reported the same thing between 2025 and 2026.
 
 ### OCR quality and robustness
 
-> The agreement is not that OCR is bad — every one reports accurate recognition. It is that **character-level accuracy is the wrong measurement**, because what breaks retrieval is what recognition *discards*.
+
 
 | Paper | Venue | Type | Year | Link |
 |---|:-:|:-:|:-:|:-:|
@@ -477,7 +473,7 @@ Every benchmark in the record. Per-channel coverage is in [`data/datasets.md`](d
 
 ### Benchmarks and datasets
 
-> **Stamps and typography are absent from every retrieval benchmark here.** A channel no benchmark annotates cannot be measured, and a channel that cannot be measured will not improve.
+
 
 | Paper | Venue | Type | Year | Link |
 |---|:-:|:-:|:-:|:-:|
@@ -549,7 +545,7 @@ The instruments the field measures with, and the work questioning whether they m
 
 ## Adjacent work
 
-Knowledge-based VQA over natural images: the corpus is external world knowledge rather than the document collection, so we treat it as adjacent rather than in scope.
+
 
 | Paper | Venue | Type | Year | Link |
 |---|:-:|:-:|:-:|:-:|
@@ -567,11 +563,7 @@ Knowledge-based VQA over natural images: the corpus is external world knowledge 
 
 ## Venue coverage
 
-Every venue searched in the review, and how many of its papers are in the
-record. A dash is not an omission: it means the venue was searched and
-nothing met the inclusion criteria. Sec. 3.2 of the survey reports the
-negative venues explicitly, because a survey that lists only where it
-found things cannot be checked.
+
 
 <!-- VENUES:START -->
 | # | Venue | Type | Papers | Add |
@@ -624,8 +616,7 @@ found things cannot be checked.
 
 ## Every table in the survey, in full
 
-The paper carries compact versions because it is bound by a twenty-page
-limit; the full ones live here, and the paper points at them by name.
+
 
 | Table | What it holds |
 |---|---|
@@ -638,39 +629,10 @@ limit; the full ones live here, and the paper points at them by name.
 | **[Venues](data/venues.md)** | every venue searched and its yield, including the ones that yielded nothing |
 | **[Notation](data/notation.md)** | every symbol, and the three terms this literature uses inconsistently |
 | **[Variance](data/variance.md)** | configuration settings against how often they are disclosed |
-| **[Checklist](data/checklist.md)** | the 18 reporting items, copyable |
+| **[Checklist](data/checklist.md)** | the 18 reporting items,  |
 
-## The released record
 
-| File | What it is |
-|---|---|
-| [`data/references.csv`](data/references.csv) | all 286 references with venue, year, pages, DOI, arXiv id, venue tag and channel group |
-| [`data/screened_pool.csv`](data/screened_pool.csv) | the retained pool with screening decisions |
-| [`data/results_record.csv`](data/results_record.csv) | one row per (method, benchmark, metric, value), **with the paper the value was read from** |
 
-### Four fields that do not exist elsewhere
-
-**`REPORTED_IN`** in the results record names the paper a value was *read
-from*, which is not always the paper that produced it. No comparable
-table carries this field, and it is the reason the reporting disagreement
-measured in the survey has never been measured before.
-
-**`scale_provenance`** in the dataset registry marks whether a query or
-document count came from the introducing paper's own abstract (PRIMARY)
-or from a downstream table (SECONDARY).
-
-**`unit`** records whether a count is in pages or in documents. Some
-benchmarks count a multi-page file as one document, and the two are not
-interchangeable when corpus sizes are compared.
-
-**A blank cell in the matrix** means no work in the pool reports a result
-for that channel under that paradigm. It does not mean the combination is
-impossible; under a looser inclusion rule every cell would fill.
-
-The method table applies the same discipline to itself: values we believe
-but did not verify against the paper's own text carry a †, and the rows
-still missing a backbone are [listed by
-name](data/methods.md#what-is-missing) rather than left quietly blank.
 
 ---
 
