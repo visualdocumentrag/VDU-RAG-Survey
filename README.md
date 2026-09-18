@@ -15,32 +15,6 @@ page.
 
 ---
 
-## ➕ Add a paper
-
-Every table below ends with an **➕ Add a paper here** link, and the
-[venue table](#venue-coverage) has one on each row. All three routes open
-the same short form: title, authors, venue, year, identifier, section.
-
-| | |
-|---|---|
-| **[Open the form](../../issues/new?template=add-paper.yml)** | title, authors, venue, year, identifier, section — nothing else |
-| **Run the script** | `python3 scripts/add_paper.py` — asks the same questions, appends the row, rebuilds the list and the site |
-| **Edit and rebuild** | add a row to [`data/references.csv`](data/references.csv), then `python3 scripts/rebuild.py` |
-
-The list is not everything published; it is what meets the criteria in
-Sec. 3.3 of the survey — the corpus is a document collection, the unit is
-a page or page region, and there is a quantitative result or a
-contributed resource. A paper that fails one of those is not a worse
-paper. It is a different paper, and the criteria are stated so that its
-absence reads as a selection rather than an oversight.
-
-**[Found an error? →](../../issues/new?template=correction.yml)**
-Three widely circulated dataset figures were checked against their
-sources and all three disagreed; one had reached our own first-pass
-record from a competing survey's table. A correction is more useful to us
-than a citation.
-
----
 
 ## Menu
 
