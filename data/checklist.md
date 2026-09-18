@@ -44,7 +44,4 @@ either, and a reader has no way to tell which.
 
 ---
 
-**The last two evaluation items are the ones almost nobody reports**, and
-both bear directly on whether a reported difference is a method difference
-or measurement noise. If you report nothing else from this list, report
-those.
+
