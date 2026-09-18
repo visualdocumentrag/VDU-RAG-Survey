@@ -62,23 +62,23 @@ Every survey of this literature or its neighbours, with the axis each organises 
 
 | Paper | Venue | Type | Year | Link |
 |---|:-:|:-:|:-:|:-:|
-| A Survey on MLLM-based Visually Rich Document Understanding: Methods, Challenges, and Emerging Trends | ACL | conf. | 2026 | – |
+| [A Survey on MLLM-based Visually Rich Document Understanding: Methods, Challenges, and Emerging Trends]( https://arxiv.org/abs/2507.09861) | ACL| JOURNAL | 2026 | [link](https://arxiv.org/abs/2507.09861) |
 | [Beyond Human Annotation: Recent Advances in Data Generation Methods for Document Intelligence](https://arxiv.org/abs/2601.12318) | preprint | preprint | 2026 | [link](https://arxiv.org/abs/2601.12318) |
 | [Deep Learning based Visually Rich Document Content Understanding: A Survey](https://arxiv.org/abs/2408.01287) | AI Review | journal | 2026 | [link](https://arxiv.org/abs/2408.01287) |
-| [Large Language Models in Document Intelligence: A Comprehensive Survey, Recent Advances, Challenges, and Future Trends](https://doi.org/10.1145/3768156) | ACM TOIS | journal | 2026 | [link](https://doi.org/10.1145/3768156) |
-| [Scaling Beyond Context: A Survey of Multimodal Retrieval-Augmented Generation for Document Understanding](https://arxiv.org/abs/2510.15253) | ACL | conf. | 2026 | [link](https://arxiv.org/abs/2510.15253) |
+| [Large Language Models in Document Intelligence: A Comprehensive Survey, Recent Advances, Challenges, and Future Trends](https://doi.org/10.1145/3768156) | ACM TOIS | journal | 2025 | [link](https://doi.org/10.1145/3768156) |
+| [Scaling Beyond Context: A Survey of Multimodal Retrieval-Augmented Generation for Document Understanding](https://arxiv.org/abs/2510.15253) | ACL | journal | 2026 | [link](https://arxiv.org/abs/2510.15253) |
 | [Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval](https://arxiv.org/abs/2602.19961) | preprint | preprint | 2026 | [link](https://arxiv.org/abs/2602.19961) |
 | [A Survey of Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2504.08748) | preprint | preprint | 2025 | [link](https://arxiv.org/abs/2504.08748) |
-| Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation | ACL | conf. | 2025 | – |
+| [Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2502.08826) | preprint| preprint | 2025 | [link](https://arxiv.org/abs/2502.08826) |
 | [Document Intelligence in the Era of Large Language Models: A Survey](https://arxiv.org/abs/2510.13366) | preprint | preprint | 2025 | [link](https://arxiv.org/abs/2510.13366) |
-| Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review | ACL | conf. | 2025 | – |
+| [Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review](https://arxiv.org/abs/2502.16586) | preprint  | preprint  | 2025 | [link]((https://arxiv.org/abs/2502.16586) ) |
 | [Reproducibility, Replicability, and Insights into Visual Document Retrieval with Late Interaction](https://doi.org/10.1145/3726302.3730285) | SIGIR | conf. | 2025 | [link](https://doi.org/10.1145/3726302.3730285) |
 | [Retrieval Augmented Generation and Understanding in Vision: A Survey and New Outlook](https://arxiv.org/abs/2503.18016) | preprint | preprint | 2025 | [link](https://arxiv.org/abs/2503.18016) |
 | [Roles of MLLMs in Visually Rich Document Retrieval for RAG: A Survey](https://arxiv.org/abs/2601.03262) | ACL | conf. | 2025 | [link](https://arxiv.org/abs/2601.03262) |
 | [Survey on Question Answering over Visually Rich Documents: Methods, Challenges, and Trends](https://arxiv.org/abs/2501.02235) | preprint | preprint | 2025 | [link](https://arxiv.org/abs/2501.02235) |
 | [VRD-IU: Lessons from Visually Rich Document Intelligence and Understanding](https://arxiv.org/abs/2506.01388) | preprint | preprint | 2025 | [link](https://arxiv.org/abs/2506.01388) |
 | [Document Parsing Unveiled: Techniques, Challenges and Prospects for Structured Information Extraction](https://arxiv.org/abs/2410.21169) | preprint | preprint | 2024 | [link](https://arxiv.org/abs/2410.21169) |
-| Visual Document Understanding: A Comparative Review of Modern Methods | Int. Conf. Computer Vision | conf. | 2024 | – |
+| [Visual Document Understanding: A Comparative Review of Modern Methods](https://link.springer.com/chapter/10.1007/978-3-031-93694-4_29) | preprint | preprint | 2024 | [link](https://link.springer.com/chapter/10.1007/978-3-031-93694-4_29) |
 | [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) | preprint | preprint | 2023 | [link](https://arxiv.org/abs/2312.10997) |
 
 **[➕ Add a paper here](../../issues/new?template=add-paper.yml)**
