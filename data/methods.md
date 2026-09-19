@@ -1,105 +1,62 @@
 # Methods
 
+The 33 methods of Table 4, grouped by retrieval family.
 
 
-**Scores are deliberately absent.** They belong in
-[`results_record.csv`](results_record.csv) with the paper each was read
-from, because a number without that field cannot be compared.
+## Screenshot embedding (one vector per page)
 
-## Screenshot embedding — one vector per page
+| Method | Venue | Index | Unit | Distinguishing idea | Link |
+|---|---|:-:|:-:|---|---|
+| **DSE** | EMNLP 2024 | single | page | rendered page as one dense vector | [[DOI](https://doi.org/10.18653/v1/2024.emnlp-main.373)] |
+| **VisRAG** | ICLR 2025 | single | page | VLM embedder and reader, no parsing | [[arXiv](https://arxiv.org/abs/2410.10594)] |
+| **VisRAG 2.0** | arXiv 2025 | – | page | successor with multi-image reasoning | [[arXiv](https://arxiv.org/abs/2510.09733)] |
 
-| Method | Venue | Year | Backbone | Train-free | OCR | Index | Gran. | Brief description | Highlight |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|---|---|
-| DSE | Conf. Empirical Meth | 2024 | Phi-3-vision 4.2B | no | no | single | page | Bi-encoder over the rendered page screenshot; one dense vector per page | First to show a page image can be embedded for retrieval without OCR |
-| VisRAG | Int. Conf. Learning  | 2025 | MiniCPM-V 2.0 | no | no | single | page | VLM-based embedder plus generator; end-to-end pipeline over page images | First end-to-end vision-based RAG over documents |
-| [VisRAG 2.0](https://arxiv.org/abs/2510.09733) | preprint | 2025 | – | no | no | single | page | Successor generation with multi-image reasoning | Successor to the first end-to-end line |
+## Late interaction (many vectors per page)
 
-## Late interaction — many vectors per page
-
-| Method | Venue | Year | Backbone | Train-free | OCR | Index | Gran. | Brief description | Highlight |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|---|---|
-| ColPali | Int. Conf. Learning  | 2025 | PaliGemma-3B | no | no | multi | page | PaliGemma patch embeddings at D=128, late-interaction MaxSim scoring | Dominant formulation; 257.5 KB index per page |
-| ColFlor | IEEE Int. Workshop M | 2025 | Florence-2 0.17B | no | no | multi | page | BERT-size vision-language retriever | Efficiency end of the ColPali line |
-| ColMate | Conf. Empirical Meth | 2025 | – | no | no | multi | page | Contrastive late interaction with masked text pretraining | Training-objective contribution to the same family |
-| [ModernVBERT](https://arxiv.org/abs/2510.01149) | preprint | 2025 | ModernBERT + SigLIP † | no † | no † | multi † | page | Compact bidirectional vision-language encoder | Smaller backbone at comparable accuracy |
-| [VLM2Vec-V2](https://arxiv.org/abs/2507.04590) | preprint | 2025 | Qwen2-VL † | no † | no † | multi † | page | Unified embedder treating pages as one modality among several | Document pages inside a general multimodal embedder |
-| [Serval](https://arxiv.org/abs/2509.15432) | preprint | 2025 | – | yes † | no † | multi † | page | Zero-shot visual document retrieval with no task-specific training | Same group as the SIGIR reproducibility study |
-| [MetaEmbed](https://arxiv.org/abs/2509.18095) | Int. Conf. Learning  | 2026 | – | no | no | multi | page | Test-time control over how many vectors are retained | Makes the storage-accuracy trade-off a runtime choice |
-| [Nemotron ColEmbed](https://arxiv.org/abs/2602.03992) | preprint | 2026 | Llama/Nemotron VL † | no † | no † | multi † | page | Industrial multi-vector retriever | Tops current leaderboards; industrial report, not peer-reviewed |
+| Method | Venue | Index | Unit | Distinguishing idea | Link |
+|---|---|:-:|:-:|---|---|
+| **ColPali** | ICLR 2025 | multi | page | patch vectors scored by MaxSim | [[arXiv](https://arxiv.org/abs/2407.01449)] |
+| **ColFlor** | MLSP 2025 | multi | page | BERT-size retriever | [[DOI](https://doi.org/10.1109/mlsp62443.2025.11204231)] |
+| **ColMate** | EMNLP 2025 | multi | page | document-adapted training objective | [[DOI](https://doi.org/10.18653/v1/2025.emnlp-industry.145)] |
+| **ModernVBERT** | arXiv 2025 | multi | page | compact bidirectional encoder | [[arXiv](https://arxiv.org/abs/2510.01149)] |
+| **VLM2Vec-V2** | arXiv 2025 | – | page | general multimodal embedder | [[arXiv](https://arxiv.org/abs/2507.04590)] |
+| **Serval** | arXiv 2025 | – | page | zero-shot, no task-specific training | [[arXiv](https://arxiv.org/abs/2509.15432)] |
+| **MetaEmbed** | ICLR 2026 | multi | page | test-time choice of vector count | [[arXiv](https://arxiv.org/abs/2509.18095)] |
+| **Nemotron ColEmbed V2** | arXiv 2026 | multi | page | industrial report, not peer-reviewed | [[arXiv](https://arxiv.org/abs/2602.03992)] |
 
 ## End-to-end visual document RAG
 
-| Method | Venue | Year | Backbone | Train-free | OCR | Index | Gran. | Brief description | Highlight |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|---|---|
-| [M3DocRAG](https://arxiv.org/abs/2411.04952) | preprint | 2024 | ColPali + Qwen2-VL † | no † | no † | multi † | page | Multi-modal multi-page retrieval and generation over document collections | First multi-document visual RAG |
-| SV-RAG | Int. Conf. Learning  | 2025 | LoRA adapters on an MLLM † | no † | no † | – | page | Self-adaptive MLLM with LoRA adapters for evidence page retrieval | Adapts the reader rather than the retriever |
-| VDocRAG | IEEE/CVF Conf. Compu | 2025 | Phi-3-vision † | no † | no † | – | page | Unified image format for retrieval and generation without parsing | Contributes the largest open retrieval+QA corpus |
-| VisDoMRAG | Conf. North American | 2025 | – | no † | partial † | – | page | Parallel textual and visual pipelines with consistency-constrained fusion | Makes paradigm disagreement visible rather than silent |
-| [CMRAG](https://arxiv.org/abs/2509.02123) | preprint | 2025 | – | – | partial | – | page | Co-modality RAG combining explicit text and page pixels | States the routing question from the architecture side |
-| MoLoRAG | Conf. Empirical Meth | 2025 | – | – | – | – | page | Logic-aware multimodal retrieval bootstrapping document understanding | Retrieval guided by reasoning structure |
-| [HKRAG](https://arxiv.org/abs/2511.20227) | preprint | 2025 | – | – | – | – | - | Holistic knowledge construction over documents | - |
-| [HEAVEN](https://arxiv.org/abs/2510.22215) | preprint | 2026 | DSE + ColQwen2.5 | no | no | hybrid | page | Two-stage: single-vector first stage, multi-vector second, layout-guided | Reports compute against accuracy, not storage |
-| [HiKEY](https://arxiv.org/abs/2605.29606) | preprint | 2026 | – | – | – | – | - | Hierarchical multimodal retrieval for open-domain document QA | Hierarchical retrieval, Sec. VI-C granularity |
+| Method | Venue | Index | Unit | Distinguishing idea | Link |
+|---|---|:-:|:-:|---|---|
+| **M3DocRAG** | arXiv 2024 | multi | page | multi-page, multi-document RAG | [[arXiv](https://arxiv.org/abs/2411.04952)] |
+| **SV-RAG** | ICLR 2025 | – | page | adapts the reader as retriever | [[arXiv](https://arxiv.org/abs/2411.01106)] |
+| **VDocRAG** | CVPR 2025 | – | page | one image format for retrieval and QA | [[DOI](https://doi.org/10.1109/cvpr52734.2025.02312)] |
+| **DocAgent** | EMNLP 2025 | – | page | agentic long-context understanding | [[DOI](https://doi.org/10.18653/v1/2025.emnlp-main.893)] |
+| **VisDoMRAG** | NAACL 2025 | – | page | text and visual paths made to agree | [[DOI](https://doi.org/10.18653/v1/2025.naacl-long.310)] |
+| **CMRAG** | arXiv 2025 | – | page | co-modality text and pixels | [[arXiv](https://arxiv.org/abs/2509.02123)] |
+| **MoLoRAG** | EMNLP 2025 | – | page | logic-aware retrieval over page relations | [[DOI](https://doi.org/10.18653/v1/2025.emnlp-main.708)] |
+| **HKRAG** | arXiv 2025 | – | – | holistic knowledge construction | [[arXiv](https://arxiv.org/abs/2511.20227)] |
+| **HEAVEN** | arXiv 2025 | hybrid | page | single-vector then multi-vector stage | [[arXiv](https://arxiv.org/abs/2510.22215)] |
+| **HiKEY** | arXiv 2026 | – | – | hierarchical open-domain retrieval | [[arXiv](https://arxiv.org/abs/2605.29606)] |
 
 ## Region- and layout-level retrieval
 
-| Method | Venue | Year | Backbone | Train-free | OCR | Index | Gran. | Brief description | Highlight |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|---|---|
-| VISA | Annu. Meeting Assoc. | 2025 | – | no † | no † | – | **region** | Retrieves the page and returns the bounding box of the supporting evidence | Attribution at the region while indexing the page |
-| [LFRAG](https://arxiv.org/abs/2605.22829) | preprint | 2026 | – | – | – | – | **region** | Layout-oriented fine-grained retrieval | Layout as the retrieval unit |
-| RegionRAG | AAAI Conf. Artificia | 2026 | – | no | no | – | **region** | Indexes and returns sub-page regions directly | Retrieval unit below the page |
-| [RegionSLM](https://doi.org/10.1145/3805712.3809603) | Int. ACM SIGIR Conf. | 2026 | – | – | – | – | **region** | Region-level retrieval for screenshot-based readers | Region unit with a small reader |
-| LAD-RAG | Annu. Meeting Assoc. | 2026 | – | – | – | graph | graph | Layout-aware dynamic retrieval with a document graph | Structure carried into retrieval as a graph |
-| [LMS-Retrieval](https://doi.org/10.1007/978-3-032-36039-7_8) | Document Analysis an | 2026 | – | – | – | – | **region** | Layout-, modality- and structure-aware document retrieval | Closest prior work on the taxonomy side |
-| [ColParse](https://arxiv.org/abs/2603.01666) | preprint | 2026 | parser + multi-vector | – | yes | multi | **region** | Parser selects the regions to embed; sub-image vectors fused with a page vector | Parsing output reaches the index as UNITS, not as a label |
+| Method | Venue | Index | Unit | Distinguishing idea | Link |
+|---|---|:-:|:-:|---|---|
+| **VISA** | ACL 2025 | – | region | page retrieval with evidence box | [[DOI](https://doi.org/10.18653/v1/2025.acl-long.1456)] |
+| **LFRAG** | arXiv 2026 | – | region | layout-oriented fine-grained retrieval | [[arXiv](https://arxiv.org/abs/2605.22829)] |
+| **RegionRAG** | AAAI 2026 | – | region | indexes and returns sub-page regions | [[DOI](https://doi.org/10.1609/aaai.v40i8.37597)] |
+| **RegionSLM** | SIGIR 2026 | – | region | region unit with a small reader | [[DOI](https://doi.org/10.1145/3805712.3809603)] |
+| **LAD-RAG** | ACL 2026 | graph | graph | layout-aware graph retrieval | [[DOI](https://doi.org/10.18653/v1/2026.acl-long.724)] |
+| **LMS-Retrieval** | ICDAR 2026 | – | region | layout-, modality-, structure-aware | [[DOI](https://doi.org/10.1007/978-3-032-36039-7_8)] |
+| **ColParse** | arXiv 2026 | multi | region | parser chooses the regions to embed | [[arXiv](https://arxiv.org/abs/2603.01666)] |
 
-## Agentic
+## Agentic document RAG
 
-| Method | Venue | Year | Backbone | Train-free | OCR | Index | Gran. | Brief description | Highlight |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|---|---|
-| ViDoRAG | Conf. Empirical Meth | 2025 | – | no † | no † | – | page | Multi-agent iterative refinement with Gaussian mixture retrieval | First agentic visual document RAG |
-| DocAgent | – | 2025 | – | – | – | – | - | Multimodal agent for long document understanding | - |
-| [MDocAgent](https://arxiv.org/abs/2503.13964) | preprint | 2025 | – | – | – | – | - | Division of labour across specialised text and image agents | Specialised agents per modality |
-| SlideAgent | Annu. Meeting Assoc. | 2026 | – | – | – | – | - | Hierarchical agentic framework for multi-page visual documents | Hierarchical navigation of long documents |
-| DocLens | Annu. Meeting Assoc. | 2026 | – | – | – | – | **region** | Tool-augmented multi-agent framework for long visual documents | Tool use over page regions |
-| [MARDoc](https://arxiv.org/abs/2606.05749) | preprint | 2026 | – | – | – | – | - | Memory-aware refinement agent for multimodal long document QA | - |
-
----
-
-## Reading the granularity column
-
-Era I retrieved regions, Era II words and formulas, Era IV whole pages.
-Over four decades in which model capacity grew by orders of magnitude,
-the unit of retrieval became *coarser*.
-
-The regression was not argued for. It followed from an engineering
-convenience — the page is what an image encoder naturally accepts — and
-has been treated since as the natural unit rather than as a choice.
-
----
-
-## What is missing
-
-These rows need their backbone, index type and artefact fields read
-from the paper itself:
-
-| Method | Venue | Year |
-|---|---|:-:|
-| [VisRAG 2.0](https://arxiv.org/abs/2510.09733) | preprint | 2025 |
-| ColMate | Conf. Empirical Meth | 2025 |
-| [CMRAG](https://arxiv.org/abs/2509.02123) | preprint | 2025 |
-| MoLoRAG | Conf. Empirical Meth | 2025 |
-| [HKRAG](https://arxiv.org/abs/2511.20227) | preprint | 2025 |
-| DocAgent | – | 2025 |
-| [MetaEmbed](https://arxiv.org/abs/2509.18095) | Int. Conf. Learning  | 2026 |
-| [HiKEY](https://arxiv.org/abs/2605.29606) | preprint | 2026 |
-| [LFRAG](https://arxiv.org/abs/2605.22829) | preprint | 2026 |
-| RegionRAG | AAAI Conf. Artificia | 2026 |
-| [RegionSLM](https://doi.org/10.1145/3805712.3809603) | Int. ACM SIGIR Conf. | 2026 |
-| LAD-RAG | Annu. Meeting Assoc. | 2026 |
-| [LMS-Retrieval](https://doi.org/10.1007/978-3-032-36039-7_8) | Document Analysis an | 2026 |
-| SlideAgent | Annu. Meeting Assoc. | 2026 |
-| DocLens | Annu. Meeting Assoc. | 2026 |
-| [MARDoc](https://arxiv.org/abs/2606.05749) | preprint | 2026 |
-
-**[➕ Fill one](../../../issues/new?template=add-paper.yml)** 
+| Method | Venue | Index | Unit | Distinguishing idea | Link |
+|---|---|:-:|:-:|---|---|
+| **ViDoRAG** | EMNLP 2025 | – | page | multi-agent iterative refinement | [[DOI](https://doi.org/10.18653/v1/2025.emnlp-main.464)] |
+| **MDocAgent** | arXiv 2025 | – | page | text and image agents in parallel | [[arXiv](https://arxiv.org/abs/2503.13964)] |
+| **SlideAgent** | ACL 2026 | – | – | hierarchical multi-page navigation | [[DOI](https://doi.org/10.18653/v1/2026.acl-long.677)] |
+| **DocLens** | arXiv 2025 | – | region | tool-augmented agents on regions | [[arXiv](https://arxiv.org/abs/2511.11552)] |
+| **MARDoc** | arXiv 2026 | – | – | memory-aware refinement | [[arXiv](https://arxiv.org/abs/2606.05749)] |

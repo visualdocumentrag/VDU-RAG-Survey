@@ -1,56 +1,24 @@
-# Comparison with existing surveys
+# Existing surveys
 
-The **organising axis** column does the work here, not the ticks. Read it
-downward: pipeline stage, pipeline stage, role of the MLLM, LLM
-capability, task family, modality, QA task. **Seven axes, and none of them
-is what the page contains.**
+Organizing axis as stated in each survey's own abstract (Table 1).
 
-● treated in depth · ○ partial · – not treated
-
-*Chan.* organises by content type on the page · *Interf.* formalises
-interaction between co-located types · *Audit* measures the consistency of
-the record rather than tabulating it · *Metric* contributes an evaluation
-instrument · *Mult.* reports coverage by script or language.
-
-### Direct competitors: multimodal RAG for document understanding
-
-| Survey | Venue | Year | Organising axis | Chan. | Interf. | Audit | Metric | Mult. |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|:-:|
-| [Gao et al.](https://arxiv.org/abs/2510.15253) | ACL | 2026 | pipeline stage: parse, retrieve, generate | – | – | – | – | ○ |
-| [Yan et al.](https://arxiv.org/abs/2602.19961) | preprint | 2026 | pipeline stage: benchmark, embed, rerank, agent | – | – | – | – | – |
-| [Zhang](https://arxiv.org/abs/2601.03262) | AACL | 2025 | role of the MLLM: captioner, embedder, representer | – | – | – | – | – |
-| — | TOIS | 2026 | LLM capability applied to document tasks | – | – | – | – | ○ |
-
-### Adjacent: visually rich document understanding, without retrieval
-
-| Survey | Venue | Year | Organising axis | Chan. | Interf. | Audit | Metric | Mult. |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|:-:|
-| Ding et al. | ACL | 2026 | MLLM framework capability | – | – | – | – | ○ |
-| [Ding et al.](https://arxiv.org/abs/2408.01287) | AI Rev. | 2026 | task family: extraction, VQA, layout | – | – | – | – | – |
-| Fu et al. | ACL | 2025 | model architecture for text-rich images | – | – | – | – | – |
-| [Zhang et al.](https://arxiv.org/abs/2410.21169) | preprint | 2024 | parsing technique | – | – | – | – | – |
-| [Wang et al.](https://arxiv.org/abs/2510.13366) | preprint | 2025 | document task taxonomy | – | – | – | – | – |
-| Nandi & Sathya | CVIP | 2024 | method family | – | – | – | – | – |
-| [—](https://arxiv.org/abs/2501.02235) | preprint | 2025 | question-answering task | – | – | – | – | – |
-| [—](https://arxiv.org/abs/2601.12318) | preprint | 2026 | data-generation method | – | – | – | – | – |
-
-### Adjacent: multimodal or general retrieval-augmented generation
-
-| Survey | Venue | Year | Organising axis | Chan. | Interf. | Audit | Metric | Mult. |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|:-:|
-| Abootorabi et al. | ACL | 2025 | retrieval modality | – | – | – | – | ○ |
-| [Mei et al.](https://arxiv.org/abs/2504.08748) | preprint | 2025 | retrieval modality | – | – | – | – | – |
-| [Zhao et al.](https://arxiv.org/abs/2503.18016) | preprint | 2025 | vision task | – | – | – | – | – |
-| [Gao et al.](https://arxiv.org/abs/2312.10997) | preprint | 2023 | RAG paradigm: naive, advanced, modular | – | – | – | – | – |
-
-
-
-### This survey
-
-| Survey | Venue | Year | Organising axis | Chan. | Interf. | Audit | Metric | Mult. |
-|---|---|:-:|---|:-:|:-:|:-:|:-:|:-:|
-| **This survey** | — | 2026 | **content channel on the page** | ● | ● | ● | ● | ● |
-
----
-
-
+| Survey | Venue | Organizing axis | Channel | Interference | Audit | Metric | Link |
+|---|---|---|:-:|:-:|:-:|:-:|---|
+| Scaling Beyond Context: A Survey of Multimodal Retrieval-Augmented Generation for Document Understanding | ACL 2026 | domain, retrieval modality, granularity | – | – | – | – | [[arXiv](https://arxiv.org/abs/2510.15253)] |
+| Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval | arXiv 2026 | pipeline stage | – | – | – | – | [[arXiv](https://arxiv.org/abs/2602.19961)] |
+| Roles of MLLMs in Visually Rich Document Retrieval for RAG: A Survey | IJCNLP-AACL 2025 | role of the MLLM | – | – | – | – | [[arXiv](https://arxiv.org/abs/2601.03262)] |
+| Large Language Models in Document Intelligence: A Comprehensive Survey, Recent Advances, Challenges and Future Trends | ACM TOIS 2026 | LLM capability | – | – | – | – | [[DOI](https://doi.org/10.1145/3768156)] |
+| A Survey on MLLM-based Visually Rich Document Understanding: Methods, Challenges, and Emerging Trends | Findings ACL 2026 | task family | – | – | – | – | [[DOI](https://doi.org/10.18653/v1/2026.findings-acl.652)] |
+| Deep Learning based Visually Rich Document Content Understanding: A Survey | AI Review 2026 | task family | – | – | – | – | [[arXiv](https://arxiv.org/abs/2408.01287)] |
+| Multimodal Large Language Models for Text-rich Image Understanding: A Comprehensive Review | Findings ACL 2025 | task family | – | – | – | – | [[DOI](https://doi.org/10.18653/v1/2025.findings-acl.1023)] |
+| Document Parsing Unveiled: Techniques, Challenges and Prospects for Structured Information Extraction | arXiv 2024 | task family | – | – | – | – | [[arXiv](https://arxiv.org/abs/2410.21169)] |
+| Document Intelligence in the Era of Large Language Models: A Survey | arXiv 2025 | task family | – | – | – | – | [[arXiv](https://arxiv.org/abs/2510.13366)] |
+| Visual Document Understanding: A Comparative Review of Modern Methods | CVIU 2024 | task family | – | – | – | – | [[DOI](https://doi.org/10.1007/978-3-031-93694-4_29)] |
+| Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation | Findings ACL 2025 | retrieval modality | – | – | – | – | [[DOI](https://doi.org/10.18653/v1/2025.findings-acl.861)] |
+| A Survey of Multimodal Retrieval-Augmented Generation | arXiv 2025 | retrieval modality | – | – | – | – | [[arXiv](https://arxiv.org/abs/2504.08748)] |
+| Retrieval Augmented Generation and Understanding in Vision: A Survey and New Outlook | arXiv 2025 | retrieval modality | – | – | – | – | [[arXiv](https://arxiv.org/abs/2503.18016)] |
+| Retrieval-Augmented Generation for Large Language Models: A Survey | arXiv 2023 | retrieval modality (text RAG) | – | – | – | – | [[arXiv](https://arxiv.org/abs/2312.10997)] |
+| Beyond Human Annotation: Recent Advances in Data Generation Methods for Document Intelligence | arXiv 2026 | data generation | – | – | – | – | [[arXiv](https://arxiv.org/abs/2601.12318)] |
+| Survey on Question Answering over Visually Rich Documents: Methods, Challenges, and Trends | arXiv 2025 | question type | – | – | – | – | [[arXiv](https://arxiv.org/abs/2501.02235)] |
+| Reproducibility, Replicability, and Insights into Visual Document Retrieval with Late Interaction | SIGIR 2025 | reproducibility study (not a survey) | – | – | ● | – | [[DOI](https://doi.org/10.1145/3726302.3730285)] |
+| **This survey** | under review | **content channel** | ● | ● | ● | ● | |

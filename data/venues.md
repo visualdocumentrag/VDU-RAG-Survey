@@ -1,50 +1,45 @@
-# Venues searched, and their yield
+# Venues searched
 
+Records retained at screening, by venue (Section 3 of the survey). Venues marked *searched, nothing eligible* returned no record meeting criterion C1.
 
-
-| Venue | Type | Retained | Included | Field |
-|---|---|--:|--:|---|
-| IJDAR | journal | 70 | 7 | Document analysis |
-| ICDAR | conf. | 58 | 21 | Document analysis |
-| DAS | conf. | 53 | 3 | Document analysis |
-| CVPR | conf. | 125 | 19 | Vision |
-| ECCV | conf. | 46 | 5 | Vision |
-| ICCV | conf. | 45 | 6 | Vision |
-| WACV + workshops | conf. | 11 | 4 | Vision |
-| IEEE TPAMI | journal | 55 | 9 | Vision |
-| IEEE TMM | journal | 51 | 0 | Vision |
-| IJCV | journal | 49 | 0 | Vision |
-| IEEE TIP | journal | 41 | 0 | Vision |
-| CVIU | journal | 10 | 1 | Vision |
-| ACL + Findings | conf. | 180 | 34 | Language |
-| EMNLP + Findings | conf. | 59 | 13 | Language |
-| ACM MM | conf. | 35 | 5 | Language |
-| NAACL | conf. | 5 | 4 | Language |
-| COLING | conf. | 2 | 1 | Language |
-| ACM TALIP | journal | 20 | 0 | Language |
-| SIGIR | conf. | 160 | 17 | IR and data |
-| CIKM | conf. | 41 | 0 | IR and data |
-| KDD | conf. | 31 | 2 | IR and data |
-| IP&M | journal | 62 | 1 | IR and data |
-| ACM TOIS | journal | 19 | 4 | IR and data |
-| IEEE TBD | journal | 18 | 1 | IR and data |
-| ICLR | conf. | 166 | 17 | Machine learning |
-| NeurIPS | conf. | 122 | 15 | Machine learning |
-| AAAI | conf. | 110 | 12 | Machine learning |
-| MTAP | journal | 28 | 0 | Applied PR |
-| Pattern Recognition | journal | 19 | 5 | Applied PR |
-| ESWA | journal | 13 | 0 | Applied PR |
-| Information Sciences | journal | 4 | 1 | Applied PR |
-| KBS, Neurocomputing | journal | 2 | 0 | Applied PR |
-| Other venues | mixed | 68 | 31 | Other |
-| arXiv | preprint | — | 63 | Preprints |
-| IEEE TNNLS | journal | — | 0 | Searched; nothing eligible |
-| ACM TIST | journal | — | 0 | Searched; nothing eligible |
-| JAIR | journal | — | 0 | Searched; nothing eligible |
-| Artificial Intelligence | journal | — | 0 | Searched; nothing eligible |
-| BMVC | conf. | — | 0 | Searched; nothing eligible |
-| **Total** | | **1,778** | **286** | |
-
----
-
-
+| Venue | Type | Retained | Field |
+|---|---|--:|---|
+| IJDAR | journal | 70 | Document analysis |
+| ICDAR | conf. | 58 | Document analysis |
+| DAS | conf. | 53 | Document analysis |
+| CVPR | conf. | 125 | Vision |
+| ECCV | conf. | 46 | Vision |
+| ICCV | conf. | 45 | Vision |
+| WACV + workshops | conf. | 11 | Vision |
+| IEEE TPAMI | journal | 55 | Vision |
+| IEEE TMM | journal | 51 | Vision |
+| IJCV | journal | 49 | Vision |
+| IEEE TIP | journal | 41 | Vision |
+| CVIU | journal | 10 | Vision |
+| ACL + Findings | conf. | 180 | Language |
+| EMNLP + Findings | conf. | 59 | Language |
+| ACM MM | conf. | 35 | Language |
+| NAACL | conf. | 5 | Language |
+| COLING | conf. | 2 | Language |
+| ACM TALIP | journal | 20 | Language |
+| SIGIR | conf. | 160 | IR and data |
+| CIKM | conf. | 41 | IR and data |
+| KDD | conf. | 31 | IR and data |
+| IP&M | journal | 62 | IR and data |
+| ACM TOIS | journal | 19 | IR and data |
+| IEEE TBD | journal | 18 | IR and data |
+| ICLR | conf. | 166 | Machine learning |
+| NeurIPS | conf. | 122 | Machine learning |
+| AAAI | conf. | 110 | Machine learning |
+| MTAP | journal | 28 | Applied PR |
+| Pattern Recognition | journal | 19 | Applied PR |
+| ESWA | journal | 13 | Applied PR |
+| Information Sciences | journal | 4 | Applied PR |
+| KBS, Neurocomputing | journal | 2 | Applied PR |
+| Other venues | mixed | 68 | Other |
+| arXiv | preprint | — | Preprints |
+| IEEE TNNLS | journal | — | searched, nothing eligible |
+| ACM TIST | journal | — | searched, nothing eligible |
+| JAIR | journal | — | searched, nothing eligible |
+| Artificial Intelligence | journal | — | searched, nothing eligible |
+| BMVC | conf. | — | searched, nothing eligible |

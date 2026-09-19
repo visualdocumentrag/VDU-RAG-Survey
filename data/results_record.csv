@@ -1,3 +1,28 @@
-method,benchmark,benchmark_version,metric,value,backbone,top_k,ocr_engine,resolution,runs_averaged,eval_code_version,REPORTED_IN,notes
-ColPali,ViDoRe,v1,nDCG@5,,,,,,,,fayssecolpali2025,
-ColPali,ViDoRe,v1,nDCG@5,,,,,,,,,SECOND INDEPENDENT REPORT GOES HERE
+method,benchmark,benchmark_version,subset,metric,value,backbone_or_model,retrieval_depth,index_type,ocr_engine,page_resolution,reported_in,source_location,reporting_paper_is_method_paper,date_read
+ColEmbed-3B-v2,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,59.8,ColEmbed-3B-v2,,multi,,,loison2026vidorev3,Table 1,no,2026-09
+Jina-v4 (visual),ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,57.6,Jina-v4 (visual),,,,,loison2026vidorev3,Table 1,no,2026-09
+ColNomic-7B,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,57.4,ColNomic-7B,,multi,,,loison2026vidorev3,Table 1,no,2026-09
+ColEmbed-3B,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,57.3,ColEmbed-3B,,multi,,,loison2026vidorev3,Table 1,no,2026-09
+ColNomic-3B,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,55.8,ColNomic-3B,,multi,,,loison2026vidorev3,Table 1,no,2026-09
+ColEmbed-1B,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,55.6,ColEmbed-1B,,multi,,,loison2026vidorev3,Table 1,no,2026-09
+ColQwen2.5,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,51.9,ColQwen2.5,,multi,,,loison2026vidorev3,Table 1,no,2026-09
+Nomic-7B,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,49.0,Nomic-7B,,single,,,loison2026vidorev3,Table 1,no,2026-09
+ColQwen2,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,44.7,ColQwen2,,multi,,,loison2026vidorev3,Table 1,no,2026-09
+Nomic-3B,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,44.3,Nomic-3B,,single,,,loison2026vidorev3,Table 1,no,2026-09
+ColPali,ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,43.1,ColPali,,multi,,,loison2026vidorev3,Table 1,no,2026-09
+Qwen3-Embedding-8B (text),ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,51.0,Qwen3-Embedding-8B (text),,single,NeMo Retriever extraction (text retrievers only),,loison2026vidorev3,Table 1,no,2026-09
+Jina-v4 (text),ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,50.4,Jina-v4 (text),,,NeMo Retriever extraction (text retrievers only),,loison2026vidorev3,Table 1,no,2026-09
+LFM2-ColBERT-350M (text),ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,44.9,LFM2-ColBERT-350M (text),,multi,NeMo Retriever extraction (text retrievers only),,loison2026vidorev3,Table 1,no,2026-09
+Qwen3-Embedding-0.6B (text),ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,43.8,Qwen3-Embedding-0.6B (text),,single,NeMo Retriever extraction (text retrievers only),,loison2026vidorev3,Table 1,no,2026-09
+BGE-M3 (text),ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,41.3,BGE-M3 (text),,single,NeMo Retriever extraction (text retrievers only),,loison2026vidorev3,Table 1,no,2026-09
+BM25S (text),ViDoRe,v3,"all 10 datasets, cross-lingual, macro-average",nDCG@10,20.3,BM25S (text),,lexical,NeMo Retriever extraction (text retrievers only),,loison2026vidorev3,Table 1,no,2026-09
+ColEmbed-3B-v2,ViDoRe,v3,content type = Text,nDCG@10,59.3,llama-nemoretriever-colembed-3b-v2,,multi,,,loison2026vidorev3,Table 15 / Fig. 6,no,2026-09
+ColEmbed-3B-v2,ViDoRe,v3,content type = Chart,nDCG@10,56.3,llama-nemoretriever-colembed-3b-v2,,multi,,,loison2026vidorev3,Table 15 / Fig. 6,no,2026-09
+ColEmbed-3B-v2,ViDoRe,v3,content type = Infographic,nDCG@10,55.2,llama-nemoretriever-colembed-3b-v2,,multi,,,loison2026vidorev3,Table 15 / Fig. 6,no,2026-09
+ColEmbed-3B-v2,ViDoRe,v3,content type = Table,nDCG@10,53.9,llama-nemoretriever-colembed-3b-v2,,multi,,,loison2026vidorev3,Table 15 / Fig. 6,no,2026-09
+ColEmbed-3B-v2,ViDoRe,v3,content type = Other,nDCG@10,50.8,llama-nemoretriever-colembed-3b-v2,,multi,,,loison2026vidorev3,Table 15 / Fig. 6,no,2026-09
+ColEmbed-3B-v2,ViDoRe,v3,content type = Image,nDCG@10,49.3,llama-nemoretriever-colembed-3b-v2,,multi,,,loison2026vidorev3,Table 15 / Fig. 6,no,2026-09
+ColEmbed-3B-v2,ViDoRe,v3,content type = Mixed,nDCG@10,45.1,llama-nemoretriever-colembed-3b-v2,,multi,,,loison2026vidorev3,Table 15 / Fig. 6,no,2026-09
+Jina-v4 (text) + zerank-2 re-ranker,ViDoRe,v3,"all 10 datasets, macro-average",nDCG@10,63.6,jina-embeddings-v4 + zerank-2,,,NeMo Retriever extraction,,loison2026vidorev3,Table 2,no,2026-09
+Jina-v4 (visual) + jina-reranker-m0,ViDoRe,v3,"all 10 datasets, macro-average",nDCG@10,57.8,jina-embeddings-v4 + jina-reranker-m0,,,,,loison2026vidorev3,Table 2,no,2026-09
+nemotron-colembed-vl-8b-v2,ViDoRe,v3,"MTEB leaderboard, 10 tasks, as of 2026-02-03",nDCG@10,63.42,Qwen3-VL-8B based,,multi,,,moreira2026nemotroncolembed,Table 2,yes,2026-09

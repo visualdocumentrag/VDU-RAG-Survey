@@ -1,47 +1,29 @@
-# Reporting checklist
+# Reporting checklist (18 items)
 
-Eighteen items in five clusters. Copy this into your submission and answer
-every line; a blank is a finding about the paper, not about the checklist.
+Copy this block into your paper or supplementary material and answer every line. Each item is a column of [`results_record.csv`](results_record.csv), so a paper that answers it can be compared with its predecessors directly.
 
-The threshold that motivates it: **independent reports of the same method,
-on the same benchmark and metric, differ by more than the margins
-separating successive publications.** A claimed improvement below that
-spread is not thereby false, but it is not established by the record
-either, and a reader has no way to tell which.
-
-## Retrieval configuration
-
+```markdown
+## Retrieval
 - [ ] Backbone and parameter count
-- [ ] Retrieval depth (top-$K$)
-- [ ] Index type: single-vector, multi-vector, graph, hybrid
+- [ ] Retrieval depth (top-K)
+- [ ] Index type: single-vector, multi-vector, graph or hybrid
 - [ ] Input page resolution
-
-## Parsing configuration
-
-- [ ] OCR or parsing engine, **with version**
-- [ ] Whether structural output was used, or only the character stream
+## Parsing
+- [ ] OCR or parsing engine, with version
+- [ ] Structural output used, or character stream only
 - [ ] Chunking strategy and chunk size
-
 ## Evaluation
-
-- [ ] Metric, with its exact definition or an implementation link
-- [ ] Benchmark **version** — v1, v2 and v3 are three benchmarks
+- [ ] Metric, with its exact definition or implementation link
+- [ ] Benchmark version (v1, v2 and v3 are different benchmarks)
 - [ ] Split, and whether it is the public one
 - [ ] Number of runs averaged
 - [ ] Variance across runs
-
 ## Corpus
-
-- [ ] Source and licence
-- [ ] Size, in **pages** or in documents, stated as one or the other
+- [ ] Source and license
+- [ ] Size, in pages or in documents, stated as one or the other
 - [ ] Channel composition, if known
-
-## Artefacts
-
+## Artifacts
 - [ ] Public code
 - [ ] Released weights
-- [ ] Explicit licence on both
-
----
-
-
+- [ ] Explicit license on both
+```
