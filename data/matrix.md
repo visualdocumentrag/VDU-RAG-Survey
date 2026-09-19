@@ -21,4 +21,4 @@ Table 5 of the survey. A method counts in a cell only if it **reports a result o
 * **Reachable — equations × visual RAG.** Formula retrieval has a decade of task definitions (NTCIR) and recognition benchmarks, but no visual document retriever reports against them.
 * **Empty — stamps and typography × every paradigm.** Seal detection and font recognition exist, but neither reports a retrieval or question-answering result. These cells name experiments that need a resource to be built first.
 
-The works behind each row are listed in the channel sections of the [README](../README.md#the-eight-channels).
+The works behind each row are listed in the channel sections of the [channel pages](../pages/channel-1-plain-text.md).
