@@ -2,24 +2,23 @@
 
 Thank you for helping keep this list complete and correct.
 
-## Add a paper
+## Adding a paper
 
-Open a pull request that adds one line to the right section of `README.md`, using this format:
+1. Fork the repository and create a branch.
+2. Add one row to the right section of `README.md` (and of the matching page under `pages/`) in this format:
 
-```
-* [Venue Year] **Title** [[arXiv](https://arxiv.org/abs/XXXX.XXXXX)][[DOI](https://doi.org/...)]
-```
+   ```
+   |[Title](Paper link)|Venue Year|[Code](Code link)|
+   ```
 
-Please follow three rules, which the survey itself follows.
+3. If the paper reports results on a specific content channel (text, layout, tables, figures, equations, forms, stamps, typography), add it to that channel's page under `pages/channels/`.
+4. Add the matching row to the CSV in `data/`.
+5. Open a pull request that states the channel(s) and the benchmark the paper reports on.
 
-1. **Real links only.** Every entry needs an arXiv, DOI or proceedings link that resolves.
-2. **Venue as published.** Use the peer-reviewed venue if the paper has one; otherwise write `arXiv`.
-3. **Channels are claims.** A method is placed under a channel, or in a cell of [`data/matrix.md`](data/matrix.md), only if the paper **reports a result** on that channel.
+## Inclusion criteria
 
-## Add a result
+A paper is added when it (C1) retrieves from a document collection or a region of a document page, (C2) reports a quantitative result on a named benchmark or contributes a benchmark, dataset or metric, and (C3) is peer-reviewed or an archival preprint. Works before 2020 are added only as lineage for a channel (C4).
 
-Add a row to [`data/results_record.csv`](data/results_record.csv). Read each value from the paper that reports it, never from another paper's table, and fill `reported_in` and `source_location` so the value can be checked.
+## Corrections
 
-## Correct an entry
-
-Open an issue with the entry, what is wrong, and the source that shows the correct value.
+Every field must trace to the original paper. If a link, venue or number is wrong, open an issue with the source.

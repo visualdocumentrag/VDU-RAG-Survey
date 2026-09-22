@@ -1,7 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the survey. Author details will be added after double-blind review."
-title: "Eight Channels, One Vector: A Survey of Retrieval-Augmented Generation for Visual Document Understanding"
-authors:
-  - name: "Anonymous"
-date-released: 2026-09-19
+message: "If you use this paper list, please cite the survey below."
+title: "Awesome Retrieval-Augmented Visual Document Understanding"
+repository-code: "https://github.com/visualdocumentrag/VDU-RAG-Survey"
 license: CC-BY-4.0
+authors:
+  - family-names: Pramanik
+    given-names: Subrata
+preferred-citation:
+  type: article
+  title: "A Survey of Retrieval-Augmented Generation for Visual Document Understanding"
+  authors:
+    - family-names: Pramanik
+      given-names: Subrata
+  journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence (under review)"
+  year: 2026
