@@ -4,7 +4,7 @@
 
 This is the repository of **Retrieval-Augmented Generation for Visual Document Understanding: A Survey**, a systematic survey of retrieval-augmented generation over document pages, organized by the eight kinds of content a page carries (text, layout, tables, figures, equations, form fields, stamps and typography). For details, please refer to:
 
-**Retrieval-Augmented Generation for Visual Document Understanding: A Survey** [[Paper](https://anonymous.4open.science/r/VDU-RAG-Survey-E1D6/)]
+**Retrieval-Augmented Generation for Visual Document Understanding: A Survey** [[Paper](TBD)]
 
 *Under review at IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).* Authors: TBD.
 
