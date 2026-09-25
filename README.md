@@ -78,7 +78,19 @@ Newly added to the survey from the 2025-2026 venue lists:
 
 ## Abstract
 
-A reader who opens an invoice, a contract or a lab report does not read characters alone: the total is the total because of its column, the clause binds because of the seal beside it, the curve means something because of its axis. Retrieval-augmented generation (RAG) now answers questions over thousands of such pages, and since 2024 its retrievers treat each page as an image. They have not learned that a page carries up to eight kinds of content at once, text, layout, tables, figures, equations, form fields, stamps and typography, which we call *channels*. Existing surveys organize the field by pipeline stage, modality or task; none asks what the page contains. This survey tells the story of visual document RAG channel by channel. We screen every paper of 42 venue-year lists of 2025 and 2026 (78,352 records) and catalog 73 methods and 61 benchmarks. We (1) formalize *channel interference*, which late interaction produces even between channels that never touch; (2) trace the field along three axes, the retrieved unit, the index and the pipeline; (3) place every system in one compositional EIOAR frame (encoder, index unit, retrieval operator, evidence aggregator, reasoner); (4) show with a channel-by-paradigm matrix and a benchmark audit that stamps and typography are studied every year, yet no retrieval method is tested on them and no benchmark labels them; (5) show from the scores each paper reports that the reader, not the retriever, dominates end-to-end results; and (6) propose a channel-aware score, an 18-item reporting checklist and open problems drawn from the empty cells. All lists, tables and scripts are at https://anonymous.4open.science/r/VDU-RAG-Survey-E1D6/.
+Retrieval-augmented generation (RAG) lets a model answer questions from large document collections, and since 2024
+retrievers have begun to treat each page as an image. Yet a page is not one thing: it carries up to eight kinds of content at once,
+namely text, layout, tables, figures, equations, form fields, stamps and typography, which we call channels. Existing surveys organize
+the field by pipeline stage, modality or task, and none asks what the page contains. This paper provides a systematic review of
+retrieval-augmented generation for visual document understanding, organized by content channel. We screen every paper of 42
+venue-year lists of 2025 and 2026 (78,352 records) and catalog 73 methods and 61 benchmarks. We (1) formalize channel
+interference, which late interaction produces even between channels that never touch; (2) trace the field along three axes, the retrieved
+unit, the index and the pipeline; (3) place every system in one compositional EIOAR frame (encoder, index unit, retrieval operator,
+evidence aggregator, reasoner); (4) show with a channel-by-paradigm matrix and a benchmark audit that stamps and typography are
+studied every year, yet no retrieval method is tested on them and no benchmark labels them; (5) show from the scores each paper
+reports that the reader, not the retriever, dominates end-to-end results; and (6) propose a channel-aware score, an 18-item reporting
+checklist and open problems drawn from the empty cells. All lists, tables and scripts are at
+https://anonymous.4open.science/r/VDU-RAG-Survey-E1D6/.
 
 ## Citation
 
