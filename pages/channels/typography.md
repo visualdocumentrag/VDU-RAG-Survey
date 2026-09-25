@@ -1,19 +1,30 @@
 # Typography
 
-[← Back to the main list](../../README.md#channel-wise-papers)
+Typeface, weight, slope and emphasis carry meaning without changing the characters, and transcription is blind to them. Font recognition moved from typographical features to deep models, but vision venues now mostly *generate* fonts. Reading typography survives in historical documents and in TexTAR, the only word-level annotation of bold, italic, underline and strike-out we found. The channel is annotated, and has never been retrieved over.
 
-> Typeface, weight, slope and emphasis carry meaning without changing the characters, and transcription is blind to them.
+## Coverage in the channel x paradigm matrix (paper Table 7)
 
-9 papers, newest first.
+|OCR -> LLM|MLLM-native|Text RAG|Visual RAG|
+|:-:|:-:|:-:|:-:|
+|✗|✗|✗|✗|
 
-|Title|Venue|Code|
+✓ results reported; ○ established task, but no method of that paradigm reports on it; ✗ nothing reported.
+
+## Benchmarks that annotate this channel
+
+- [TexTAR](https://doi.org/10.1007/978-3-032-04614-7_16) (2025)
+
+## Benchmarks where the channel is present but not annotated
+
+- none
+
+## Works cited for this channel in the paper
+
+|Paper|Venue|Year|
 |---|---|---|
-|[TexTAR: Textual Attribute Recognition in Multi-domain and Multi-lingual Document Images](https://doi.org/10.1007/978-3-032-04614-7_16)|ICDAR 2026|-|
-|FontDiffuser: One-Shot Font Generation via Denoising Diffusion with Multi-Scale Content Aggregation and Style Contrastive Learning|AAAI 2024|-|
-|[Analyzing Font Style Usage and Contextual Factors in Real Images](https://doi.org/10.1007/978-3-031-41682-8_21)|ICDAR 2023|-|
-|[TextStyleBrush: Transfer of Text Aesthetics From a Single Example](https://doi.org/10.1109/TPAMI.2023.3239736)|TPAMI 2023|-|
-|[ICDAR 2021 Competition on Historical Document Classification](https://doi.org/10.1007/978-3-030-86337-1_41)|ICDAR 2021|-|
-|Using Robust Regression to Find Font Usage Trends|ICDAR Workshops 2021|-|
-|[DeepFont: Identify Your Font from an Image](https://doi.org/10.1145/2733373.2806219)|ACM MM 2015|-|
-|Font Adaptive Word Indexing of Modern Printed Documents|TPAMI 2006|-|
-|Optical Font Recognition Using Typographical Features|TPAMI 1998|-|
+|[Optical Font Recognition Using Typographical Features](https://scholar.google.com/scholar?q=Optical+Font+Recognition+Using+Typographical+Features)|IEEE Trans. Pattern Anal. Mach. Intell.|1998|
+|[FontDiffuser: One-Shot Font Generation via Denoising Diffusion with Multi-Scale Content Aggregation and Style Contrastive Learning](https://scholar.google.com/scholar?q=FontDiffuser%3A+One-Shot+Font+Generation+via+Denoising+Diffusion+with+Multi-Scale+Content+Aggregation+and+Style+Contrastive+Learning)|Proc. AAAI Conf. Artificial Intelligence|2024|
+|[ICDAR 2021 Competition on Historical Document Classification](https://doi.org/10.1007/978-3-030-86337-1_41)|Proc. Int. Conf. Document Analysis and Recognition (ICDAR)|2021|
+|[TexTAR: Textual Attribute Recognition in Multi-domain and Multi-lingual Document Images](https://doi.org/10.1007/978-3-032-04614-7_16)|Proc. Int. Conf. Document Analysis and Recognition (ICDAR)|2025|
+
+[Back to the channels](../../README.md#the-eight-channels)

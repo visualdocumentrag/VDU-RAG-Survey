@@ -1,16 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this paper list, please cite the survey below."
-title: "Awesome Retrieval-Augmented Visual Document Understanding"
+title: "Awesome Visual Document RAG"
 repository-code: "https://github.com/visualdocumentrag/VDU-RAG-Survey"
 license: CC-BY-4.0
 authors:
-  - family-names: Pramanik
-    given-names: Subrata
+  - name: "TBD"
 preferred-citation:
   type: article
-  title: "A Survey of Retrieval-Augmented Generation for Visual Document Understanding"
+  title: "Retrieval-Augmented Generation for Visual Document Understanding: A Survey"
   authors:
-    - family-names: Pramanik
-      given-names: Subrata
+    - name: "TBD"
   journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence (under review)"
   year: 2026

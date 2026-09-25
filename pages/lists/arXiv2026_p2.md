@@ -1,0 +1,51 @@
+# arXiv 2026: complete list (part 2 of 2)
+
+Papers 501-543 of 543. Parts: [1](arXiv2026_p1.md) · **2**. [Venue page](../venues/arXiv2026.md) · [CSV](../../data/venues/all/arXiv2026.csv)
+
+| # | Title | Authors | Type |
+|---:|---|---|---|
+| 501 | [Nemotron ColEmbed V2: Top-Performing Late Interaction Embedding Models for Visual Document Retrieval](https://arxiv.org/abs/2602.03992) | Gabriel de Souza P. Moreira, Ronay Ak, Mengyao Xu, Oliver Holworthy, Benedikt Schifferer, Zhiding Yu, Yauhen Babakhin, R | Method |
+| 502 | [Architecture-Agnostic Curriculum Learning for Document Understanding: Empirical Evidence from Text-Only and Multimodal](https://arxiv.org/abs/2602.21225) | Mohammed Hamdan, Vincenzo Dentamaro, Giuseppe Pirlo, Mohamed Cheriet | Method |
+| 503 | [Col-Bandit: Query-Time Top-$K$ Estimation for Late-Interaction Retrieval](https://arxiv.org/abs/2602.02827) | Roi Pony, Adi Raz Goldfarb, Oshri Naparstek, Idan Friedman, Udi Barzelay, Eli Schwartz | Method |
+| 504 | [Rethinking Genomic Modeling Through Optical Character Recognition](https://arxiv.org/abs/2602.02014) | Hongxin Xiang, Pengsen Ma, Yunkang Cao, Di Yu, Haowen Chen, Xinyu Yang, Xiangxiang Zeng | Method |
+| 505 | [MARA: A Multimodal Adaptive Retrieval-Augmented Framework for Document Question Answering](https://arxiv.org/abs/2604.16313) | Hui Wu, Haoquan Zhai, Yuchen Li, Hengyi Cai, Peirong Zhang, Yidan Zhang, Lei Wang, Chunle Wang, Yingyan Hou, Shuaiqiang  | Method |
+| 506 | [MCERF: Advancing Multimodal LLM Evaluation of Engineering Documentation with Enhanced Retrieval](https://arxiv.org/abs/2604.09552) | Kiarash Naghavi Khanghah, Hoang Anh Nguyen, Anna C. Doris, Amir Mohammad Vahedi, Daniele Grandi, Faez Ahmed, Hongyi Xu | Method |
+| 507 | [BookNet: Book Image Rectification via Cross-Page Attention Network](https://arxiv.org/abs/2601.21938) | Shaokai Liu, Hao Feng, Bozhi Luan, Min Hou, Jiajun Deng, Wengang Zhou | Dataset |
+| 508 | [PaddleOCR-VL-1.5: Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing](https://arxiv.org/abs/2601.21957) | Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, Zelun Zhang, Jiaxuan Liu, Xueqing Wang, Changda Zhou, Hongen Liu, Manhui | Dataset |
+| 509 | [LEMUR: Learned Multi-Vector Retrieval](https://arxiv.org/abs/2601.21853) | Elias Jääsaari, Ville Hyvönen, Teemu Roos | Method |
+| 510 | [CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding](https://arxiv.org/abs/2601.21262) | Jiahao Huo, Yu Huang, Yibo Yan, Ye Pan, Kening Zheng, Wei-Chieh Huang, Yi Cao, Mingdong Ou, Philip S. Yu, Xuming Hu | Method |
+| 511 | [Youtu-Parsing: Perception, Structuring and Recognition via High-Parallelism Decoding](https://arxiv.org/abs/2601.20430) | Haoyu Cao, Kun Yin, Yunfei Wu, Bing Liu, Zhongpeng Cai, Xiaotian Li, Huang Chen, Xin Li, Yinsong Liu, Deqiang Jiang, Xin | Method |
+| 512 | [Structural Anchor Pruning: Training-Free Multi-Vector Compression for Visual Document Retrieval](https://arxiv.org/abs/2601.20107) | Zhuchenyang Liu, Ziyu Hu, Yao Zhang, Yu Xiao | Method |
+| 513 | [Up to 36x Speedup: Mask-based Parallel Inference Paradigm for Key Information Extraction in MLLMs](https://arxiv.org/abs/2601.19613) | Xinzhong Wang, Ya Guo, Jing Li, Huan Chen, Yi Tu, Yijie Hong, Gongshen Liu, Huijia Zhu | Method |
+| 514 | [VDE Bench: Evaluating The Capability of Image Editing Models to Modify Visual Documents](https://arxiv.org/abs/2602.00122) | Hongzhu Yi, Yujia Yang, Yuanxiang Wang, Tong Li, Zhenyu Guan, Tianyu Zong, Jiahuan Chen, Chenxi Bao, Tiankun Yang, Haope | Dataset |
+| 515 | [DMAP: Human-Aligned Structural Document Map for Multimodal Document Understanding](https://arxiv.org/abs/2601.18203) | ShunLiang Fu, Yanxin Zhang, Yixin Xiang, Xiaoyu Du, Jinhui Tang | Method |
+| 516 | [AI Agent for Reverse-Engineering Legacy Finite-Difference Code and Translating to Devito](https://arxiv.org/abs/2601.18381) | Yinghan Hou, Zongyou Yang | Method |
+| 517 | [Chunking, Retrieval, and Re-ranking: An Empirical Evaluation of RAG Architectures for Policy Document Question Answering](https://arxiv.org/abs/2601.15457) | Anuj Maharjan, Umesh Yadav | Method |
+| 518 | [Typhoon OCR: Open Vision-Language Model For Thai Document Extraction](https://arxiv.org/abs/2601.14722) | Surapon Nonesung, Natapong Nitarach, Teetouch Jaknamon, Pittawat Taveekitworachai, Kunat Pipatanakul | Method |
+| 519 | [LightOnOCR: A 1B End-to-End Multilingual Vision-Language Model for State-of-the-Art OCR](https://arxiv.org/abs/2601.14251) | Said Taghadouini, Adrien Cavaillès, Baptiste Aubertin | Method |
+| 520 | [Fine-Grained Zero-Shot Composed Image Retrieval with Complementary Visual-Semantic Integration](https://arxiv.org/abs/2601.14060) | Yongcong Ye, Kai Zhang, Yanghai Zhang, Enhong Chen, Longfei Li, Jun Zhou | Method |
+| 521 | [Chain-of-Thought Compression Should Not Be Blind: V-Skip for Efficient Multimodal Reasoning via Dual-Path Anchoring](https://arxiv.org/abs/2601.13879) | Dongxu Zhang, Yiding Sun, Cheng Tan, Wenbiao Yan, Ning Yang, Jihua Zhu, Haijun Zhang | Method |
+| 522 | [From Quotes to Concepts: Axial Coding of Political Debates with Ensemble LMs](https://arxiv.org/abs/2601.15338) | Angelina Parfenova, David Graus, Juergen Pfeffer | Method |
+| 523 | [ChartAttack: Testing the Vulnerability of LLMs to Malicious Prompting in Chart Generation](https://arxiv.org/abs/2601.12983) | Jesus-German Ortiz-Barajas, Jonathan Tonglet, Vivek Gupta, Iryna Gurevych | Method |
+| 524 | [Docs2Synth: A Synthetic Data Trained Retriever Framework for Scanned Visually Rich Documents Understanding](https://arxiv.org/abs/2601.12260) | Yihao Ding, Qiang Sun, Puzhen Wu, Sirui Li, Siwen Luo, Wei Liu | Method |
+| 525 | [AVIR: Adaptive Visual In-Document Retrieval for Efficient Multi-Page Document Question Answering](https://arxiv.org/abs/2601.11976) | Zongmin Li, Yachuan Li, Lei Kang, Dimosthenis Karatzas, Wenkang Ma | Method |
+| 526 | [ChartComplete: A Taxonomy-based Inclusive Chart Dataset](https://arxiv.org/abs/2601.10462) | Ahmad Mustapha, Charbel Toumieh, Mariette Awad | Dataset |
+| 527 | [ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios](https://arxiv.org/abs/2601.08620) | António Loison, Quentin Macé, Antoine Edy, Victor Xing, Tom Balough, Gabriel Moreira, Bo Liu, Manuel Faysse, Céline Hude | Dataset |
+| 528 | [FocalOrder: Focal Preference Optimization for Reading Order Detection](https://arxiv.org/abs/2601.07483) | Fuyuan Liu, Dianyu Yu, He Ren, Nayu Liu, Xiaomian Kang, Delai Qiu, Fa Zhang, Genpeng Zhen, Shengping Liu, Jiaen Liang, W | Method |
+| 529 | [PARL: Position-Aware Relation Learning Network for Document Layout Analysis](https://arxiv.org/abs/2601.07620) | Fuyuan Liu, Dianyu Yu, He Ren, Nayu Liu, Xiaomian Kang, Delai Qiu, Fa Zhang, Genpeng Zhen, Shengping Liu, Jiaen Liang, W | Dataset |
+| 530 | [ReinPool: Reinforcement Learning Pooling Multi-Vector Embeddings for Retrieval System](https://arxiv.org/abs/2601.07125) | Sungguk Cha, DongWook Kim, Mintae Kim, Youngsub Han, Byoung-Ki Jeon, Sangyeob Lee | Method |
+| 531 | [BayesRAG: Probabilistic Mutual Evidence Corroboration for Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2601.07329) | Xuan Li, Yining Wang, Haocai Luo, Shengping Liu, Jerry Liang, Ying Fu,  Weihuang, Jun Yu, Junnan Zhu | Method |
+| 532 | [FinCARDS: Card-Based Analyst Reranking for Financial Document Question Answering](https://arxiv.org/abs/2601.06992) | Yixi Zhou, Fan Zhang, Yu Chen, Haipeng Zhang, Preslav Nakov, Zhuohan Xie | Method |
+| 533 | [FastLane: Efficient Routed Systems for Late-Interaction Retrieval](https://arxiv.org/abs/2601.06389) | Ramnath Kumar, Prateek Jain, Cho-Jui Hsieh | Method |
+| 534 | [ROAP: A Reading-Order and Attention-Prior Pipeline for Optimizing Layout Transformers in Key Information Extraction](https://arxiv.org/abs/2601.05470) | Tingwei Xie, Jinxin He, Yonghong Song | Method |
+| 535 | [SketchVL: Policy Optimization via Fine-Grained Credit Assignment for Chart Understanding and More](https://arxiv.org/abs/2601.05688) | Muye Huang, Lingling Zhang, Yifei Li, Yaqiang Wu, Jun Liu | Method |
+| 536 | [IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation](https://arxiv.org/abs/2601.04498) | Yinghao Tang, Xueding Liu, Boyuan Zhang, Tingfeng Lan, Yupeng Xie, Jiale Lao, Yiyao Wang, Haoxuan Li, Tingting Gao, Bo P | Dataset |
+| 537 | [DocDancer: Towards Agentic Document-Grounded Information Seeking](https://arxiv.org/abs/2601.05163) | Qintong Zhang, Xinjie Lv, Jialong Wu, Baixuan Li, Zhengwei Tao, Guochen Yan, Huanyao Zhang, Bin Wang, Jiahao Xu, Haitao  | Method |
+| 538 | [VERSE: Visual Embedding Reduction and Space Exploration. Clustering-Guided Insights for Training Data Enhancement in Visually-Rich Document Understanding](https://arxiv.org/abs/2601.05125) | Ignacio de Rodrigo, Alvaro J. Lopez-Lopez, Jaime Boal | Method |
+| 539 | [Qwen3-VL-Embedding and Qwen3-VL-Reranker: A Unified Framework for State-of-the-Art Multimodal Retrieval and Ranking](https://arxiv.org/abs/2601.04720) | Mingxin Li, Yanzhao Zhang, Dingkun Long, Keqin Chen, Sibo Song, Shuai Bai, Zhibo Yang, Pengjun Xie, An Yang, Dayiheng Li | Method |
+| 540 | [Doc-PP: Document Policy Preservation Benchmark for Large Vision-Language Models](https://arxiv.org/abs/2601.03926) | Haeun Jang, Hwan Chang, Hwanhee Lee | Dataset |
+| 541 | [CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving](https://arxiv.org/abs/2601.01874) | Shuhang Chen, Yunqiu Xu, Junjie Xie, Aojun Lu, Tao Feng, Zeying Huang, Ning Zhang, Yi Sun, Yi Yang, Hangjie Yuan | Dataset |
+| 542 | [A Hybrid Architecture for Multi-Stage Claim Document Understanding: Combining Vision-Language Models and Machine Learning for Real-Time Processing](https://arxiv.org/abs/2601.01897) | Lilu Cheng, Jingjun Lu, Yi Xuan Chan, Quoc Khai Nguyen, John Bi, Sean Ho | Method |
+| 543 | [CTIS-QA: Clinical Template-Informed Slide-level Question Answering for Pathology](https://arxiv.org/abs/2601.01769) | Hao Lu, Ziniu Qian, Yifu Li, Yang Zhou, Bingzheng Wei, Yan Xu | Method |
+
+Parts: [1](arXiv2026_p1.md) · **2**

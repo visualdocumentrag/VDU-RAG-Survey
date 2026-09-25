@@ -1,0 +1,278 @@
+No,Type,Title
+1,Method,Part Segmentation and Motion Estimation for Articulated Objects with Dynamic 3D Gaussians
+2,Method,Volumetric Temporal Texture for Smoke Stylization using Dynamic Radiance Fields
+3,Method,Learning from Synthetic Data for Visual Grounding
+4,Method,MSMVD: Exploiting Multi-scale Image Features via Multi-scale BEV Features for Multi-view Pedestrian Detection
+5,Method,Guiding a diffusion model with itself using sliding windows
+6,Method,Gen4Gen: Generative Data Pipeline for Generative Multi-Concept Composition
+7,Method,SPARTAN: Spatiotemporal Pose-Aware Retrieval for Text-guided Autonomous Navigation
+8,Method,Cross-Modal Scene Semantic Alignment for Image Complexity Assessment
+9,Method,GC-Font: Few-Shot Font Generation via Global Contextual Feature Modelling
+10,Method,DocAttentionRect: Attention-Guided Document Image Rectification
+11,Method,Split Matching for Inductive Zero-shot Semantic Segmentation
+12,Method,Piezoelectric Acoustic Sensing for Sitting Pose Classification
+13,Method,Pointly-Supervised Weak-Shot Semantic Segmentation via Dual Mapping Transfer
+14,Method,CMAMRNet: A Contextual Mask-Aware Network Enhancing Mural Restoration Through Comprehensive Mask Guidance
+15,Method,ST-GDance: Long-Term and Collision-Free Group Choreography from Music
+16,Method,TACTFL: Temporal Contrastive Training for Multi-modal Federated Learning with Similarity-guided Model Aggregation
+17,Method,Training-Free Synthetic Data Generation with Dual IP-Adapter Guidance
+18,Method,SSNeRF: Sparse View Semi-supervised Neural Radiance Fields with Augmentation
+19,Method,RPD-Diff: Region-Adaptive Physics-Guided Diffusion Model for Visibility Enhancement under Dense and Non-Uniform Haze
+20,Method,Continual Vision-and-Language Navigation
+21,Method,CRCE: Coreference-Retention Concept Erasure in Text-to-Image Diffusion Models
+22,Method,STAIN: Smooth Tile-Aware Instance Normalisation for Virtual Staining
+23,Method,Prompt-Based Exemplar Super-Compression and Regeneration for Class-Incremental Learning
+24,Method,RAPrivacy: a Readable Anonymizer for Privacy Preserving Action Recognition
+25,Method,BOTM: Echocardiography Segmentation via Bi-directional Optimal Token Matching
+26,Method,Distribution-guided Generative Replay with Semantic Prompts for Class-Incremental Chest X-ray Diagnosis
+27,Method,Mask2Act: Predictive Multi-Object Tracking as Video Pre-Training for Robot Manipulation
+28,Method,CLAIR: CLIP-Aided Weakly Supervised Zero-Shot Cross-Domain Image Retrieval
+29,Method,Uncertainty Diffusion: Parameter-Efficient Depth Refinement via Uncertainty-Guided Diffusion Models
+30,Method,Dual-Stream Attention with Multi-Modal Queries for Object Detection in Transportation Applications
+31,Method,M$^2$StyleGS: Multi-Modality 3D Style Transfer with Gaussian Splatting
+32,Method,Lang4D: Weakly Supervised Learning of 4D Language Splatting
+33,Method,SemanticControl: A Training-Free Approach for Handling Loosely Aligned Visual Conditions in ControlNet
+34,Method,Spatial-Frequency Domain Aggregation for Visual Place Recognition
+35,Method,WTNet: A Weather Transfer Network for Domain-Adaptive All-In-One Adverse Weather Image Restoration
+36,Method,Seed-to-Seed: Unpaired Image Translation in Diffusion Seed Space
+37,Method,Identity-Motion Trade-offs in Text-to-Video Generation
+38,Dataset,Four eyes see more than two: Dataset Distillation with Mixture-of-Experts
+39,Method,PSScreen: Partially Supervised Multiple Retinal Disease Screening
+40,Method,CellMamba: Adaptive Mamba for Accurate and Efficient Cell Detection
+41,Method,LuKAN: A Kolmogorov-Arnold Network Framework for 3D Human Motion Prediction
+42,Method,eXtended Multimodal Composite Association Score (xMCAS): A Gender Inclusive Approach to Measurement of Bias in Text-To-Image Diffusion Models
+43,Method,Graph Similarity Learning of Floor Plans
+44,Method,Proto-FG3D: Prototype-based Interpretable Fine-Grained 3D Shape Classification
+45,Method,Efficient Image Restoration via Latent Consistency Flow Matching
+46,Method,Bridging Visual-Textual Modalities: Weakly Supervised Histopathology Segmentation
+47,Method,LiDAR MOT-DETR: A LiDAR-based Two-Stage Transformer for 3D Multiple Object Tracking
+48,Method,Dual-Expert Collaborative Network for Fake News Detection with External Knowledge Integration
+49,Method,Unsupervised Video Continual Learning via Non-Parametric Deep Embedded Clustering
+50,Method,Capture and Reconstruct 3D Clothed Human from Images
+51,Method,REACT: Real-time Efficiency and Accuracy Compromise for Tradeoffs in Scene Graph Generation
+52,Method,S$^2$V2V: Training-Free Video-to-Video with Sparse Points and Motion Guidance
+53,Method,Revisiting Entropy Minimization for Long-Sequence Continual Test-Time Adaptation
+54,Method,ADIR: Adaptive Diffusion for Image Reconstruction
+55,Method,Enhancing Visual Tracking by Leveraging High-frequency Information within Event Signals
+56,Method,FaceGCD: Generalized Face Discovery via Dynamic Prefix Generation
+57,Dataset,B-RIGHT: Benchmark Re-evaluation for Integrity in Generalized Human-Object Interaction Testing
+58,Method,Learning Event-guided Exposure-agnostic Video Frame Interpolation via Adaptive Feature Blending
+59,Method,CFFlow: An Optical Flow Estimation Hinging on Cross-Frequency Attention
+60,Method,CLIP meets DINO for Tuning Zero-Shot Classifier using Unlabeled Image Collections
+61,Method,AegisRF: Adversarial Perturbations Guided with Sensitivity for Protecting Intellectual Property of Neural Radiance Fields
+62,Method,Multimodal Feature Collaboration and Fusion for Fine-Grained Action Recognition
+63,Dataset,Benchmarking Microsaccade Recognition with Event Cameras: A Novel Dataset and Evaluation
+64,Dataset,CHIP: A multi-sensor dataset for 6D pose estimation of chairs in industrial settings
+65,Method,Detection Transformers Under the Knife: A Neuroscience-Inspired Approach to Ablations
+66,Method,SVAC: Scaling Is All You Need For Referring Video Object Segmentation
+67,Method,Task Progressive Curriculum Learning for Robust Visual Question Answering
+68,Method,PME3D: An Adaptive and Efficient Multi-modal Feature Extraction Plug-in for 3D Object Detection
+69,Method,OctreeNCA: Single-Pass 184 MP Segmentation on Consumer Hardware
+70,Method,Extreme Model Compression with Structured Sparsity at Low Precision
+71,Method,DepthHMR: Leveraging Depth Around Humans for Multi-Human Mesh Generation
+72,Method,"FaceCrafter: Identity-Conditional Diffusion with Disentangled Control over Facial Pose, Expression, and Emotion"
+73,Method,Fast Self-Supervised depth and mask aware Association for Multi-Object Tracking
+74,Method,DAOVI: Distortion-Aware Omnidirectional Video Inpainting
+75,Method,GLip: A Global-Local Integrated Progressive Framework for Robust Visual Speech Recognition
+76,Method,Events Meet Dynamic Mode Decomposition: Capturing the Spatiotemporal Dynamics of Moving Objects
+77,Method,Flatness-aware Curriculum Learning via Adversarial Difficulty
+78,Method,Coarse Attribute Prediction with Task Agnostic Distillation for Real World Clothes Changing ReID
+79,Method,PosBridge: Multi-View Positional Embedding Transplant for Identity-Aware Image Editing
+80,Method,Dual-Branch Network via Multiple Illumination-Aware Representation Learning for Steel Surface Defect Classification
+81,Method,What Can We Learn from Harry Potter? An Exploratory Study of Visual Representation Learning from Atypical Videos
+82,Method,Pose-Robust Calibration Strategy for Point-of-Gaze Estimation on Mobile Phones
+83,Method,SteerPose: Simultaneous Extrinsic Camera Calibration and Matching from Articulation
+84,Method,Learning from Silence and Noise for Visual Sound Source Localization
+85,Method,HuGeDiff: 3D Human Generation via Diffusion with Gaussian Splatting
+86,Method,RUSplatting: Robust 3D Gaussian Splatting for Sparse-View Underwater Scene Reconstruction
+87,Method,RGB-Event Fusion for Robust Lane Detection
+88,Method,Back To The Drawing Board: Rethinking Scene-Level Sketch-Based Image Retrieval
+89,Method,Multi-Rationale Explainable Object Recognition via Contrastive Conditional Inference
+90,Method,Permutation-Invariant Polar Harmonic Pooling for Point-based Neural Networks
+91,Method,Depth Inconsistency-based spatial-channel attention gate for Mirror Segmentation
+92,Method,UMM: A Unified Multi-Modal Model for Low-Level Vision Tasks with Dual-Driven Prompting
+93,Method,Knowledge Distillation via Cross Supervising with Attention for Remote Sensing Object Detection
+94,Method,3D Shape Reconstruction from Autonomous Driving Radars
+95,Method,Log NeRF: Comparing Spaces for Learning Radiance Fields
+96,Method,Exploring Histogram-based Color Constancy
+97,Method,HVLO-YOLO: An Ultra-Lightweight Detection Model for High-voltage Line Obstacles
+98,Method,Multimodal Hate Detection Using Dual-Stream Graph Neural Networks
+99,Method,Beyond Softmax: Dual-Branch Sigmoid Architecture for Accurate Class Activation Maps
+100,Method,JDATT: A Joint Distillation Framework for Atmospheric Turbulence Mitigation and Target Detection
+101,Method,Interactive Occlusion Boundary Estimation through Exploitation of Synthetic Data
+102,Method,Answering from Sure to Uncertain: Uncertainty-Aware Curriculum Learning for Video Question Answering
+103,Method,Frequency-Temporal Feature Integration for Compressed Video Action Recognition
+104,Method,HalfMix Augmentation and Regularized Dual-Path Learning for Cross-Domain Gaze Estimation
+105,Method,A Novel Local Focusing Mechanism for Deepfake Detection Generalization
+106,Method,Intra-Modal Divergence-Weighted Distillation for Vision-Language Models
+107,Method,FSF3A: Federated Spatial Feature Alignment and Adaptive Aggregation for Heterogeneous Brain Tumor Segmentation
+108,Method,Bézier Curve-Based Stroke Extraction for Handwritten Characters
+109,Method,CleverDistiller: Simple and Spatially Consistent Cross-modal Distillation
+110,Method,FreqSelect: Frequency-Aware fMRI-to-Image Reconstruction
+111,Method,Audio-Visual Separation with Hierarchical Fusion and Representation Alignment
+112,Method,An Explorative Study on Abstract Images and Visual Representations Learned from Them
+113,Method,"One target to align them all: LiDAR, RGB and event cameras extrinsic calibration for Autonomous Driving"
+114,Method,UFD-KD: Unified Frequency Decoupled Knowledge Distillation
+115,Method,DefectGPT: Towards Multi-Class Defect Detection with Limited Electrical Samples
+116,Method,Robust and Label-efficient Deep Waste Detection
+117,Method,Dynamic Convolution and Graph-Coupled Attention for Cross-Subject EEG-Vision Decoding
+118,Method,LieMorph: Transformer-based Image Registration Using Flows on Lie Groups
+119,Method,Making Rotation Averaging Fast and Robust with Anisotropic Coordinate Descent
+120,Method,Catching the Unknown with Limited Data: Bi-Directional Prompt Tuning in CLIP for Few-Shot Open-Set Adaptation
+121,Method,"OmniSegNet: Towards Scalable, Efficient & Universal Medical Image Segmentation"
+122,Method,OptSplat: Recurrent Optimization for Generalizable Reconstruction and Novel View Renderings
+123,Method,Temporally Compressed 3D Gaussian Splatting for Dynamic Scenes
+124,Method,Multi-Method Ensemble for Out-of-Distribution Detection
+125,Method,Pandora: Articulated 3D Scene Graphs from Egocentric Vision
+126,Method,EZIGen: Enhancing zero-shot personalized image generation with precise subject encoding and decoupled guidance
+127,Method,OpenHuman4D: Open-Vocabulary 4D Human Parsing
+128,Method,Zero-Shot Anomaly Detection with Dual-Branch Prompt Selection
+129,Method,Zero-Shot CFC: Fast Real-World Image Denoising based on Cross-Frequency Consistency
+130,Method,CoT-SD: Chain-of-Thought Semantic Denoising
+131,Method,PanoHair: Detailed Hair Strand Synthesis on Volumetric Heads
+132,Dataset,Video Dataset Condensation with Diffusion Models
+133,Dataset,TopoMortar: A Dataset to Evaluate Topology Accuracy in Image Segmentation
+134,Method,Dynamic Try-On: Taming Video Virtual Try-on with Dynamic Attention Mechanism
+135,Method,Dual-Stream Adapters for Open-Set Segmentation in Driving Scenes
+136,Method,"HERO-VQL: Hierarchical, Egocentric and Robust Visual Query Localization"
+137,Method,PerSense: Training-Free Personalized Instance Segmentation in Dense Images
+138,Method,Beyond Gloss: A Hand-Centric Framework for Gloss-Free Sign Language Translation
+139,Method,TopoDiT-3D: Topology-Aware Diffusion Transformer with Bottleneck Structure for 3D Point Cloud Generation
+140,Method,MuDG: Taming Multi-modal Diffusion with Gaussian Splatting for Urban Scene Reconstruction
+141,Method,Incremental Multi-Scene Modeling via Continual Neural Graphics Primitives
+142,Method,Segmentation Assisted Incremental Test Time Adaptation in an Open World
+143,Method,Solving Zero-Shot 3D Visual Grounding as Constraint Satisfaction Problems
+144,Method,Towards Data-Efficient Medical Imaging: A Generative and Semi-Supervised Framework
+145,Method,Towards Open-Vocabulary Multimodal 3D Object Detection with Attributes
+146,Method,Prompt-Informed Reinforcement Learning for Visual Coverage Path Planning
+147,Method,3D Curvix: From Multiview 2D Edges to 3D Curve Segments
+148,Method,Leveraging Sparsity for Efficient Inference of High-Resolution Vision Foundation Models
+149,Method,Canonical Makeup Transfer
+150,Method,Mitigating Hallucinations in Multimodal LLMs via Object-aware Preference Optimization
+151,Method,MLoRQ: Bridging Low-Rank and Quantization for Transformer Compression
+152,Method,Jack of many Faces: A Step Towards Facial Expression and Physiological State Analysis with a Single Network
+153,Method,On the Role of Individual Differences in Current Approaches to Computational Image Aesthetics
+154,Method,MonoGSDF: Exploring Monocular Geometric Cues for Gaussian Splatting-Guided Implicit Surface Reconstruction
+155,Method,Occam’s LGS: An Efficient Approach for Language Gaussian Splatting
+156,Method,SAMWave: Adapting Segment Anything Model to difficult tasks
+157,Method,Q-Align: Alleviating Attention Leakage in Zero-Shot Appearance Transfer via Query-Query Alignment
+158,Method,Category-level Text-to-Image Retrieval Improved: Bridging the Domain Gap with Diffusion Models and Vision Encoders
+159,Method,JOG3R: Towards 3D-Consistent Video Generators
+160,Method,ALSA: Anchors in Logit Space for Out-of-Distribution Accuracy Estimation
+161,Method,Catch Your Concepts: A Flexible Concept Locator for Interpretable Visual Recognition
+162,Method,TAPM-Net: Trajectory-Aware Perturbation Modeling for Infrared Small Target Detection
+163,Method,Size-aware Contrastive Imitation Learning for Language-conditioned Multi-task Robotic Manipulation
+164,Method,From Open Vocabulary to Open World: Teaching Vision Language Models to Detect Novel Objects
+165,Method,PADS: Plug-and-Play 3D Human Pose Analysis via Diffusion Generative Modeling
+166,Method,Gromov Wasserstein Optimal Transport for Semantic Correspondences
+167,Method,Unsupervised Multimodal Deepfake Detection Through Explicit Intra-Modal and Cross-Modal Inconsistency Discovery
+168,Method,TryOffDiff: Virtual-Try-Off via High-Fidelity Garment Reconstruction using Diffusion Models
+169,Dataset,"EWMBench: Evaluating Scene, Motion, and Semantic Quality in Embodied World Models"
+170,Method,Self-Intersection-Aware 3D Human Motion Generation Using an Efficient Human Sphere Proxy
+171,Method,Mapping like a Skeptic: Probabilistic BEV Projection for Online HD Mapping
+172,Method,TPA: Temporal Prompt Alignment for Fetal Congenital Heart Defect Classification
+173,Method,Boosting Camera Motion Control for Video Diffusion Transformers
+174,Method,Audio-Guided Visual Editing with Complex Multi-Modal Prompts
+175,Method,Learning a Neural Association Network for Self-supervised Multi-Object Tracking
+176,Method,Specify and Edit: Overcoming Ambiguity in Text-Based Image Editing
+177,Method,Interpretable Text-Guided Image Clustering via Iterative Search
+178,Method,DTFSal: Audio-Visual Dynamic Token Fusion for Video Saliency Prediction
+179,Method,Is Safety Checker Still Safe? A Study on the Covert NSFW Text
+180,Method,UDT : Unsupervised Discovery of Transformations between Fine-Grained Classes in Diffusion Models
+181,Method,TAG: A Simple Yet Effective Temporal-Aware Approach for Zero-Shot Video Temporal Grounding
+182,Method,"${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting"
+183,Method,Vision Backbone Efficient Selection for Image Classification in Low-Data Regimes
+184,Method,DEAD: Data-Efficient Audiovisual Dubbing using Neural Rendering Priors
+185,Method,A Unified Framework for High-Frame-Rate HDR Video Synthesis
+186,Method,Modular Embedding Recomposition for Incremental Learning
+187,Method,MonoTracker: Monocular RGB-Only 6D Tracking of Unknown Object
+188,Method,Leveraging Modality Tags for Enhanced Cross-Modal Video Retrieval
+189,Method,LOGen: Toward LiDAR Object Generation by Point Diffusion
+190,Method,SIMULDITEX: Single Image Multiscale & Lightweight Diffusion for Texture Modelling
+191,Dataset,Cloud-Stereo: A Dataset and Benchmark for Reconstructing Atmospheric Clouds from Stereo Images
+192,Method,C-SWAP: Explainability-Aware Structured Pruning for Efficient Neural Networks Compression
+193,Method,Asymmetric Event-Image Stereo with Temporal Feature Gating and Iterative Structure-Detail Refinement
+194,Dataset,LoFT: LoRA-fused Training Dataset Generation with Few-shot Guidance
+195,Dataset,Lost in Time: A New Temporal Benchmark for VideoLLMs
+196,Method,Improving Multimodal Distillation for 3D Semantic Segmentation under Domain Shift
+197,Method,Geometry-Aware Diffusion Models for Multiview Scene Inpainting
+198,Method,Estimating Foot Pressure and Stability from Visual Input
+199,Method,Image Recognition with Vision and Language Embeddings of VLMs
+200,Method,Exploring Image Representation with Decoupled Classical Visual Descriptors
+201,Method,Lost in Translation? Vocabulary Alignment for Source-Free Adaptation in Open-Vocabulary Semantic Segmentation
+202,Method,Distortion-Aware Multi-Object Tracking via Virtual Plane Projection in Overhead Fisheye Cameras
+203,Method,QWD-GAN: Quality-aware Wavelet-driven GAN for Unsupervised Medical Microscopy Images Denoising
+204,Method,Llama Learns to Direct: DirectorLLM for Human-Centric Video Generation
+205,Method,FaceCPT: Toward Cross-Modal Facial Representation Learning with Face-Caption Pre-Training
+206,Method,Time-Scaling State-Space Models for Dense Video Captioning
+207,Method,ITC-RWKV: Interactive Tissue–Cell Modeling with Recurrent Key-Value Aggregation for Histopathological Subtyping
+208,Method,Toward Robust Audio-Visual Synchronization Detection in Egocentric Video with Sparse Synchronization Events
+209,Method,Improving Human Motion Plausibility with Body Momentum
+210,Method,DualDistill: A Unified Cross-Modal Knowledge Distillation Framework for Camera-Based BEV Representation
+211,Method,FSLC: Fast Scoring with Learnable Coreset for Zero-shot Industrial Anomaly Detection
+212,Method,Diffusion Transformer-to-Mamba Distillation for High-Resolution Image Generation
+213,Method,Grad-CL: Source Free Domain Adaptation with Gradient Guided Feature Disalignment
+214,Method,Semi-MoE: Mixture-of-Experts meets Semi-Supervised Histopathology Segmentation
+215,Method,HEAL: Learning-Free Source Free Unsupervised Domain Adaptation for Cross-Modality Medical Image Segmentation
+216,Method,Tracking Meets Large Multimodal Models for Driving Scenario Understanding
+217,Method,Prompt Image to Watch and Hear: Multimodal Prompting for Parameter-Efficient Audio-Visual Learning
+218,Method,Clean Sample Selection and Noisy Sample Rematching for Text-Based Pedestrian Retrieval
+219,Method,A Hybrid Framework Bridging CNN and ViT based on Theory of Evidence for Diabetic Retinopathy Grading
+220,Method,LaMamba-Diff: Linear-Time High-Fidelity Diffusion Models Based on Local Attention and Mamba
+221,Method,Advancing Utility Pole and Sign Detection Through Deep Learning
+222,Method,Ev4DGS: Novel-view Rendering of Non-Rigid Objects from Monocular Event Streams
+223,Method,Visible Structure Retrieval for Lightweight Image-Based Relocalisation
+224,Method,Spatiotemporal Event Spotting via 3D Heatmaps with Dynamically Shifted Gaussian Kernels
+225,Method,Ink Enhancement for Ancient Bamboo Manuscripts Using Iterative Restoration-Degradation Adversarial Learning
+226,Method,MedOpenSeg: Open-World Medical Segmentation with Memory-Augmented Transformers
+227,Method,Dual Polarity Prompts with Stochastic Entropy Perturbation for Label Noise
+228,Method,"Lid-Lab-NeRF: Generating Temporally Consistent, Labelled LiDAR Point Clouds using Neural Radiance Fields"
+229,Method,RP-SAM2: Refining Point Prompts for Stable Surgical Instrument Segmentation
+230,Method,Verifier Matters: Enhancing Inference-Time Scaling for Video Diffusion Models
+231,Method,Is Structural Awareness the Key to Event Camera Data Cleansing for Enhancing Veracity?
+232,Method,SALT: Parameter-Efficient Fine-Tuning via Singular Value Adaptation with Low-Rank Transformation
+233,Method,In-Model Merging for Enhancing the Robustness of Medical Imaging Classification Models
+234,Method,Quantifying Risk in Pedestrian Crowds Using Divergence Estimated from Flows of Head-Tracking Data
+235,Method,PrIINeR: Towards Prior-Informed Implicit Neural Representations for Accelerated MRI
+236,Method,Language-Guided Decision Override for Adaptive and Retraining-Free Video Anomaly Detection
+237,Method,Superpixel Anything: A general object-based framework for accurate yet regular superpixel segmentation
+238,Dataset,Benchmarking Vision Foundation Models for Input Monitoring in Autonomous Driving
+239,Method,Generative Data Augmentation for Object Point Cloud Segmentation
+240,Method,Conditional Prototype Learning for Few-Shot Object Detection
+241,Method,Atomizer: Generalizing to unseen modalities by breaking images down to a set of scalars
+242,Method,Learning Correlation-aware Aleatoric Uncertainty for 3D Hand Pose Estimation
+243,Method,IPGPhormer: Interpretable Pathology Graph-Transformer for Survival Analysis
+244,Method,Calibration-Aware Prompt Learning for Medical Vision-Language Models
+245,Method,3D-WAG: Hierarchical Wavelet-Guided Autoregressive Generation for High-Fidelity 3D Shapes
+246,Method,Stabilizing Open-Set Test-Time Adaptation via Primary-Auxiliary Filtering and Knowledge-Integrated Prediction
+247,Method,Controllable Garment Generation with Multi-Modal Diffusion Guidance
+248,Method,CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation
+249,Method,Towards Sharper Object Boundaries in Self-Supervised Depth Estimation
+250,Method,ImProvShow: Multimodal Fusion for Image Provenance Summarization
+251,Method,CLIMB-3D: Class-Incremental Imbalanced 3D Instance Segmentation
+252,Method,Supervised Segmentation Model for Improved Detection of OSSN using Slit Lamp Images
+253,Method,LED: Light Enhanced Depth Estimation at Night
+254,Method,AKD-BNN: Adaptive Kernel Dynamic Bayesian Neural Networks for Enhanced Medical Image Segmentation with Uncertainty Estimation
+255,Method,Robust Human Registration with Body Part Segmentation on Noisy Point Clouds
+256,Method,Conformal Predictors for Efficient Video Text Spotting
+257,Method,MIAS-SAM: Medical Image Anomaly Segmentation without thresholding
+258,Method,"Evaluating Self-Supervised Learning in Medical Imaging: A Systematic Investigation of Robustness, Generalizability, and Multi-Domain Impact"
+259,Method,ALFred: An Active Learning Framework for Real-world Semi-supervised Anomaly Detection with Adaptive Thresholds
+260,Method,Isolated Channel Vision Transformers: From Single-Channel Pretraining to Multi-Channel Finetuning
+261,Dataset,TRUDI and TITUS: A Multi-Perspective Dataset and A Three-Stage Recognition System for Transportation Unit Identification
+262,Dataset,The Trauma THOMPSON Dataset for Real-World Emergency AI
+263,Method,ETTA: Efficient Test-Time Adaptation for Vision-Language Models through Dynamic Embedding Updates
+264,Method,RETRO: REthinking Tactile Representation Learning with Material PriOrs
+265,Method,Hierarchical Image-Guided 3D Point Cloud Segmentation in Industrial Scenes via Multi-View Bayesian Fusion
+266,Method,Evaluating Perceptual Distance Models by Fitting Binomial Distributions to Two-Alternative Forced Choice Data
+267,Method,Conflict-Aware Adversarial Training
+268,Dataset,Binarizing Severely Degraded Ancient Bamboo Slips: Dataset and Baseline
+269,Method,MO-SHW: Hierarchy-Aware Multi-Objective Optimization for Open-World Segmentation
+270,Method,Contrastive Point Feature Matching for Open-world Object Counting
+271,Method,Out-of-Distribution Detection from Small Training Sets using Bayesian Neural Network Classifiers
+272,Method,IoSR: End-to-End Intraoral Scans Repairing
+273,Method,AULUNet: An Adaptive Ultra-Lightweight U-Net Framework for Efficient Skin Lesion Segmentation in Resource-Constrained Environments
+274,Method,Language-Guided Reinforcement Learning for Hard Attention in Few-Shot Learning
+275,Method,Hair Strand Reconstruction based on 3D Gaussian Splatting
+276,Method,RASALoRE: Region Aware Spatial Attention with Location-based Random Embeddings for Weakly Supervised Anomaly Detection in Brain MRI Scans
+277,Method,End-to-End LiDAR optimization for point cloud registration

@@ -1,0 +1,57 @@
+# IJDAR 2026: complete list (part 1 of 1)
+
+Papers 1-49 of 49. Parts: **1**. [Venue page](../venues/IJDAR2026.md) · [CSV](../../data/venues/all/IJDAR2026.csv)
+
+| # | Title | Authors | Type |
+|---:|---|---|---|
+| 1 | [Segmentation of Ink and Parchment in Dead Sea Scroll Fragments](https://doi.org/10.1007/s10032-025-00564-4) | Berat Kurar-Barakat, Nachum Dershowitz | Dataset |
+| 2 | [U-DIADS-TL: a novel dataset for text line segmentation in historical manuscripts](https://doi.org/10.1007/s10032-026-00585-7) | Silvia Zottin, Axel De Nardin, Claudio Piciarelli, Gian Luca Foresti | Dataset |
+| 3 | [Fidel: a large-scale sentence level Amharic OCR dataset](https://doi.org/10.1007/s10032-026-00593-7) | Tunga Tessema Chamisso, Blessed Guda, Bereket Retta, Carmel Prosper Sagbo, Gabrial Zencha Ashungafac, Assane Gueye | Dataset |
+| 4 | [Bharat scene text: a novel comprehensive dataset and benchmark for indian language scene text understanding](https://doi.org/10.1007/s10032-026-00583-9) | Anik De, Abhirama Subramanyam Penamakuri, Rajeev Yadav, Aditya Rathore, Harshiv Shah, Devesh Sharma, Sagar Agarwal, Prav | Dataset |
+| 5 | [DKDS: A Benchmark Dataset of Degraded Kuzushiji Documents with Seals for Detection and Binarization](https://doi.org/10.1007/s10032-026-00595-5) | Rui-Yang Ju, Kohei Yamashita, Hirotaka Kameko, Shinsuke Mori | Dataset |
+| 6 | [AIKON: a modular computer vision platform for historical corpora](https://doi.org/10.1007/s10032-026-00581-x) | Ségolène Albouy, Somkeo Norindr, Paul Kervegan, Fouad Aouinti, Rémy Delanaux, Clara Grometto, Robin Champenois, Stavros  | Dataset |
+| 7 | [IndianPCL: A Dataset for Multimodal Legal Document Understanding](https://doi.org/10.1007/s10032-026-00601-w) | Sagar Chakraborty, Neeraj Boddeda, Aditya Palakurty, Gaurav Harit, Saptarshi Ghosh | Dataset |
+| 8 | [A study of handwritten text recognition with cross-out words](https://doi.org/10.1007/s10032-026-00603-8) | Gayan H. Pathirage, Simon Corbillé, Filip Wåhlin, Nazrul Islam, Elisa H. Barney Smith | Dataset |
+| 9 | [Large language models for OCR in cultural heritage: a comparative study on Slovene Folkloristic texts](https://doi.org/10.1007/s10032-026-00612-7) | Octavian M. Machidon, Jasmina Rejec, Domen Vreš, Alina L. Machidon | Dataset |
+| 10 | [Benchmarking OCR and vision-language models for Turkish text recognition: a comprehensive evaluation using synthetic data](https://doi.org/10.1007/s10032-026-00613-6) | Yasin Yılmaz, Erol Görkem Hanoğlu, Ayşe Gül Özkan, Kasım Öztoprak | Dataset |
+| 11 | [Literally reading behind the lines: a benchmark for OCR on cluttered printed documents](https://doi.org/10.1007/s10032-026-00615-4) | Rajat Verma, Vriti Sharma, Manikandan Ravikiran, Rohit Saluja, Laxmidhar Behera | Dataset |
+| 12 | [Accurate localization of characters in handwritten words](https://doi.org/10.1007/s10032-026-00611-8) | Said Yasin, Torsten Zesch | Dataset |
+| 13 | [Comic character recognition using graph embedding in graph representations](https://doi.org/10.1007/s10032-025-00568-0) | Nadeem Iqbal Kajla, Malik Muhammad Saad Missen, Maruf Pasha, Mickael Coustaty, Muhammad Muzzamil Luqman, Faiza Belbachir | Method |
+| 14 | [Handwritten text line segmentation with TextSAM: An enhanced segment anything model via multi-module fusion](https://doi.org/10.1007/s10032-025-00567-1) | Yunjie Xiang, Yukai Xian, Xianmu Cairang, Gesang Dorji, Pubu Danzeng, Qijun Zhao | Method |
+| 15 | [Contour thinning for text detection in Mongolian handwritten historical documents](https://doi.org/10.1007/s10032-026-00569-7) | Liuxu Ding, Yuefeng Liu | Method |
+| 16 | [Beyond Accuracy: Understanding Model Confidence in Key Information Extraction with Conformal Prediction](https://doi.org/10.1007/s10032-026-00572-y) | Alexander Rombach, Nijat Mehdiyev | Method |
+| 17 | [An end-to-end malayalam handwritten word spotting framework integrated with automatic annotation](https://doi.org/10.1007/s10032-026-00571-z) | Anitha Mary M. O. Chacko, D Harikrishnan, V J Manoj | Method |
+| 18 | [Full-page recognition and alignment of historical musical documents](https://doi.org/10.1007/s10032-026-00574-w) | Manuel Villarreal, Joan Andreu Sánchez, Daniel Parres | Method |
+| 19 | [Domain Adaptation Based Pipeline for Character Classification and Handwritten Text Recognition](https://doi.org/10.1007/s10032-026-00575-9) | Florent Imbert, Simon Corbillé, Hui Han, Elisa H. Barney Smith | Method |
+| 20 | [A Novel Method for Spotting and Recognizing Texts in Odia ChitraKavyas](https://doi.org/10.1007/s10032-026-00570-0) | Swarupananda Bissoyi, Santosh Kumar Das, Siba Kumar Udgata | Method |
+| 21 | [DR-SigAttack: distribution-relevant signature attack withstands defense mechanisms for offline signature verification](https://doi.org/10.1007/s10032-026-00576-8) | Wei Jia, Lidong Zheng, Jiaen Chen, Mingjian Zhang, Da Wu, Yuchen Zheng | Method |
+| 22 | [Global and sequence-level information maximization for self-supervised scene text recognition](https://doi.org/10.1007/s10032-026-00577-7) | Sungsu Kim, Seoung Bum Kim | Method |
+| 23 | [Predicting text recognition word error rate of image documents without ground truth transcripts](https://doi.org/10.1007/s10032-026-00578-6) | Enrique Vidal, Alejandro H. Toselli | Method |
+| 24 | [HQ-Font: Few-shot Font Generation via Transferring Hierarchical Quantization Styles](https://doi.org/10.1007/s10032-026-00580-y) | Anna Zhu, Wei Pan, Guan Li, Hongyi Cai, Brian Iwana Kenji | Method |
+| 25 | [EMBFN: an efficient multi-scale bidirectional parallel fusion network for answer sheet text analysis](https://doi.org/10.1007/s10032-026-00592-8) | Pengbin Fu, Gaizhi Guo, Yongqiang Song, Huirong Yang | Method |
+| 26 | [Unsupervised document and template clustering using multimodal embeddings](https://doi.org/10.1007/s10032-026-00591-9) | Phillipe R. Sampaio, Helene Maxcici | Method |
+| 27 | [DSRDiff: document image seen-through removal via progressive diffusion models](https://doi.org/10.1007/s10032-026-00594-6) | Zongbao Liang, Jiaxin Gong, Yijie Wang, Jindong Xu | Method |
+| 28 | [Complex Layout Analysis Algorithm in Chinese Ancient Mathematical Books](https://doi.org/10.1007/s10032-026-00584-8) | Haolin Guo, Yanling Li, Jie Dong, Cui Zhang, Maoguo Gong | Method |
+| 29 | [Tableseq: unified generation of structure, content, and layout](https://doi.org/10.1007/s10032-026-00586-6) | Laziz Hamdi, Amine Tamasna, Pascal Boisson, Thierry Paquet | Method |
+| 30 | [Reviving medieval byzantine seals: a synthetic-to-real approach to character recognition](https://doi.org/10.1007/s10032-026-00579-5) | Gianluca Dalmasso, Patric Reineri, Mathieu Pscherer Noel, Ninon Achard, Beatrice Caseau, Laurence Likforman Sulem, David | Method |
+| 31 | [Automatic uncertainty-aware synthetic data bootstrapping for historical map segmentation](https://doi.org/10.1007/s10032-026-00582-w) | Lukas Arzoumanidis, Julius Knechtel, Jan-Henrik Haunert, Youness Dehbi | Method |
+| 32 | [Difficulty-aware multi-scale feature pyramid network for transformer-based offline Chinese handwritten text line recognition](https://doi.org/10.1007/s10032-026-00597-3) | Zechong Yang, Yuxin Wu | Method |
+| 33 | [DARE: A large-scale handwritten DAte REcognition system](https://doi.org/10.1007/s10032-026-00587-5) | Christian M. Dahl, Torben S. D. Johansen, Emil N. Sørensen, Christian E. Westmermann, Simon F. Wittrock | Method |
+| 34 | [PILOT: A promptable interleaved layout-aware OCR transformer](https://doi.org/10.1007/s10032-026-00590-w) | Laziz Hamdi, Amine Tamasna, Pascal Boisson, Thierry Paquet | Method |
+| 35 | [Query-free universal black-box (QF-UBB) attacks against Siamese signature verification systems with Bayesian dictionary learning](https://doi.org/10.1007/s10032-026-00598-2) | Maham Jahangir, Muhammad Riaz-ud-din, Faisal Shafait, Muahammad Imran Malik | Method |
+| 36 | [LayoutGAT: layout-aware handwritten text recognition with graph attention networks](https://doi.org/10.1007/s10032-026-00600-x) | ZhengDong Hou, Yushi Ren, Zhibo Ding | Method |
+| 37 | [APAU-Net: Adaptive prior-aware U-Net for handwritten text-line segmentation in historical documents](https://doi.org/10.1007/s10032-026-00599-1) | Mohamed Amine Beghoura, Abdelouahab Attia, Abderraouf Bouziane, M. Hassaballah | Method |
+| 38 | [Different strokes for different folks: writer identification for historical Arabic manuscripts](https://doi.org/10.1007/s10032-026-00596-4) | Hamza A. Abushahla, Ariel Justine N. Panopio, Layth Al-Khairulla, Mohamed I. AlHajri | Method |
+| 39 | [A document is worth a structured record: Principled inductive bias design for document recognition](https://doi.org/10.1007/s10032-026-00602-9) | Benjamin Meyer, Lukas Tuggener, Sascha Hänzi, Daniel Schmid, Erdal Ayfer, Benjamin F. Grewe, Ahmed Abdulkadir, Thilo Sta | Method |
+| 40 | [Extraction of literal information from clinical document images using deep learning and pattern recognition techniques](https://doi.org/10.1007/s10032-026-00606-5) | Ravichandra Sriram, S. Siva Sathya | Method |
+| 41 | [Handwritten Text Recognition for Historical Latin Manuscripts via Model Adaptation and Synthetic Data Augmentation](https://doi.org/10.1007/s10032-026-00605-6) | Maria Mihaela Trusca, Mark Depauw, Margherita Fantoli, Violet Soen, Ine de Daele, Kevin Verbruggen, Tim Van de Cruys | Method |
+| 42 | [MoCoMER-V2: mask &amp; match for self-supervised attention to recognize handwritten math expression](https://doi.org/10.1007/s10032-026-00610-9) | Sandip Pramanik, Shree Mitra, Ritabrata Chakraborty, Nibaran Das | Method |
+| 43 | [Adversarial Optical Character Recognition to Protect Character Content: A Universal Adversarial Image Generation Scheme](https://doi.org/10.1007/s10032-026-00608-3) | Zigang Chen, Yingrong Liu, Deyang Xie, Zhangqi Wang, Dongfeng Yuan, Haihua Zhu | Method |
+| 44 | [From pixels to strokes: A survey on generative handwriting](https://doi.org/10.1007/s10032-026-00609-2) | Prajakta Joshi, Yash Madhukar Patil, Saptarshi Saha, David Doermann | Method |
+| 45 | [Structure-centric representation learning for fine-grained sketch-based image retrieval](https://doi.org/10.1007/s10032-026-00614-5) | Mohammed A. S. Al-mohamadi, C. J. Prabhakar | Method |
+| 46 | [Connector and multi-level adapter based approach for scene text detection and recognition](https://doi.org/10.1007/s10032-026-00616-3) | Hai-Sheng Li, Qiuyi Li, Shuxiang Song, Cong Hu, Xiaohu Tang | Method |
+| 47 | [Leveraging principal component analysis and machine learning on hyperspectral images band-fusion for writer identification](https://doi.org/10.1007/s10032-026-00617-2) | Muhammad Moin Qasim, Saeed Mian Qaisar, Khurram Khurshid | Method |
+| 48 | [DocDjinn: controllable synthetic document generation with VLMs and handwriting diffusion](https://doi.org/10.1007/s10032-026-00604-7) | Marcel Lamott, Saifullah Saifullah, Nauman Riaz, Yves-Noel Weweler, Tobias Alt-Veit, Ahmad Sarmad Ali, Muhammad Armaghan | Method |
+| 49 | [Trace the scribbles: a text restoration and artifact correction network for child handwriting enhancement](https://doi.org/10.1007/s10032-026-00618-1) | Sumi Suresh Mini Suresh, Sahana Rangasrinivasan, Abbie Olszewski, Srirangaraj Setlur, Venu Govindaraju | Method |
+
+Parts: **1**
