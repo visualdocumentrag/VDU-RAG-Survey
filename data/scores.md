@@ -21,7 +21,7 @@ Raw file: [`scores.csv`](scores.csv) · [Back to README](../README.md)
 |[ReAlign](https://doi.org/10.1145/3805712.3809602)|realign2026sigir|T064|Average nDCG@5 on six VisRAG evaluation sets: 75.4 (Phi-3-V, pre-trained)|
 |[HEAVEN](https://aclanthology.org/2026.findings-acl.54/)|hybridvector2025|T071|ViDoSeek R@1: 75.04|
 |[SV-RAG](https://openreview.net/forum?id=FDaHjwInXO)|chensvrag2025|T110|Accuracy (%): MMLongBench-Doc 23.0 (InternVL2 reader)|
-|[MDocAgent](https://arxiv.org/abs/2503.13964)|han2025mdocagent|T219|Accuracy (%), best reported setting: MMLongBench-Doc 31.5, LongDocURL 57.8, PaperTab 27.8, PaperText 48.7, FetaTab 67.5|
+|[MDocAgent](https://arxiv.org/pdf/2503.13964)|han2025mdocagent|T219|Accuracy (%), best reported setting: MMLongBench-Doc 31.5, LongDocURL 57.8, PaperTab 27.8, PaperText 48.7, FetaTab 67.5|
 |[CMRAG](https://arxiv.org/abs/2509.02123)|cmrag2025|T127|Accuracy (%): MMLongBench-Doc 31.05; LongDocURL (filtered subset) 48.18 (top-3)|
 |[ALDEN](https://aclanthology.org/2026.acl-long.611/)|alden2026acl|T247/T248|Accuracy (%): MMLongBench-Doc 38.5, LongDocURL 54.2, DUDE subset 65.3|
 |[Doc-V*](https://aclanthology.org/2026.acl-long.2129/)|docvstar2026acl|T253|Accuracy (%): MMLongBench-Doc 42.1; LongDocURL 56.3 (Qwen2.5-VL, GRPO)|
@@ -32,5 +32,5 @@ Raw file: [`scores.csv`](scores.csv) · [Back to README](../README.md)
 |[DocLens](https://aclanthology.org/2026.acl-long.1234/)|zhu2025doclens|T233|Accuracy (%): MMLongBench-Doc 67.6 (Gemini-2.5-Pro reader)|
 |[SCoPE VLM](https://aclanthology.org/2026.eacl-long.6/)|scopevlm2026eacl|T209/T213|MMLongBench-Doc ANLS: 17.90 (3B, EGRPO)|
 |[VisDoMRAG](https://scholar.google.com/scholar?q=VisDoM%3A+Multi-Document+QA+with+Visually+Rich+Elements+Using+Multimodal+Retrieval-Augmented+Generation)|suri2025visdom|T122|VisDoMBench: PaperTab 44.11, FetaTab 63.28, SlideVQA 67.22|
-|[HKRAG](https://arxiv.org/abs/2511.20227)|hkrag2025|T147|OpenDocVQA setting: SlideVQA 74.0, DUDE 68.8|
+|[HKRAG](https://arxiv.org/pdf/2511.20227)|hkrag2025|T147|OpenDocVQA setting: SlideVQA 74.0, DUDE 68.8|
 |[SlideAgent](https://doi.org/10.18653/v1/2026.acl-long.677)|jin2025slideagent|T224|SlideVQA overall: 84.9 (proprietary reader)|

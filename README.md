@@ -32,7 +32,7 @@ Newly added to the survey from the 2025-2026 venue lists:
 * [CVPR 2026] Evo-Retriever: LLM-Guided Curriculum Evolution with Viewpoint-Pathway Collaboration for Multimodal Document Retrieval [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Evo-Retriever_LLM-Guided_Curriculum_Evolution_with_Viewpoint-Pathway_Collaboration_for_Multimodal_Document_CVPR_2026_paper.html)]
 * [SIGIR 2026] Attention Grounded Enhancement for Visual Document Retrieval [[Paper](https://doi.org/10.1145/3805712.3809532)][[Code](https://github.com/VickiCui/AGREE)]
 * [SIGIR 2026] ReAlign: Optimizing the Visual Document Retriever with Reasoning-Guided Fine-Grained Alignment [[Paper](https://doi.org/10.1145/3805712.3809602)][[Code](https://github.com/NEUIR/ReAlign)]
-* [EMNLP 2025] LILaC: Late Interacting in Layered Component Graph for Open-domain Multimodal Multihop Retrieval [[Paper](https://aclanthology.org/2025.emnlp-main.1037/)]
+* [EMNLP 2025] LILaC: Late Interacting in Layered Component Graph for Open-domain Multimodal Multihop Retrieval [[Paper](https://aclanthology.org/2025.emnlp-main.1037/)][[Code](https://github.com/joohyung00/lilac)]
 * [ICML 2025] POQD: Performance-Oriented Query Decomposer for Multi-vector retrieval [[Paper](https://proceedings.mlr.press/v267/liu25ag.html)][[Code](https://github.com/PKU-SDS-lab/POQD-ICML25)]
 
 #### New in Index Compression and Efficiency
@@ -40,16 +40,16 @@ Newly added to the survey from the 2025-2026 venue lists:
 * [ECCV 2026] LightSTAR: Efficient Visual Document Retrieval via Lightweight Selection with Vision-Adaptive Refinement [[Paper](https://eccv.ecva.net/virtual/2026/poster/4839)][[Code](https://github.com/bokufa/LightSTAR)]
 * [SIGIR 2026] Visual RAG at Scale: Tile-Level Spatial Pooling for Efficient Multi-Vector Document Retrieval [[Paper](https://doi.org/10.1145/3805712.3808383)]
 * [ECCV 2026] Unbalanced Optimal Transport for Efficient Visual Document Retrieval [[Paper](https://eccv.ecva.net/virtual/2026/poster/4715)][[Code](https://github.com/shhhhhyy/Unbalanced-Optimal-Transport-for-EVDR)]
-* [SIGIR 2026] Multi-Vector Index Compression in Any Modality [[Paper](https://doi.org/10.1145/3805712.3809589)]
+* [SIGIR 2026] Multi-Vector Index Compression in Any Modality [[Paper](https://doi.org/10.1145/3805712.3809589)][[Code](https://github.com/hanxiangqin/omni-col-press)]
 * [ACL 2025] Towards Storage-Efficient Visual Document Retrieval: An Empirical Study on Reducing Patch-Level Embeddings [[Paper](https://aclanthology.org/2025.findings-acl.1003/)]
 
 #### New in End-to-end Visual RAG
-* [AAAI 2026] URaG: Unified Retrieval and Generation in Multimodal LLMs for Efficient Long Document Understanding [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/39729)]
-* [CVPR 2026] RobustVisRAG: Causality-Aware Vision-Based Retrieval-Augmented Generation under Visual Degradations [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_RobustVisRAG_Causality-Aware_Vision-Based_Retrieval-Augmented_Generation_under_Visual_Degradations_CVPR_2026_paper.html)]
+* [AAAI 2026] URaG: Unified Retrieval and Generation in Multimodal LLMs for Efficient Long Document Understanding [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/39729)][[Code](https://github.com/shi-yx/URaG)]
+* [CVPR 2026] RobustVisRAG: Causality-Aware Vision-Based Retrieval-Augmented Generation under Visual Degradations [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_RobustVisRAG_Causality-Aware_Vision-Based_Retrieval-Augmented_Generation_under_Visual_Degradations_CVPR_2026_paper.html)][[Code](https://robustvisrag.github.io/)]
 * [ECCV 2026] MG2-RAG: Multi-Granularity Graph for Multimodal Retrieval-Augmented Generation [[Paper](https://eccv.ecva.net/virtual/2026/poster/3411)][[Code](https://github.com/Daboolu/MG2-RAG)]
 * [CVPR 2026] M3DocDep: Multi-modal, Multi-page, Multi-document Dependency Chunking with Large Vision-Language Models [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Shin_M3DocDep_Multi-modal_Multi-page_Multi-document_Dependency_Chunking_with_Large_Vision-Language_Models_CVPR_2026_paper.html)]
 * [KDD 2026] Multi-Modal Hierarchical Retrieval-Augmented Generation for Document Question Answering [[Paper](https://doi.org/10.1145/3770855.3819034)]
-* [SIGIR 2026] Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation [[Paper](https://doi.org/10.1145/3805712.3809716)]
+* [SIGIR 2026] Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation [[Paper](https://doi.org/10.1145/3805712.3809716)][[Code](https://github.com/SnowNation101/Nyx)]
 * [NeurIPS 2025] VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning [[Paper](https://openreview.net/forum?id=EeAHhNwXPV)][[Code](https://github.com/Alibaba-NLP/VRAG)]
 * [ICML 2025] Retrieval-Augmented Perception: High-resolution Image Perception Meets Visual RAG [[Paper](https://proceedings.mlr.press/v267/wang25at.html)][[Code](https://github.com/DreamMr/RAP)]
 * [EMNLP 2025] SimpleDoc: Multi‐Modal Document Understanding with Dual‐Cue Page Retrieval and Iterative Refinement [[Paper](https://aclanthology.org/2025.emnlp-main.1443/)][[Code](https://github.com/ag2ai/SimpleDoc)]
@@ -61,7 +61,7 @@ Newly added to the survey from the 2025-2026 venue lists:
 * [AAAI 2026] Look as You Think: Unifying Reasoning and Visual Evidence Attribution for Verifiable Document RAG via Reinforcement Learning [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/40488)]
 * [SIGIR 2026] Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation [[Paper](https://doi.org/10.1145/3805712.3809540)][[Code](https://github.com/PeiYangLiu/CoE)]
 * [SIGIR 2026] Purifying Multimodal Retrieval: Fragment-Level Evidence Selection for RAG [[Paper](https://doi.org/10.1145/3805712.3809692)]
-* [SIGIR 2026] MEG-RAG: Quantifying Multi-modal Evidence Grounding for Evidence Selection in RAG [[Paper](https://doi.org/10.1145/3805712.3809947)]
+* [SIGIR 2026] MEG-RAG: Quantifying Multi-modal Evidence Grounding for Evidence Selection in RAG [[Paper](https://doi.org/10.1145/3805712.3809947)][[Code](https://anonymous.4open.science/r/anonym-9QM02BD/README.md)]
 * [SIGIR 2026] Good Ranks Follow Good Answers: Unsupervised Answer-Driven Reranking for Multimodal Document QA [[Paper](https://doi.org/10.1145/3805712.3809664)]
 * [ACL 2026] Utility-Oriented Visual Evidence Selection for Multimodal Retrieval-Augmented Generation [[Paper](https://aclanthology.org/2026.acl-long.1620/)][[Code](https://github.com/Hcnaeg/utility-mrag)]
 * [EACL 2026] SCoPE VLM: Selective Context Processing for Efficient Document Navigation in Vision-Language Models [[Paper](https://aclanthology.org/2026.eacl-long.6/)]
@@ -74,7 +74,7 @@ Newly added to the survey from the 2025-2026 venue lists:
 * [ACL 2026] ALDEN: Reinforcement Learning for Active Navigation and Evidence Gathering in Long Documents [[Paper](https://aclanthology.org/2026.acl-long.611/)]
 * [ACL 2026] MDocRAG-RL: Empowering Multi-Modal Document RAG via Complex Visual Reasoning with Reinforcement Learning [[Paper](https://aclanthology.org/2026.findings-acl.420/)]
 * [ACL 2026] MM-Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning [[Paper](https://aclanthology.org/2026.findings-acl.1488/)]
-* [ACL 2026] Doc-V*: Coarse-to-Fine Interactive Visual Reasoning for Multi-Page Document VQA [[Paper](https://aclanthology.org/2026.acl-long.2129/)]
+* [ACL 2026] Doc-V*: Coarse-to-Fine Interactive Visual Reasoning for Multi-Page Document VQA [[Paper](https://aclanthology.org/2026.acl-long.2129/)][[Code](https://github.com/SeerRay-Lab/Doc-V)]
 
 ## Abstract
 
@@ -183,7 +183,7 @@ Channel coverage of each benchmark is in [pages/datasets.md](pages/datasets.md) 
 |[PubTables-1M](https://scholar.google.com/scholar?q=PubTables-1M%3A+Towards+Comprehensive+Table+Extraction+from+Unstructured+Documents)|CVPR|2022|-|-|EN|Tab|GriTS|[Project](https://github.com/microsoft/table-transformer)|
 |[UniMER](https://openaccess.thecvf.com/content/CVPR2026/html/Gu_UniMERNet_A_Universal_Network_for_Real-World_Mathematical_Expression_Recognition_CVPR_2026_paper.html)|CVPR|2026|-|-|-|Eqn|-|[Project](https://github.com/opendatalab/UniMERNet)|
 |[SPODS](https://doi.org/10.1007/978-3-319-68124-5_19)|ICVGIP-W|2017|-|-|-|Stp|-|[Project](https://facweb.iitkgp.ac.in/~jay/spods/index.html)|
-|[ReST](https://scholar.google.com/scholar?q=ICDAR+2023+Competition+on+Reading+the+Seal+Title)|ICDAR|2023|-|-|ZH|Stp|-|-|
+|[ReST](https://arxiv.org/pdf/2304.11966)|ICDAR|2023|-|-|ZH|Stp|-|-|
 |[DKDS](https://doi.org/10.1007/s10032-026-00595-5)|IJDAR|2026|-|-|JA|Stp|-|[Project](https://github.com/RuiyangJu/DKDS)|
 |[TexTAR](https://doi.org/10.1007/978-3-032-04614-7_16)|ICDAR|2025|-|-|multi|Txt, Typ|-|[Project](https://github.com/tex-tar/tex-tar)|
 
@@ -257,7 +257,7 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |[Any Information Is Just Worth One Single Screenshot: Unifying Search with Visualized Information Retrieval](https://aclanthology.org/2025.acl-long.943/)|ACL 2025|-|
 |[VisRAG 2.0: Evidence-Guided Multi-Image Reasoning in Visual Retrieval-Augmented Generation](https://arxiv.org/abs/2510.09733)|arXiv 2025|[Code](https://github.com/OpenBMB/VisRAG)|
 |[GlobalDoc: A Cross-Modal Vision-Language Framework for Real-World Document Image Retrieval and Classification](https://openaccess.thecvf.com/content/WACV2025/html/Bakkali_GlobalDoc_A_Cross-Modal_Vision-Language_Framework_for_Real-World_Document_Image_Retrieval_WACV_2025_paper.html)|WACV 2025|-|
-|[Unifying Multimodal Retrieval via Document Screenshot Embedding](https://scholar.google.com/scholar?q=Unifying+Multimodal+Retrieval+via+Document+Screenshot+Embedding)|EMNLP 2024|-|
+|[Unifying Multimodal Retrieval via Document Screenshot Embedding](https://arxiv.org/pdf/2406.11251)|EMNLP 2024|-|
 
 ### Late Interaction
 
@@ -272,9 +272,9 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |[ColMate: Contrastive Late Interaction and Masked Text for Multimodal Document Retrieval](https://aclanthology.org/2025.emnlp-industry.145/)|EMNLP 2025|-|
 |[ColFlor: Towards BERT-Size Vision-Language Document Retrieval Models](https://scholar.google.com/scholar?q=ColFlor%3A+Towards+BERT-Size+Vision-Language+Document+Retrieval+Models)|MLSP 2025|[Code](https://github.com/AhmedMasryKU/colflor)|
 |[ColPali: Efficient Document Retrieval with Vision Language Models](https://openreview.net/forum?id=ogjBpZ8uSi)|ICLR 2025|[Code](https://github.com/illuin-tech/colpali)|
-|[VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents](https://arxiv.org/abs/2507.04590)|arXiv 2025|-|
+|[VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents](https://arxiv.org/abs/2507.04590)|arXiv 2025|[Code](https://tiger-ai-lab.github.io/VLM2Vec/)|
 |[Serval: Surprisingly Effective Zero-Shot Visual Document Retrieval Powered by Large Vision and Language Models](https://aclanthology.org/2025.emnlp-main.1568/)|EMNLP 2025|[Code](https://github.com/thongnt99/serval)|
-|[LILaC: Late Interacting in Layered Component Graph for Open-domain Multimodal Multihop Retrieval](https://aclanthology.org/2025.emnlp-main.1037/)|EMNLP 2025|-|
+|[LILaC: Late Interacting in Layered Component Graph for Open-domain Multimodal Multihop Retrieval](https://aclanthology.org/2025.emnlp-main.1037/)|EMNLP 2025|[Code](https://github.com/joohyung00/lilac)|
 |[POQD: Performance-Oriented Query Decomposer for Multi-vector retrieval](https://proceedings.mlr.press/v267/liu25ag.html)|ICML 2025|[Code](https://github.com/PKU-SDS-lab/POQD-ICML25)|
 
 ### Index Compression and Efficiency
@@ -286,7 +286,7 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |[LightSTAR: Efficient Visual Document Retrieval via Lightweight Selection with Vision-Adaptive Refinement](https://eccv.ecva.net/virtual/2026/poster/4839)|ECCV 2026|[Code](https://github.com/bokufa/LightSTAR)|
 |[Visual RAG at Scale: Tile-Level Spatial Pooling for Efficient Multi-Vector Document Retrieval](https://doi.org/10.1145/3805712.3808383)|SIGIR 2026|-|
 |[Unbalanced Optimal Transport for Efficient Visual Document Retrieval](https://eccv.ecva.net/virtual/2026/poster/4715)|ECCV 2026|[Code](https://github.com/shhhhhyy/Unbalanced-Optimal-Transport-for-EVDR)|
-|[Multi-Vector Index Compression in Any Modality](https://doi.org/10.1145/3805712.3809589)|SIGIR 2026|-|
+|[Multi-Vector Index Compression in Any Modality](https://doi.org/10.1145/3805712.3809589)|SIGIR 2026|[Code](https://github.com/hanxiangqin/omni-col-press)|
 |[Towards Storage-Efficient Visual Document Retrieval: An Empirical Study on Reducing Patch-Level Embeddings](https://aclanthology.org/2025.findings-acl.1003/)|ACL 2025|-|
 
 ### End-to-end Visual RAG
@@ -294,12 +294,12 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |Paper|Published in|Code/Project|
 |---|:-:|:-:|
 |[M3DocDep: Multi-modal, Multi-page, Multi-document Dependency Chunking with Large Vision-Language Models](https://openaccess.thecvf.com/content/CVPR2026/html/Shin_M3DocDep_Multi-modal_Multi-page_Multi-document_Dependency_Chunking_with_Large_Vision-Language_Models_CVPR_2026_paper.html)|CVPR 2026|-|
-|[URaG: Unified Retrieval and Generation in Multimodal LLMs for Efficient Long Document Understanding](https://ojs.aaai.org/index.php/AAAI/article/view/39729)|AAAI 2026|-|
+|[URaG: Unified Retrieval and Generation in Multimodal LLMs for Efficient Long Document Understanding](https://ojs.aaai.org/index.php/AAAI/article/view/39729)|AAAI 2026|[Code](https://github.com/shi-yx/URaG)|
 |[HiKEY: Hierarchical Multimodal Retrieval for Open-Domain Document Question Answering](https://aclanthology.org/2026.acl-long.818/)|ACL 2026|-|
-|[CMRAG: Co-modality-based Visual Document Retrieval and Question Answering](https://arxiv.org/abs/2509.02123)|ICLRW 2026|[Code](https://github.com/ChenWangHKU/CMRAG)|
+|[CMRAG: Co-modality-based Visual Document Retrieval and Question Answering](https://arxiv.org/abs/2509.02123)|ICLRW 2026|[Code](https://github.com/WangWarrenChen/CMRAG)|
 |[Multi-Modal Hierarchical Retrieval-Augmented Generation for Document Question Answering](https://doi.org/10.1145/3770855.3819034)|KDD 2026|-|
-|[Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation](https://doi.org/10.1145/3805712.3809716)|SIGIR 2026|-|
-|[RobustVisRAG: Causality-Aware Vision-Based Retrieval-Augmented Generation under Visual Degradations](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_RobustVisRAG_Causality-Aware_Vision-Based_Retrieval-Augmented_Generation_under_Visual_Degradations_CVPR_2026_paper.html)|CVPR 2026|-|
+|[Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation](https://doi.org/10.1145/3805712.3809716)|SIGIR 2026|[Code](https://github.com/SnowNation101/Nyx)|
+|[RobustVisRAG: Causality-Aware Vision-Based Retrieval-Augmented Generation under Visual Degradations](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_RobustVisRAG_Causality-Aware_Vision-Based_Retrieval-Augmented_Generation_under_Visual_Degradations_CVPR_2026_paper.html)|CVPR 2026|[Code](https://robustvisrag.github.io/)|
 |[MG2-RAG: Multi-Granularity Graph for Multimodal Retrieval-Augmented Generation](https://eccv.ecva.net/virtual/2026/poster/3411)|ECCV 2026|[Code](https://github.com/Daboolu/MG2-RAG)|
 |[DocAgent: An Agentic Framework for Multi-Modal Long-Context Document Understanding](https://doi.org/10.18653/v1/2025.emnlp-main.893)|EMNLP 2025|[Code](https://github.com/lisun-ai/DocAgent)|
 |[VDocRAG: Retrieval-Augmented Generation over Visually-Rich Documents](https://openaccess.thecvf.com/content/CVPR2025/html/Tanaka_VDocRAG_Retrieval-Augmented_Generation_over_Visually-Rich_Documents_CVPR_2025_paper.html)|CVPR 2025|[Code](https://vdocrag.github.io/)|
@@ -308,7 +308,7 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |[Retrieval-Augmented Perception: High-resolution Image Perception Meets Visual RAG](https://proceedings.mlr.press/v267/wang25at.html)|ICML 2025|[Code](https://github.com/DreamMr/RAP)|
 |[VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning](https://openreview.net/forum?id=EeAHhNwXPV)|NeurIPS 2025|[Code](https://github.com/Alibaba-NLP/VRAG)|
 |[MoLoRAG: Bootstrapping Document Understanding via Multi-modal Logic-aware Retrieval](https://aclanthology.org/2025.emnlp-main.708/)|EMNLP 2025|[Code](https://github.com/WxxShirley/MoLoRAG)|
-|[HKRAG: Holistic Knowledge Retrieval-Augmented Generation over Visually-Rich Documents](https://arxiv.org/abs/2511.20227)|arXiv 2025|-|
+|[HKRAG: Holistic Knowledge Retrieval-Augmented Generation over Visually-Rich Documents](https://arxiv.org/pdf/2511.20227)|arXiv 2025|-|
 |[VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation](https://scholar.google.com/scholar?q=VisDoM%3A+Multi-Document+QA+with+Visually+Rich+Elements+Using+Multimodal+Retrieval-Augmented+Generation)|NAACL 2025|[Code](https://github.com/MananSuri27/VisDoM)|
 |[SimpleDoc: Multi‐Modal Document Understanding with Dual‐Cue Page Retrieval and Iterative Refinement](https://aclanthology.org/2025.emnlp-main.1443/)|EMNLP 2025|[Code](https://github.com/ag2ai/SimpleDoc)|
 |[NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering](https://aclanthology.org/2025.acl-long.311/)|ACL 2025|-|
@@ -325,7 +325,7 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |[LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document Understanding](https://aclanthology.org/2026.acl-long.724/)|ACL 2026|-|
 |[Beyond the Grid: Layout-Informed Multi-Vector Retrieval with Parsed Visual Document Representations](https://arxiv.org/abs/2603.01666)|arXiv 2026|-|
 |[SCAN: Semantic Document Layout Analysis for Textual and Visual Retrieval-Augmented Generation](https://aclanthology.org/2026.findings-eacl.82/)|EACL 2026|-|
-|[MEG-RAG: Quantifying Multi-modal Evidence Grounding for Evidence Selection in RAG](https://doi.org/10.1145/3805712.3809947)|SIGIR 2026|-|
+|[MEG-RAG: Quantifying Multi-modal Evidence Grounding for Evidence Selection in RAG](https://doi.org/10.1145/3805712.3809947)|SIGIR 2026|[Code](https://anonymous.4open.science/r/anonym-9QM02BD/README.md)|
 |[Look as You Think: Unifying Reasoning and Visual Evidence Attribution for Verifiable Document RAG via Reinforcement Learning](https://ojs.aaai.org/index.php/AAAI/article/view/40488)|AAAI 2026|-|
 |[Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation](https://doi.org/10.1145/3805712.3809540)|SIGIR 2026|[Code](https://github.com/PeiYangLiu/CoE)|
 |[Purifying Multimodal Retrieval: Fragment-Level Evidence Selection for RAG](https://doi.org/10.1145/3805712.3809692)|SIGIR 2026|-|
@@ -338,9 +338,9 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 
 |Paper|Published in|Code/Project|
 |---|:-:|:-:|
-|[SlideAgent: Hierarchical Agentic Framework for Multi-Page Visual Document Understanding](https://doi.org/10.18653/v1/2026.acl-long.677)|ACL 2026|-|
+|[SlideAgent: Hierarchical Agentic Framework for Multi-Page Visual Document Understanding](https://doi.org/10.18653/v1/2026.acl-long.677)|ACL 2026|[Code](https://slideagent.github.io/)|
 |[MARDoc: A Memory-Aware Refinement Agent Framework for Multimodal Long Document QA](https://arxiv.org/abs/2606.05749)|arXiv 2026|-|
-|[DocLens: A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding](https://aclanthology.org/2026.acl-long.1234/)|ACL 2026|-|
+|[DocLens: A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding](https://aclanthology.org/2026.acl-long.1234/)|ACL 2026|[Code](https://dwzhu-pku.github.io/DocLens/)|
 |[MARS-RL: Enhancing Multi-Agent RAG Systems for Multi-Modal Documents via Strategic Reasoning with Reinforcement Learning](https://openaccess.thecvf.com/content/CVPR2026F/html/Wang_MARS-RL_Enhancing_Multi-Agent_RAG_Systems_for_Multi-Modal_Documents_via_Strategic_CVPRF_2026_paper.html)|CVPR 2026 Findings|-|
 |[MMAgent-R2: Learning to Rerank and Reject for Agentic mRAG](https://eccv.ecva.net/virtual/2026/poster/4250)|ECCV 2026|-|
 |[ALDEN: Reinforcement Learning for Active Navigation and Evidence Gathering in Long Documents](https://aclanthology.org/2026.acl-long.611/)|ACL 2026|-|
@@ -348,8 +348,8 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |[Resolving Evidence Sparsity: Agentic Context Engineering for Long-Document Understanding](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Resolving_Evidence_Sparsity_Agentic_Context_Engineering_for_Long-Document_Understanding_CVPR_2026_paper.html)|CVPR 2026|-|
 |[TRACE: Traversal Retrieval-Augmented Chain of Evidence for Document Understanding](https://aclanthology.org/2026.acl-long.445/)|ACL 2026|[Code](https://github.com/shimurenhlq/TRACE)|
 |[MM-Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning](https://aclanthology.org/2026.findings-acl.1488/)|ACL 2026|-|
-|[Doc-V*: Coarse-to-Fine Interactive Visual Reasoning for Multi-Page Document VQA](https://aclanthology.org/2026.acl-long.2129/)|ACL 2026|-|
-|[MDocAgent: A Multi-Modal Multi-Agent Framework for Document Understanding](https://arxiv.org/abs/2503.13964)|arXiv 2025|[Code](https://github.com/aiming-lab/MDocAgent)|
+|[Doc-V*: Coarse-to-Fine Interactive Visual Reasoning for Multi-Page Document VQA](https://aclanthology.org/2026.acl-long.2129/)|ACL 2026|[Code](https://github.com/SeerRay-Lab/Doc-V)|
+|[MDocAgent: A Multi-Modal Multi-Agent Framework for Document Understanding](https://arxiv.org/pdf/2503.13964)|arXiv 2025|[Code](https://github.com/aiming-lab/MDocAgent)|
 |[ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents](https://aclanthology.org/2025.emnlp-main.464/)|EMNLP 2025|[Code](https://github.com/Alibaba-NLP/ViDoRAG)|
 
 ## Metrics and Reported Scores

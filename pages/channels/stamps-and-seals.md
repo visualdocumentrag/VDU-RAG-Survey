@@ -13,7 +13,7 @@ Impressions marking authority, receipt or validity, printed on top of other cont
 ## Benchmarks that annotate this channel
 
 - [SPODS](https://doi.org/10.1007/978-3-319-68124-5_19) (2017)
-- [ReST](https://scholar.google.com/scholar?q=ICDAR+2023+Competition+on+Reading+the+Seal+Title) (2023)
+- [ReST](https://arxiv.org/pdf/2304.11966) (2023)
 - [DKDS](https://doi.org/10.1007/s10032-026-00595-5) (2026)
 
 ## Benchmarks where the channel is present but not annotated
@@ -26,7 +26,7 @@ Impressions marking authority, receipt or validity, printed on top of other cont
 |---|---|---|
 |[Signature Segmentation from Machine Printed Documents Using Conditional Random Field](https://doi.org/10.1109/ICDAR.2011.236)|Proc. Int. Conf. Document Analysis and Recognition (ICDAR)|2011|
 |[Logo and Seal Based Administrative Document Image Retrieval: A Survey](https://doi.org/10.1016/j.cosrev.2016.09.002)|Computer Science Review|2016|
-|[ICDAR 2023 Competition on Reading the Seal Title](https://scholar.google.com/scholar?q=ICDAR+2023+Competition+on+Reading+the+Seal+Title)|Proc. Int. Conf. Document Analysis and Recognition (ICDAR)|2023|
+|[ICDAR 2023 Competition on Reading the Seal Title](https://arxiv.org/pdf/2304.11966)|Proc. Int. Conf. Document Analysis and Recognition (ICDAR)|2023|
 |[Mask-Guided Stamp Erasure for Real Document Image](https://doi.org/10.1109/ICME55011.2023.00281)|Proc. IEEE Int. Conf. Multimedia and Expo (ICME)|2023|
 |[Seal Imprint Verification Using SVM Classifier and Unmatched Key Point Features](https://doi.org/10.1109/ICSIP52628.2021.9688941)|Proc. IEEE Int. Conf. Signal and Image Processing (ICSIP)|2021|
 |[SPODS: A Dataset of Color-Official Documents and Detection of Logo, Stamp, and Signature](https://doi.org/10.1007/978-3-319-68124-5_19)|Proc. ICVGIP Satellite Workshops|2017|

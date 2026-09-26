@@ -8,11 +8,11 @@ No,Family,Method,Venue,Objective,Index,Unit,Benchmarks,Contribution,Code,BibKey,
 7,Late interaction (many vectors per page),ColFlor,MLSP'25,Small retriever,multi,page,,BERT-size retriever.,https://github.com/AhmedMasryKU/colflor,masry2025colflor,
 8,Late interaction (many vectors per page),ColMate,EMNLP'25,Retriever training,multi,page,"ViDoRe, ViDoRe V2",Document-adapted training objective.,,masry2025colmate,
 9,Late interaction (many vectors per page),ModernVBERT,ICML'26,Small retriever,,,ViDoRe,Compact bidirectional encoder.,https://github.com/illuin-tech/modernvbert,teiletche2025modernvbert,
-10,Late interaction (many vectors per page),VLM2Vec-V2,arXiv'25,General embedding,,,"ViDoRe, MMEB, MMLongBench-Doc, ViDoSeek, InfoVQA, ChartQA",General multimodal embedder.,,meng2025vlm2vecv2,
+10,Late interaction (many vectors per page),VLM2Vec-V2,arXiv'25,General embedding,,,"ViDoRe, MMEB, MMLongBench-Doc, ViDoSeek, InfoVQA, ChartQA",General multimodal embedder.,https://tiger-ai-lab.github.io/VLM2Vec/,meng2025vlm2vecv2,
 11,Late interaction (many vectors per page),Serval,EMNLP'25,Zero-shot retrieval,,,"ViDoRe, MIRACL-Vision","Zero-shot, no task-specific training.",https://github.com/thongnt99/serval,nguyen2025serval,
 12,Late interaction (many vectors per page),MetaEmbed,ICLR'26,Adaptive cost,"multi, adaptive",page,"MMEB, ViDoRe, ViDoRe V2",Test-time choice of vector count.,https://github.com/facebookresearch/MetaEmbed,xiaometaembed2026,
 13,Late interaction (many vectors per page),Nemotron ColEmbed,arXiv'26,Page retrieval,multi,page,"ViDoRe V3, ViDoRe, MIRACL-Vision",Industrial report.,,moreira2026nemotroncolembed,
-14,Late interaction (many vectors per page),LILaC,EMNLP'25,Multihop retrieval,multi,,"SlideVQA, MP-DocVQA, InfoVQA","Late interaction over a layered component graph, multihop.",,lilac2025emnlp,yes
+14,Late interaction (many vectors per page),LILaC,EMNLP'25,Multihop retrieval,multi,,"SlideVQA, MP-DocVQA, InfoVQA","Late interaction over a layered component graph, multihop.",https://github.com/joohyung00/lilac,lilac2025emnlp,yes
 15,Late interaction (many vectors per page),Evo-Retriever,CVPR'26,Retriever training,,,"ViDoRe V2, MMEB, ViDoRe",LLM-guided curriculum for multimodal document retrieval.,,evoretriever2026cvpr,yes
 16,Late interaction (many vectors per page),ReAlign,SIGIR'26,Retriever training,,,"DocVQA, InfoVQA, SlideVQA, ChartQA, ArxivQA, VisualMRC",Reasoning-guided fine-grained alignment of the retriever.,https://github.com/NEUIR/ReAlign,realign2026sigir,yes
 17,Late interaction (many vectors per page),AGREE,SIGIR'26,Retriever training,,,"ViDoRe, ViDoRe V2",Attention-grounded enhancement of visual document retrieval.,https://github.com/VickiCui/AGREE,agree2026sigir,yes
@@ -23,26 +23,26 @@ No,Family,Method,Venue,Objective,Index,Unit,Benchmarks,Contribution,Code,BibKey,
 22,Index compression and efficiency,LightSTAR,ECCV'26,Efficiency,,,ViDoRe,Lightweight selection with vision-adaptive refinement.,https://github.com/bokufa/LightSTAR,lightstar2026eccv,yes
 23,Index compression and efficiency,UOT-VDR,ECCV'26,Efficiency,,,ViDoRe,Unbalanced optimal transport for efficient matching.,https://github.com/shhhhhyy/Unbalanced-Optimal-Transport-for-EVDR,uotvdr2026eccv,yes
 24,Index compression and efficiency,Tile-level pooling,SIGIR'26,Index size,"multi, pooled",page,,Spatial pooling of patch vectors into tiles.,,tilepool2026sigir,yes
-25,Index compression and efficiency,MV index compression,SIGIR'26,Index size,"multi, compressed",,"ViDoRe, ViDoRe V2",Multi-vector index compression across modalities.,,mvcompress2026sigir,yes
+25,Index compression and efficiency,MV index compression,SIGIR'26,Index size,"multi, compressed",,"ViDoRe, ViDoRe V2",Multi-vector index compression across modalities.,https://github.com/hanxiangqin/omni-col-press,mvcompress2026sigir,yes
 26,End-to-end visual RAG,M3DocRAG,ICCVW'25,Multi-doc QA,multi,page,"M3DocVQA, MMLongBench-Doc, MP-DocVQA","Multi-page, multi-document RAG.",https://github.com/bloomberg/m3docrag,cho2024m3docvqa,
 27,End-to-end visual RAG,SV-RAG,ICLR'25,Long-doc QA,,,"MMLongBench-Doc, SlideVQA, VisR-Bench, DocVQA, DUDE",Adapts the reader as retriever.,https://github.com/puar-playground/Self-Visual-RAG,chensvrag2025,
 28,End-to-end visual RAG,VDocRAG,CVPR'25,Retrieval + QA,single,page,"OpenDocVQA, InfoVQA, SlideVQA, ChartQA, DocVQA, DUDE",One image format for retrieval and QA.,https://vdocrag.github.io/,tanakavdocrag2025,
 29,End-to-end visual RAG,DocAgent,EMNLP'25,Long-doc QA,,,,Outline-guided agents for long documents.,https://github.com/lisun-ai/DocAgent,sun2025docagent,
 30,End-to-end visual RAG,VisDoMRAG,NAACL'25,Multi-doc QA,text + visual,"chunk, page","PaperTab, SPIQA, VisDoMBench, FetaTab, SlideVQA, LongBench",Text and visual paths made to agree.,https://github.com/MananSuri27/VisDoM,suri2025visdom,
-31,End-to-end visual RAG,CMRAG,ICLRW'26,Retrieval + QA,,,LongDocURL,Co-modality text and pixels.,https://github.com/ChenWangHKU/CMRAG,cmrag2025,
+31,End-to-end visual RAG,CMRAG,ICLRW'26,Retrieval + QA,,,LongDocURL,Co-modality text and pixels.,https://github.com/WangWarrenChen/CMRAG,cmrag2025,
 32,End-to-end visual RAG,MoLoRAG,EMNLP'25,Long-doc QA,,,"LongDocURL, PaperTab, FetaTab",Logic-aware retrieval over page relations.,https://github.com/WxxShirley/MoLoRAG,wu2025molorag,
 33,End-to-end visual RAG,HKRAG,arXiv'25,Fine-print evidence,,,"ChartQA, InfoVQA, DUDE, SlideVQA, OpenDocVQA",Holistic knowledge construction.,,hkrag2025,
 34,End-to-end visual RAG,HiKEY,ACL'26,Open-domain QA,,,M3DocVQA,Hierarchical open-domain retrieval.,,hikey2026,
 35,End-to-end visual RAG,VRAG-RL,NeurIPS'25,RL reasoning,,,"SlideVQA, ViDoSeek","Vision-perception RAG trained with RL, iterative reasoning.",https://github.com/Alibaba-NLP/VRAG,vragrl2025neurips,yes
-36,End-to-end visual RAG,URaG,AAAI'26,Long-doc QA,,,"SlideVQA, MMLongBench-Doc, DUDE, LongDocURL",Unified retrieval and generation inside one MLLM.,,urag2026aaai,yes
+36,End-to-end visual RAG,URaG,AAAI'26,Long-doc QA,,,"SlideVQA, MMLongBench-Doc, DUDE, LongDocURL",Unified retrieval and generation inside one MLLM.,https://github.com/shi-yx/URaG,urag2026aaai,yes
 37,End-to-end visual RAG,RAP,ICML'25,High-res perception,,,,Visual RAG for high-resolution image perception.,https://github.com/DreamMr/RAP,rap2025icml,yes
 38,End-to-end visual RAG,MG2-RAG,ECCV'26,Multimodal RAG,graph,,,Multi-granularity graph for multimodal RAG.,https://github.com/Daboolu/MG2-RAG,mg2rag2026eccv,yes
-39,End-to-end visual RAG,RobustVisRAG,CVPR'26,Robustness,,,,Causality-aware vision RAG under visual degradations.,,robustvisrag2026cvpr,yes
+39,End-to-end visual RAG,RobustVisRAG,CVPR'26,Robustness,,,,Causality-aware vision RAG under visual degradations.,https://robustvisrag.github.io/,robustvisrag2026cvpr,yes
 40,End-to-end visual RAG,SimpleDoc,EMNLP'25,Long-doc QA,,page,"DocVQA, LongDocURL, FetaTab",Dual-cue page retrieval and iterative refinement.,https://github.com/ag2ai/SimpleDoc,simpledoc2025emnlp,yes
 41,End-to-end visual RAG,NeuSym-RAG,ACL'25,PDF QA,hybrid,,,Neural-symbolic retrieval over PDFs.,,neusymrag2025acl,yes
 42,End-to-end visual RAG,Doc-React,ACL'25,Multi-page QA,,,,Multi-page heterogeneous document QA.,,docreact2025acl,yes
 43,End-to-end visual RAG,MM hierarchical RAG,KDD'26,Document QA,,,,Hierarchical multimodal RAG for document QA.,,mmhierrag2026kdd,yes
-44,End-to-end visual RAG,Mixed-modal retrieval,SIGIR'26,Universal RAG,,,"MuSiQue, MMEB",Mixed-modal retrieval for universal RAG.,,mixedmodal2026sigir,yes
+44,End-to-end visual RAG,Mixed-modal retrieval,SIGIR'26,Universal RAG,,,"MuSiQue, MMEB",Mixed-modal retrieval for universal RAG.,https://github.com/SnowNation101/Nyx,mixedmodal2026sigir,yes
 45,End-to-end visual RAG,M3DocDep,CVPR'26,Chunking,,chunk,"DUDE, MP-DocVQA",Dependency-aware chunking across pages and documents.,,m3docdep2026cvpr,yes
 46,"Region, layout and evidence level",VISA,ACL'25,Source attribution,,page + box,,Page retrieval with evidence box.,,ma-etal-2025-visa,
 47,"Region, layout and evidence level",LFRAG,arXiv'26,Fine-grained retrieval,,,"PaperTab, ViDoRe, DocVQA, VisDoMBench, ArxivQA, InfoVQA",Layout-oriented fine-grained retrieval.,,lfrag2026,
@@ -55,14 +55,14 @@ No,Family,Method,Venue,Objective,Index,Unit,Benchmarks,Contribution,Code,BibKey,
 54,"Region, layout and evidence level",Look as You Think,AAAI'26,Evidence attribution,,,,Reasoning with visual evidence attribution.,,liulook2026,yes
 55,"Region, layout and evidence level",Chain of Evidence,SIGIR'26,Evidence attribution,,,"SlideVQA, 2WikiMultiHopQA",Pixel-level visual attribution for iterative RAG.,https://github.com/PeiYangLiu/CoE,chainevidence2026sigir,yes
 56,"Region, layout and evidence level",Fragment-level selection,SIGIR'26,Evidence selection,,fragment,,Evidence selection below the page.,,fragment2026sigir,yes
-57,"Region, layout and evidence level",MEG-RAG,SIGIR'26,Evidence selection,,,,Quantifies multimodal evidence grounding for selection.,,megrag2026sigir,yes
+57,"Region, layout and evidence level",MEG-RAG,SIGIR'26,Evidence selection,,,,Quantifies multimodal evidence grounding for selection.,https://anonymous.4open.science/r/anonym-9QM02BD/README.md,megrag2026sigir,yes
 58,"Region, layout and evidence level",Answer-driven reranking,SIGIR'26,Re-ranking,,,,Unsupervised reranking from candidate answers.,,ansrerank2026sigir,yes
 59,"Region, layout and evidence level",Utility-oriented selection,ACL'26,Evidence selection,,,MRAG-Bench,"Selects visual evidence by utility, not relevance.",https://github.com/Hcnaeg/utility-mrag,utilitymrag2026acl,yes
 60,"Region, layout and evidence level",SCoPE VLM,EACL'26,Efficient navigation,,,"M3DocVQA, SlideVQA, MP-DocVQA, DUDE, DocVQA, MMLongBench-Doc",Selective context processing for document navigation.,,scopevlm2026eacl,yes
 61,Agentic,ViDoRAG,EMNLP'25,Agentic QA,hybrid,page,"ViDoSeek, SlideVQA",Multi-agent iterative refinement.,https://github.com/Alibaba-NLP/ViDoRAG,wang-etal-2025-vidorag,
 62,Agentic,MDocAgent,arXiv'25,Agentic QA,text + image,page,"LongDocURL, PaperText, PaperTab, FetaTab",Text and image agents in parallel.,https://github.com/aiming-lab/MDocAgent,han2025mdocagent,
-63,Agentic,SlideAgent,ACL'26,Slide QA,,,"SlideVQA, InfoVQA, REAL-MM-RAG",Hierarchical multi-page navigation.,,jin2025slideagent,
-64,Agentic,DocLens,ACL'26,Long-doc QA,,,"MMLongBench-Doc, FinRAGBench-V",Tool-augmented agents on regions.,,zhu2025doclens,
+63,Agentic,SlideAgent,ACL'26,Slide QA,,,"SlideVQA, InfoVQA, REAL-MM-RAG",Hierarchical multi-page navigation.,https://slideagent.github.io/,jin2025slideagent,
+64,Agentic,DocLens,ACL'26,Long-doc QA,,,"MMLongBench-Doc, FinRAGBench-V",Tool-augmented agents on regions.,https://dwzhu-pku.github.io/DocLens/,zhu2025doclens,
 65,Agentic,MARDoc,arXiv'26,Long-doc QA,,,"MMLongBench-Doc, DocBench",Memory-aware refinement.,,chen2026mardoc,
 66,Agentic,MMAgent-R2,ECCV'26,Re-rank / reject,,,"E-VQA, InfoSeek",Agentic mRAG that learns to rerank and reject.,,mmagentr22026eccv,yes
 67,Agentic,MARS-RL,CVPR'26F,RL reasoning,,,ViDoSeek,"Multi-agent RAG on multimodal documents, trained with RL.",,marsrl2026cvpr,yes
@@ -71,4 +71,4 @@ No,Family,Method,Venue,Objective,Index,Unit,Benchmarks,Contribution,Code,BibKey,
 70,Agentic,ALDEN,ACL'26,RL navigation,,,"DUDE, SlideVQA, PaperText, LongDocURL, PaperTab, DocVQA",RL for active navigation and evidence gathering.,,alden2026acl,yes
 71,Agentic,MDocRAG-RL,ACL'26,RL reasoning,,,,Multimodal document RAG with RL-trained visual reasoning.,,mdocragrl2026acl,yes
 72,Agentic,MM-Doc-R1,ACL'26,RL reasoning,,,"MMLongBench-Doc, DocVQA",Multi-turn RL for long-document VQA agents.,,mmdocr12026acl,yes
-73,Agentic,Doc-V*,ACL'26,Multi-page QA,,,"DUDE, MMLongBench-Doc, SlideVQA, DocVQA, LongDocURL, MP-DocVQA",Coarse-to-fine interactive visual reasoning.,,docvstar2026acl,yes
+73,Agentic,Doc-V*,ACL'26,Multi-page QA,,,"DUDE, MMLongBench-Doc, SlideVQA, DocVQA, LongDocURL, MP-DocVQA",Coarse-to-fine interactive visual reasoning.,https://github.com/SeerRay-Lab/Doc-V,docvstar2026acl,yes

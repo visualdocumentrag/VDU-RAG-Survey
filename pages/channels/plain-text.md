@@ -38,7 +38,7 @@ The characters and their reading order; since order belongs to the layout, perfe
 - [PubTables-1M](https://scholar.google.com/scholar?q=PubTables-1M%3A+Towards+Comprehensive+Table+Extraction+from+Unstructured+Documents) (2022)
 - [UniMER](https://openaccess.thecvf.com/content/CVPR2026/html/Gu_UniMERNet_A_Universal_Network_for_Real-World_Mathematical_Expression_Recognition_CVPR_2026_paper.html) (2026)
 - [SPODS](https://doi.org/10.1007/978-3-319-68124-5_19) (2017)
-- [ReST](https://scholar.google.com/scholar?q=ICDAR+2023+Competition+on+Reading+the+Seal+Title) (2023)
+- [ReST](https://arxiv.org/pdf/2304.11966) (2023)
 - [DKDS](https://doi.org/10.1007/s10032-026-00595-5) (2026)
 
 ## Works cited for this channel in the paper

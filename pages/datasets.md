@@ -30,7 +30,7 @@ Cut-off: 24 September 2026. Source: [`data/datasets.csv`](../data/datasets.csv).
 |Channel-specific|PubTables-1M|CVPR|2022|EN|||GriTS|○|○|●|–|–|–|–|–|yes|[paper](https://scholar.google.com/scholar?q=PubTables-1M%3A+Towards+Comprehensive+Table+Extraction+from+Unstructured+Documents)|[link](https://github.com/microsoft/table-transformer)|
 |Channel-specific|UniMER|CVPR|2026|||||○|–|–|–|●|–|–|–|yes|[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Gu_UniMERNet_A_Universal_Network_for_Real-World_Mathematical_Expression_Recognition_CVPR_2026_paper.html)|[link](https://github.com/opendatalab/UniMERNet)|
 |Channel-specific|SPODS|ICVGIP-W|2017|||||○|○|–|–|–|–|●|–|yes|[paper](https://doi.org/10.1007/978-3-319-68124-5_19)|[link](https://facweb.iitkgp.ac.in/~jay/spods/index.html)|
-|Channel-specific|ReST|ICDAR|2023|ZH||||○|–|–|–|–|–|●|–|no|[paper](https://scholar.google.com/scholar?q=ICDAR+2023+Competition+on+Reading+the+Seal+Title)||
+|Channel-specific|ReST|ICDAR|2023|ZH||||○|–|–|–|–|–|●|–|no|[paper](https://arxiv.org/pdf/2304.11966)||
 |Channel-specific|DKDS|IJDAR|2026|JA||||○|○|–|–|–|–|●|–|yes|[paper](https://doi.org/10.1007/s10032-026-00595-5)|[link](https://github.com/RuiyangJu/DKDS)|
 |Channel-specific|TexTAR|ICDAR|2025|multi||||●|○|–|–|–|–|–|●|yes|[paper](https://doi.org/10.1007/978-3-032-04614-7_16)|[link](https://github.com/tex-tar/tex-tar)|
 
