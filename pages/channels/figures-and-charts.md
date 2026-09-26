@@ -28,7 +28,7 @@ Graphical encodings of quantity that mean nothing until decoded through an axis.
 - [ViDoRe v2](https://arxiv.org/abs/2505.17166) (2025)
 - [ViDoSeek](https://aclanthology.org/2025.emnlp-main.464/) (2025)
 - [UniDoc-Bench](https://arxiv.org/abs/2510.03663) (2025)
-- [SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/) (2025)
+- [SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/) (2026)
 - [MTVQA](https://aclanthology.org/2025.findings-acl.404/) (2025)
 
 ## Works cited for this channel in the paper
