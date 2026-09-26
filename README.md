@@ -2,9 +2,9 @@
 
 <img src="./images/fig_hub.png" width="96%">
 
-This is the repository of **Retrieval-Augmented Generation for Visual Document Understanding: A Survey**, a systematic survey of retrieval-augmented generation over document pages, organized by the eight kinds of content a page carries (text, layout, tables, figures, equations, form fields, stamps and typography). For details, please refer to:
+This is the repository of **Channel-wise Retrieval-Augmented Generation for Visual Document Understanding: A Survey**, a systematic survey of retrieval-augmented generation over document pages, organized by the eight kinds of content a page carries (text, layout, tables, figures, equations, form fields, stamps and typography). For details, please refer to:
 
-**Retrieval-Augmented Generation for Visual Document Understanding: A Survey** 
+**Channel-wise Retrieval-Augmented Generation for Visual Document Understanding: A Survey** [[Paper](https://anonymous.4open.science/r/VDU-RAG-Survey-E1D6/)]
 
 *Under review at IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).* Authors: TBD.
 
@@ -20,7 +20,7 @@ This is the repository of **Retrieval-Augmented Generation for Visual Document U
 
 ## 🔥 News
 
-📅 Last update on 2026/09/24 (literature cut-off: **24 September 2026**). Review window: 2025-2026, plus the latest edition of biennial venues.
+📅 Last update on 26/09/2026 (literature cut-off: **24 September 2026**). Review window: 2025-2026, plus the latest edition of biennial venues.
 
 Newly added to the survey from the 2025-2026 venue lists:
 
@@ -78,19 +78,7 @@ Newly added to the survey from the 2025-2026 venue lists:
 
 ## Abstract
 
-Retrieval-augmented generation (RAG) lets a model answer questions from large document collections, and since 2024
-retrievers have begun to treat each page as an image. Yet a page is not one thing: it carries up to eight kinds of content at once,
-namely text, layout, tables, figures, equations, form fields, stamps and typography, which we call channels. Existing surveys organize
-the field by pipeline stage, modality or task, and none asks what the page contains. This paper provides a systematic review of
-retrieval-augmented generation for visual document understanding, organized by content channel. We screen every paper of 42
-venue-year lists of 2025 and 2026 (78,352 records) and catalog 73 methods and 61 benchmarks. We (1) formalize channel
-interference, which late interaction produces even between channels that never touch; (2) trace the field along three axes, the retrieved
-unit, the index and the pipeline; (3) place every system in one compositional EIOAR frame (encoder, index unit, retrieval operator,
-evidence aggregator, reasoner); (4) show with a channel-by-paradigm matrix and a benchmark audit that stamps and typography are
-studied every year, yet no retrieval method is tested on them and no benchmark labels them; (5) show from the scores each paper
-reports that the reader, not the retriever, dominates end-to-end results; and (6) propose a channel-aware score, an 18-item reporting
-checklist and open problems drawn from the empty cells. All lists, tables and scripts are at
-https://anonymous.4open.science/r/VDU-RAG-Survey-E1D6/.
+A reader who opens an invoice, a contract or a lab report does not read characters alone: the total is the total because of its column, the clause binds because of the seal beside it, the curve means something because of its axis. Retrieval-augmented generation (RAG) now answers questions over thousands of such pages, and since 2024 its retrievers treat each page as an image. They have not learned that a page carries up to eight kinds of content at once, text, layout, tables, figures, equations, form fields, stamps and typography, which we call *channels*. Existing surveys organize the field by pipeline stage, modality or task; none asks what the page contains. This survey tells the story of visual document RAG channel by channel. We screen every paper of 42 venue-year lists of 2025 and 2026 (78,352 records) and catalog 73 methods and 61 benchmarks. We (1) formalize *channel interference*, which late interaction produces even between channels that never touch; (2) trace the field along three axes, the retrieved unit, the index and the pipeline; (3) place every system in one compositional EIOAR frame (encoder, index unit, retrieval operator, evidence aggregator, reasoner); (4) show with a channel-by-paradigm matrix and a benchmark audit that stamps and typography are studied every year, yet no retrieval method is tested on them and no benchmark labels them; (5) show from the scores each paper reports that the reader, not the retriever, dominates end-to-end results; and (6) propose a channel-aware score, an 18-item reporting checklist and open problems drawn from the empty cells. All lists, tables and scripts are at [https://anonymous.4open.science/r/VDU-RAG-Survey-E1D6/](https://anonymous.4open.science/r/VDU-RAG-Survey-E1D6/).
 
 ## Citation
 
@@ -98,7 +86,7 @@ If you find this survey or the paper lists useful, please consider citing:
 
 ```bibtex
 @article{vdurag2026survey,
-  title   = {Retrieval-Augmented Generation for Visual Document Understanding: A Survey},
+  title   = {Channel-wise Retrieval-Augmented Generation for Visual Document Understanding: A Survey},
   author  = {TBD},
   journal = {Under review at IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year    = {2026}
@@ -171,7 +159,7 @@ Channel coverage of each benchmark is in [pages/datasets.md](pages/datasets.md) 
 |[M3DocVQA](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html)|ICCVW|2025|40K+ pages|-|EN|Txt, Fig|-|[Project](https://github.com/bloomberg/m3docrag)|
 |[ViDoSeek](https://aclanthology.org/2025.emnlp-main.464/)|EMNLP|2025|-|-|EN|Txt|-|[Project](https://github.com/Alibaba-NLP/ViDoRAG)|
 |[UniDoc-Bench](https://arxiv.org/abs/2510.03663)|arXiv|2025|70K pages|-|EN|Txt, Lay, Tab|-|[Project](https://github.com/SalesforceAIResearch/UniDOC-Bench)|
-|[BBox-DocVQA](https://arxiv.org/abs/2511.15090)|arXiv|2025|3.6K docs|32K|EN|Txt, Lay|-|-|
+|[SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/)|arXiv|2025|3.6K docs|32K|EN|Txt, Lay|-|[Project](https://yuwenhan07.github.io/SciEGQA-project/)|
 
 #### Document QA Benchmarks
 
@@ -440,15 +428,18 @@ Every paper of each venue-year was retrieved from the official record and screen
 
 ## Data Files and Scripts
 
-|File|Content|
-|---|---|
-|[`data/venues/index.csv`](data/venues/index.csv)|the 42 venue-year lists with counts|
-|[`data/venues/all/`](data/venues/all/)|complete paper list of every venue-year (CSV)|
-|[`data/venues/related/`](data/venues/related/)|related papers of every venue-year (CSV)|
-|[`data/methods.csv`](data/methods.csv)|the 73 methods with venue, objective, index, unit, datasets, contribution, code|
-|[`data/datasets.csv`](data/datasets.csv)|the 61 benchmarks with channel coverage and links|
-|[`data/scores.csv`](data/scores.csv)|reported scores with their source table|
-|[`data/eioar.csv`](data/eioar.csv)|the EIOAR description of representative systems|
-|[`data/references.csv`](data/references.csv)|all references, with a flag for those cited in the paper|
-|[`data/vdu_rag.bib`](data/vdu_rag.bib)|BibTeX of all references|
-|[`scripts/`](scripts/)|the Python scripts used to collect the lists, datasets and scores|
+GitHub shows CSV files as plain tables without clickable links, so every data file also has a Markdown page where each paper, code and data link opens directly.
+
+|Content|Clickable page|Raw file|
+|---|---|---|
+|the 73 methods with venue, objective, index, unit, datasets, contribution and code|[data/methods.md](data/methods.md)|[`data/methods.csv`](data/methods.csv)|
+|the 61 benchmarks with channel coverage and links|[data/datasets.md](data/datasets.md)|[`data/datasets.csv`](data/datasets.csv)|
+|reported scores with their source table|[data/scores.md](data/scores.md)|[`data/scores.csv`](data/scores.csv)|
+|the EIOAR description of representative systems|[data/eioar.md](data/eioar.md)|[`data/eioar.csv`](data/eioar.csv)|
+|all 291 references, with a flag for those cited in the paper|[data/references.md](data/references.md)|[`data/references.csv`](data/references.csv)|
+|the 42 venue-year lists with counts|[data/venues/index.md](data/venues/index.md)|[`data/venues/index.csv`](data/venues/index.csv)|
+|complete paper list of every venue-year|[pages/lists/TPAMI2026_p1.md](pages/lists/TPAMI2026_p1.md) (one set per venue, linked in [Venues](#venues))|[`data/venues/all/`](data/venues/all/)|
+|related papers of every venue-year|[pages/venues/TPAMI2026.md](pages/venues/TPAMI2026.md) (one page per venue, linked in [Venues](#venues))|[`data/venues/related/`](data/venues/related/)|
+|BibTeX of all references|-|[`data/vdu_rag.bib`](data/vdu_rag.bib)|
+|Python scripts used to collect the lists, datasets and scores|-|[`scripts/`](scripts/)|
+

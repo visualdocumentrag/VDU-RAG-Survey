@@ -25,7 +25,7 @@ Expressions whose meaning lies in nesting and operator scope. Surveys span a qua
 - [M3DocVQA](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html) (2025)
 - [ViDoSeek](https://aclanthology.org/2025.emnlp-main.464/) (2025)
 - [UniDoc-Bench](https://arxiv.org/abs/2510.03663) (2025)
-- [BBox-DocVQA](https://arxiv.org/abs/2511.15090) (2025)
+- [SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/) (2025)
 - [SPIQA](https://scholar.google.com/scholar?q=SPIQA%3A+A+Dataset+for+Multimodal+Question+Answering+on+Scientific+Papers) (2024)
 - [LongDocURL](https://aclanthology.org/2025.acl-long.57/) (2025)
 

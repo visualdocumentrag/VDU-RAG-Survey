@@ -7,7 +7,7 @@ authors:
   - name: "TBD"
 preferred-citation:
   type: article
-  title: "Retrieval-Augmented Generation for Visual Document Understanding: A Survey"
+  title: "Channel-wise Retrieval-Augmented Generation for Visual Document Understanding: A Survey"
   authors:
     - name: "TBD"
   journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence (under review)"

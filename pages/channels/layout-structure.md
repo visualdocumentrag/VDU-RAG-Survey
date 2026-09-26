@@ -15,7 +15,7 @@ Columns, blocks, headers, captions, reading order and containment. Layout is *re
 - [ViDoRe v3](https://aclanthology.org/2026.acl-long.755/) (2026)
 - [MMDocIR](https://aclanthology.org/2025.emnlp-main.1576/) (2025)
 - [UniDoc-Bench](https://arxiv.org/abs/2510.03663) (2025)
-- [BBox-DocVQA](https://arxiv.org/abs/2511.15090) (2025)
+- [SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/) (2025)
 - [InfographicVQA](https://scholar.google.com/scholar?q=InfographicVQA) (2022)
 - [LongDocURL](https://aclanthology.org/2025.acl-long.57/) (2025)
 - [DocLayNet](https://doi.org/10.1145/3534678.3539043) (2022)

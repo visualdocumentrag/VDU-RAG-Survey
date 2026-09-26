@@ -28,7 +28,7 @@ A grid in which cell position carries meaning, marked by rules, alignment or whi
 - [ViDoRe v2](https://arxiv.org/abs/2505.17166) (2025)
 - [M3DocVQA](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html) (2025)
 - [ViDoSeek](https://aclanthology.org/2025.emnlp-main.464/) (2025)
-- [BBox-DocVQA](https://arxiv.org/abs/2511.15090) (2025)
+- [SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/) (2025)
 - [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225) (2021)
 - [InfographicVQA](https://scholar.google.com/scholar?q=InfographicVQA) (2022)
 - [MTVQA](https://aclanthology.org/2025.findings-acl.404/) (2025)

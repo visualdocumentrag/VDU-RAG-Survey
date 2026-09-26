@@ -1,0 +1,17 @@
+# EIOAR description of representative systems
+
+Each system described by its encoder (E), index unit (I), retrieval operator (O), evidence aggregator (A) and reasoner (R), as in paper Table 6. Results are quoted as reported in each paper.
+
+Raw file: [`eioar.csv`](eioar.csv) · [Back to README](../README.md)
+
+|system|paper|E_encoder|I_index_unit|O_retrieval_operator|A_evidence_aggregator|R_reasoner|reported_result|code|
+|---|---|---|---|---|---|---|---|---|
+|DSE|[Scholar](https://scholar.google.com/scholar?q=Unifying+Multimodal+Retrieval+via+Document+Screenshot+Embedding)|B: Phi-3-vision, page image|page|dense, one vector|top-k|– (retriever)|+17 points top-1 over BM25 (Wiki-SS); 15+ points nDCG@10 over OCR text (slides)||
+|ColPali|[Paper](https://openreview.net/forum?id=ogjBpZ8uSi)|B: PaliGemma-3B, patches|page|late interaction (MaxSim)|top-k|– (retriever)|81.3 average nDCG@5 (ViDoRe v1)|[Code](https://github.com/illuin-tech/colpali)|
+|VisRAG|[Paper](https://openreview.net/forum?id=zG459X3Xge)|B: VLM on the page image|page|dense, one vector|top-k pages|VLM|20–40% end-to-end gain over text-based RAG|[Code](https://github.com/openbmb/visrag)|
+|VDocRAG|[Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Tanaka_VDocRAG_Retrieval-Augmented_Generation_over_Visually-Rich_Documents_CVPR_2025_paper.html)|B: LVLM, dense tokens|page|dense, one vector|top-k|same LVLM|clearly above text-based RAG (OpenDocVQA)|[Code](https://vdocrag.github.io/)|
+|M3DocRAG|[Paper](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html)|B: ColPali|page|late interaction (MaxSim)|top-k|Qwen2-VL 7B|not restated here: the published version reports results on M3DocVQA, MMLongBench-Doc and MP-DocVQA (see the paper)|[Code](https://github.com/bloomberg/m3docrag)|
+|VisDoMRAG|[Scholar](https://scholar.google.com/scholar?q=VisDoM%3A+Multi-Document+QA+with+Visually+Rich+Elements+Using+Multimodal+Retrieval-Augmented+Generation)|A + B: text and visual|chunk and page|two parallel paths|consistency-constrained fusion|LLM and VLM|12–20% over unimodal and long-context baselines (VisDoMBench)|[Code](https://github.com/MananSuri27/VisDoM)|
+|ViDoRAG|[Paper](https://aclanthology.org/2025.emnlp-main.464/)|A + B: text and visual|page|hybrid, GMM-weighted|seeker and inspector agents|answer agent|over 10% above existing methods (ViDoSeek)|[Code](https://github.com/Alibaba-NLP/ViDoRAG)|
+|MDocAgent|[arXiv](https://arxiv.org/abs/2503.13964)|A + B: text and image|page|two parallel paths|critical, text and image agents|summarizing agent|+12.1% average over the prior best (five benchmarks)|[Code](https://github.com/aiming-lab/MDocAgent)|
+|RegionRAG|[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37597)|B: patch-level retriever|region|patches grouped into regions|region crops only|LVLM|+10.02% R@1, +3.56% QA accuracy with 71.42% of visual tokens (six benchmarks)|[Code](https://github.com/Aeryn666/RegionRAG)|

@@ -16,7 +16,7 @@ Cut-off: 24 September 2026. Source: [`data/datasets.csv`](../data/datasets.csv).
 |Retrieval & RAG|M3DocVQA|ICCVW|2025|EN|40K+ pages|||●|○|○|●|○|○|–|–|yes|[paper](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html)|[link](https://github.com/bloomberg/m3docrag)|
 |Retrieval & RAG|ViDoSeek|EMNLP|2025|EN||||●|○|○|○|○|○|–|–|yes|[paper](https://aclanthology.org/2025.emnlp-main.464/)|[link](https://github.com/Alibaba-NLP/ViDoRAG)|
 |Retrieval & RAG|UniDoc-Bench|arXiv|2025|EN|70K pages|||●|●|●|○|○|○|–|–|yes|[paper](https://arxiv.org/abs/2510.03663)|[link](https://github.com/SalesforceAIResearch/UniDOC-Bench)|
-|Retrieval & RAG|BBox-DocVQA|arXiv|2025|EN|3.6K docs|32K||●|●|○|○|○|○|–|–|no|[paper](https://arxiv.org/abs/2511.15090)||
+|Retrieval & RAG|SciEGQA|arXiv|2025|EN|3.6K docs|32K||●|●|○|○|○|○|–|–|no|[paper](https://yuwenhan07.github.io/SciEGQA-project/)|[link](https://yuwenhan07.github.io/SciEGQA-project/)|
 |Document QA|DocVQA|WACV|2021|EN|12,767 images|50,000|ANLS|●|○|○|–|–|○|–|–|yes|[paper](https://doi.org/10.1109/WACV48630.2021.00225)|[link](https://www.docvqa.org)|
 |Document QA|InfographicVQA|WACV|2022|EN|5,485 images|30,035|ANLS|●|●|○|●|–|–|–|–|yes|[paper](https://scholar.google.com/scholar?q=InfographicVQA)|[link](https://www.docvqa.org)|
 |Document QA|ChartQA|ACL Find.|2022|EN|20,882 charts|32,719|relaxed acc.|○|–|–|●|–|–|–|–|yes|[paper](https://scholar.google.com/scholar?q=ChartQA%3A+A+Benchmark+for+Question+Answering+about+Charts+with+Visual+and+Logical+Reasoning)|[link](https://github.com/vis-nlp/ChartQA)|

@@ -22,7 +22,7 @@ BENCH = ["ViDoRe V3","ViDoRe V2","ViDoRe","ViDoSeek","MMLongBench-Doc","LongDocU
  "MRAG-Bench","WebQA","Dyn-VQA","InfoSeek","E-VQA","FinRAGBench-V","REAL-MM-RAG","ArxivQA","TabFQuAD",
  "MMEB","M-BEIR","SPIQA","VisualMRC","TextVQA","2WikiMultiHopQA","HotpotQA","MuSiQue","LongBench",
  "FinQA","ChartMRAG","MultiHaystack","CRAG-MM","DocHaystack","InfoHaystack","BRIGHT","MIRACL-Vision",
- "Jina-VDR","BBox-DocVQA","LongDocBench","MMVQA","PDF-MVQA","SciMMIR","OmniDocBench"]
+ "Jina-VDR","BBox-DocVQA","SciEGQA","LongDocBench","MMVQA","PDF-MVQA","SciMMIR","OmniDocBench"]
 BENCH = sorted(set(BENCH), key=len, reverse=True)
 PAT = re.compile(r"(?<![\w-])(" + "|".join(re.escape(b) for b in BENCH) + r")(?![\w-])", re.I)
 CANON = {b.lower(): b for b in BENCH}
