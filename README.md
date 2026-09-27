@@ -2,9 +2,9 @@
 
 <img src="./images/fig_hub.png" width="96%">
 
-This is the repository of **Channel-Aware Visual Document Understanding with RAG: A Survey**, a systematic survey of retrieval-augmented generation over document pages, organized by the eight kinds of content a page carries (text, layout, tables, figures, equations, form fields, stamps and typography). For details, please refer to:
+This is the repository of **Toward Channel-Aware Visual Document Understanding With RAG: A Survey**, a systematic survey of retrieval-augmented generation over document pages, organized by the eight kinds of content a page carries (text, layout, tables, figures, equations, form fields, stamps and typography). For details, please refer to:
 
-**Channel-Aware Visual Document Understanding with RAG: A Survey**
+**Toward Channel-Aware Visual Document Understanding With RAG: A Survey**
 
 *Under review at IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).* Authors: TBD. Literature cut-off: **24 September 2026**.
 
@@ -104,7 +104,7 @@ If you find this survey or the paper lists useful, please consider citing:
 
 ```bibtex
 @article{vdurag2026survey,
-  title   = {Channel-Aware Visual Document Understanding with RAG: A Survey},
+  title   = {Toward Channel-Aware Visual Document Understanding With RAG: A Survey},
   author  = {TBD},
   journal = {Under review at IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year    = {2026}

@@ -25,7 +25,7 @@ W=landscape(A4)[0]-2*1.4*cm
 ref=pd.read_csv('data/references.csv'); meth=pd.read_csv('data/methods.csv'); ds=pd.read_csv('data/datasets.csv'); idx=pd.read_csv('data/venues/index.csv')
 link_of=dict(zip(ref.BibKey,ref.Link))
 REPO='https://github.com/visualdocumentrag/VDU-RAG-Survey'
-st=[P('Channel-Aware Visual Document Understanding with RAG: A Survey',H1),
+st=[P('Toward Channel-Aware Visual Document Understanding With RAG: A Survey',H1),
 P(f'Master list of every work in the survey and its release. Authors: TBD. Under review at IEEE TPAMI. Literature cut-off: <b>24 September 2026</b>. Repository: {L(REPO,REPO)}. Every title in this PDF is a clickable link (pink). A small number of older works without a stable URL open a Google Scholar search; BMVC titles, and ICDAR 2026 titles without a Springer page, open an arXiv title search.',B),Spacer(1,6),
 P('Contents: A. The 217 works cited in the paper · B. The 74 works not included in the paper (page limit) · C. The 73 methods · D. The 61 benchmarks · E. The 42 venue-year lists (counts) · F. The 2,014 related papers of every venue-year, in the venue order of the README.',B),
 ]
