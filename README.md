@@ -2,11 +2,11 @@
 
 <img src="./images/fig_hub.png" width="96%">
 
-This is the repository of **Channel-wise Retrieval-Augmented Generation for Visual Document Understanding: A Survey**, a systematic survey of retrieval-augmented generation over document pages, organized by the eight kinds of content a page carries (text, layout, tables, figures, equations, form fields, stamps and typography). For details, please refer to:
+This is the repository of **Channel-Aware Visual Document Understanding with RAG: A Survey**, a systematic survey of retrieval-augmented generation over document pages, organized by the eight kinds of content a page carries (text, layout, tables, figures, equations, form fields, stamps and typography). For details, please refer to:
 
-**Channel-wise Retrieval-Augmented Generation for Visual Document Understanding: A Survey** [[Paper](https://anonymous.4open.science/r/VDU-RAG-Survey-E1D6/)]
+**Channel-Aware Visual Document Understanding with RAG: A Survey**
 
-*Under review at IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).* Authors: TBD.
+*Under review at IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).* Authors: TBD. Literature cut-off: **24 September 2026**.
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](#) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
@@ -18,9 +18,27 @@ This is the repository of **Channel-wise Retrieval-Augmented Generation for Visu
 ```
 - c. Submit the pull request to this branch.
 
+## Menu
+
+- [Master list PDF (every paper, clickable)](supplementary/Master_List.pdf) · [Supplementary lists PDF](supplementary/Supplementary_Lists.pdf)
+- [News](#-news) · [Abstract](#abstract) · [Citation](#citation) · [Overview](#overview) · [Paper-to-Repository Map](#paper-to-repository-map)
+- [The Eight Channels](#the-eight-channels)
+  - [Plain text](pages/channels/plain-text.md) · [Layout](pages/channels/layout-structure.md) · [Tables](pages/channels/tables.md) · [Figures and charts](pages/channels/figures-and-charts.md) · [Equations](pages/channels/equations.md) · [Form fields](pages/channels/form-fields.md) · [Stamps and seals](pages/channels/stamps-and-seals.md) · [Typography](pages/channels/typography.md)
+- [Datasets](#datasets) ([all 61 with channel coverage](pages/datasets.md))
+  - [Channel-audited Benchmarks](#channel-audited-benchmarks): [Retrieval and RAG](#retrieval-and-rag-benchmarks) · [Document QA](#document-qa-benchmarks) · [Channel-specific](#channel-specific-datasets)
+  - [Benchmarks Released at 2025-2026 Venues](#benchmarks-released-at-2025-2026-venues): [Retrieval and RAG](#retrieval-and-rag) · [Long-document QA](#long-document-qa-and-reasoning) · [Grounding, parsing and OCR](#grounding-parsing-and-ocr) · [Multilingual and Indic](#multilingual-and-indic)
+- [Visual Document RAG Methods](#visual-document-rag-methods) ([all 73 with datasets, objective and index](pages/methods.md))
+  - [Screenshot Embedding](#screenshot-embedding) · [Late Interaction](#late-interaction) · [Index Compression and Efficiency](#index-compression-and-efficiency) · [End-to-end Visual RAG](#end-to-end-visual-rag) · [Region Layout and Evidence Level](#region-layout-and-evidence-level) · [Agentic RAG](#agentic-rag)
+- [Metrics and Reported Scores](#metrics-and-reported-scores): [Metrics](pages/metrics.md) · [Scores](pages/scores.md) · [EIOAR table](data/eioar.md)
+- [Venues](#venues) (42 venue-year lists, 78,352 papers, every one clickable)
+  - TPAMI [2026](pages/venues/TPAMI2026.md) · [2025](pages/venues/TPAMI2025.md) · CVPR [2026](pages/venues/CVPR2026.md) · [2025](pages/venues/CVPR2025.md) · ECCV [2026](pages/venues/ECCV2026.md) · [2024](pages/venues/ECCV2024.md) · ICCV [2025](pages/venues/ICCV2025.md) · [Workshops 2025](pages/venues/ICCVW2025.md) · ICDAR [2026](pages/venues/ICDAR2026.md) · [2025](pages/venues/ICDAR2025.md) · AAAI [2026](pages/venues/AAAI2026.md) · [2025](pages/venues/AAAI2025.md) · WACV [2026](pages/venues/WACV2026.md) · [2025](pages/venues/WACV2025.md) · BMVC [2026](pages/venues/BMVC2026.md) · [2025](pages/venues/BMVC2025.md) · ACCV [2024](pages/venues/ACCV2024.md) · Pattern Recognition [2026](pages/venues/PatternRecognition2026.md) · [2025](pages/venues/PatternRecognition2025.md) · CVIU [2026](pages/venues/CVIU2026.md) · [2025](pages/venues/CVIU2025.md) · IJCV [2026](pages/venues/IJCV2026.md) · [2025](pages/venues/IJCV2025.md) · NeurIPS [2025](pages/venues/NeurIPS2025.md) · EMNLP [2025](pages/venues/EMNLP2025.md) · JMLR [2026](pages/venues/JMLR2026.md) · [2025](pages/venues/JMLR2025.md) · ACL [2026](pages/venues/ACL2026.md) · [2025](pages/venues/ACL2025.md) · ICLR [2026](pages/venues/ICLR2026.md) · [2025](pages/venues/ICLR2025.md) · ICML [2026](pages/venues/ICML2026.md) · [2025](pages/venues/ICML2025.md) · KDD [2026](pages/venues/KDD2026.md) · IJCAI [2026](pages/venues/IJCAI2026.md) · ICPR [2026](pages/venues/ICPR2026.md) · [2024](pages/venues/ICPR2024.md) · CIKM (not yet held at the cut-off) · EACL [2026](pages/venues/EACL2026.md) · SIGIR [2026](pages/venues/SIGIR2026.md) · IJDAR [2026](pages/venues/IJDAR2026.md) · [2025](pages/venues/IJDAR2025.md) · arXiv [2026](pages/venues/arXiv2026.md)
+- [Works Not Included in the Paper](#works-not-included-in-the-paper) (74, page limit)
+- [Further Reading](#further-reading) · [Data Files and Scripts](#data-files-and-scripts) · [Verification](#verification)
+
+
 ## 🔥 News
 
-📅 Last update on 26/09/2026 (literature cut-off: **24 September 2026**). Review window: 2025-2026, plus the latest edition of biennial venues.
+📅 Last update on 27/09/2026 (literature cut-off: **24 September 2026**, as in the paper). Review window: 2025-2026, plus the latest edition of biennial venues.
 
 Newly added to the survey from the 2025-2026 venue lists:
 
@@ -86,7 +104,7 @@ If you find this survey or the paper lists useful, please consider citing:
 
 ```bibtex
 @article{vdurag2026survey,
-  title   = {Channel-wise Retrieval-Augmented Generation for Visual Document Understanding: A Survey},
+  title   = {Channel-Aware Visual Document Understanding with RAG: A Survey},
   author  = {TBD},
   journal = {Under review at IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year    = {2026}
@@ -101,32 +119,42 @@ If you find this survey or the paper lists useful, please consider citing:
 
 **Review protocol.** 42 venue-year lists were screened in full (78,352 records); 2,014 related records were kept after title/abstract screening, 2,008 were assessed against the inclusion criteria, and 134 works are cataloged (73 methods, 61 benchmarks).
 
-## Menu
+## Paper-to-Repository Map
 
-- [The Eight Channels](#the-eight-channels)
-- [Datasets](#datasets)
-  - [Channel-audited Benchmarks](#channel-audited-benchmarks)
-    - [Retrieval and RAG Benchmarks](#retrieval-and-rag-benchmarks)
-    - [Document QA Benchmarks](#document-qa-benchmarks)
-    - [Channel-specific Datasets](#channel-specific-datasets)
-  - [Benchmarks Released at 2025-2026 Venues](#benchmarks-released-at-2025-2026-venues)
-    - [Retrieval and RAG](#retrieval-and-rag)
-    - [Long-document QA and Reasoning](#long-document-qa-and-reasoning)
-    - [Grounding Parsing and OCR](#grounding-parsing-and-ocr)
-    - [Multilingual and Indic](#multilingual-and-indic)
-- [Visual Document RAG Methods](#visual-document-rag-methods)
-  - [Screenshot Embedding](#screenshot-embedding)
-  - [Late Interaction](#late-interaction)
-  - [Index Compression and Efficiency](#index-compression-and-efficiency)
-  - [End-to-end Visual RAG](#end-to-end-visual-rag)
-  - [Region Layout and Evidence Level](#region-layout-and-evidence-level)
-  - [Agentic RAG](#agentic-rag)
-- [Metrics and Reported Scores](#metrics-and-reported-scores)
-- [Venues](#venues)
-- [Further Reading](#further-reading)
-- [Data Files and Scripts](#data-files-and-scripts)
+Every table and figure of the paper has a clickable counterpart here, with a link for each work it cites.
+
+|In the paper|What it shows|In this repository|
+|---|---|---|
+|Fig. 1|works surveyed per year|<img src="./images/fig_pubs.png" width="200"> · [all works A-Z](pages/all_works.md)|
+|Fig. 2|the eight channels around a page|[channel gallery](#the-eight-channels) · one page per channel|
+|Table 1|existing surveys and their organizing axis|[pages/related_surveys.md](pages/related_surveys.md)|
+|Table 2, Fig. 3|search terms and PRISMA flow|[pages/search_terms.md](pages/search_terms.md) · [PRISMA figure](images/fig_prisma.png) · [venue lists](#venues)|
+|Fig. 4|five paradigms and three axes of development|[figure](images/fig_development.png)|
+|Table 3|what encoder families preserve and destroy|[pages/encoders.md](pages/encoders.md)|
+|Figs. 5-7|granularity, index cost, where the channel label is lost|[granularity](images/fig_granularity.png) · [cost](images/fig_cost.png) · [failures](images/fig_failures.png)|
+|Tables 4-5|the 73 methods|[pages/methods.md](pages/methods.md) · [data/methods.md](data/methods.md)|
+|Table 6, Fig. 8|EIOAR frame of representative systems|[data/eioar.md](data/eioar.md) · [figure](images/fig_eioar.png)|
+|Table 7|channel x paradigm matrix|[channel table](#the-eight-channels)|
+|Fig. 9|parse, pixels or both|[figure](images/fig_pipelines.png)|
+|Table 8, Sec. 10|the 61 benchmarks and their channel coverage|[pages/datasets.md](pages/datasets.md) · [data/datasets.md](data/datasets.md)|
+|Sec. 10.4, Eq. 7|metrics and the channel-aware score CARS|[pages/metrics.md](pages/metrics.md)|
+|Table 9|scores as reported by each paper, with source table|[pages/scores.md](pages/scores.md)|
+|Fig. 10|design and reporting checklist (18 items)|[pages/checklist.md](pages/checklist.md)|
+|Fig. 11|application domains|[pages/applications.md](pages/applications.md)|
+|Sec. 3|42 venue-year lists, 78,352 papers|[Venues](#venues) · [master list PDF](supplementary/Master_List.pdf)|
+|References|217 cited, 74 not included (page limit)|[data/references.md](data/references.md) · [pages/further_reading.md](pages/further_reading.md)|
 
 ## The Eight Channels
+
+**Click a channel** to open its page: definition, matrix coverage, benchmarks that annotate it and every work cited for it.
+
+|[Plain text](pages/channels/plain-text.md)|[Layout](pages/channels/layout-structure.md)|[Tables](pages/channels/tables.md)|[Figures and charts](pages/channels/figures-and-charts.md)|
+|:-:|:-:|:-:|:-:|
+|[<img src="images/channels/plain-text.jpg" height="110">](pages/channels/plain-text.md)|[<img src="images/channels/layout-structure.jpg" height="110">](pages/channels/layout-structure.md)|[<img src="images/channels/tables.jpg" height="110">](pages/channels/tables.md)|[<img src="images/channels/figures-and-charts.jpg" height="110">](pages/channels/figures-and-charts.md)|
+
+|[Equations](pages/channels/equations.md)|[Form fields](pages/channels/form-fields.md)|[Stamps and seals](pages/channels/stamps-and-seals.md)|[Typography](pages/channels/typography.md)|
+|:-:|:-:|:-:|:-:|
+|[<img src="images/channels/equations.jpg" height="110">](pages/channels/equations.md)|[<img src="images/channels/form-fields.jpg" height="110">](pages/channels/form-fields.md)|[<img src="images/channels/stamps-and-seals.jpg" height="110">](pages/channels/stamps-and-seals.md)|[<img src="images/channels/typography.jpg" height="110">](pages/channels/typography.md)|
 
 |Channel|OCR → LLM|MLLM-native|Text RAG|Visual RAG|Details|
 |---|:-:|:-:|:-:|:-:|:-:|
@@ -145,47 +173,47 @@ If you find this survey or the paper lists useful, please consider citing:
 
 ### Channel-audited Benchmarks
 
-Channel coverage of each benchmark is in [pages/datasets.md](pages/datasets.md) (paper Table 8).
+Channel coverage of each benchmark is in [pages/datasets.md](pages/datasets.md) (paper Table 8). Size and query counts are those of paper Table 8; "∼" marks a count the authors report only approximately, and "-" marks a count that does not apply.
 
 #### Retrieval and RAG Benchmarks
 
 |Dataset|Venue|Year|Size|Queries|Language|Channels annotated|Evaluation Metric|Project|
 |---|:-:|:-:|:-:|:-:|:-:|---|:-:|:-:|
-|[ViDoRe v1](https://openreview.net/forum?id=ogjBpZ8uSi)|ICLR|2025|-|-|EN, FR|Txt|nDCG@5|[Project](https://huggingface.co/collections/vidore/vidore-benchmark)|
-|[ViDoRe v2](https://arxiv.org/abs/2505.17166)|arXiv|2025|-|-|multi|Txt|-|[Project](https://huggingface.co/collections/vidore/vidore-benchmark-v2)|
-|[ViDoRe v3](https://aclanthology.org/2026.acl-long.755/)|ACL|2026|-|-|6 langs|Txt, Lay, Tab, Fig|-|[Project](https://huggingface.co/collections/vidore/vidore-benchmark-v3)|
-|[MMDocIR](https://aclanthology.org/2025.emnlp-main.1576/)|EMNLP|2025|-|-|EN|Txt, Lay, Tab, Fig|-|[Project](https://huggingface.co/MMDocIR)|
-|[MMDocRAG](https://scholar.google.com/scholar?q=Benchmarking+Retrieval-Augmented+Multimodal+Generation+for+Document+Question+Answering)|NeurIPS|2025|-|-|EN|Txt, Tab, Fig|-|[Project](https://github.com/MMDocRAG/MMDocRAG)|
-|[M3DocVQA](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html)|ICCVW|2025|40K+ pages|-|EN|Txt, Fig|-|[Project](https://github.com/bloomberg/m3docrag)|
-|[ViDoSeek](https://aclanthology.org/2025.emnlp-main.464/)|EMNLP|2025|-|-|EN|Txt|-|[Project](https://github.com/Alibaba-NLP/ViDoRAG)|
-|[UniDoc-Bench](https://arxiv.org/abs/2510.03663)|arXiv|2025|70K pages|-|EN|Txt, Lay, Tab|-|[Project](https://github.com/SalesforceAIResearch/UniDOC-Bench)|
-|[SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/)|arXiv|2026|-|1,623 + 30K|EN|Txt, Lay|-|[Project](https://yuwenhan07.github.io/SciEGQA-project/)|
+|[ViDoRe v1](https://openreview.net/forum?id=ogjBpZ8uSi)|ICLR|2025|∼1,000|∼1,000|EN, FR|Txt|nDCG@5|[Project](https://huggingface.co/collections/vidore/vidore-benchmark)|
+|[ViDoRe v2](https://arxiv.org/abs/2505.17166)|arXiv|2025|3,006 pages|1,097|multi|Txt|nDCG@5, R@5|[Project](https://huggingface.co/collections/vidore/vidore-benchmark-v2)|
+|[ViDoRe v3](https://aclanthology.org/2026.acl-long.755/)|ACL|2026|26,000 pages|3,099|6 langs|Txt, Lay, Tab, Fig|nDCG@10, R@1, R@5, mAP|[Project](https://huggingface.co/collections/vidore/vidore-benchmark-v3)|
+|[MMDocIR](https://aclanthology.org/2025.emnlp-main.1576/)|EMNLP|2025|313 docs|1,685 + 173,843|EN|Txt, Lay, Tab, Fig|nDCG@1/3/5, R@1/3/5, mAP|[Project](https://huggingface.co/MMDocIR)|
+|[MMDocRAG](https://scholar.google.com/scholar?q=Benchmarking+Retrieval-Augmented+Multimodal+Generation+for+Document+Question+Answering)|NeurIPS|2025|222 docs|4,055|EN|Txt, Tab, Fig|BLEU, ROUGE-L|[Project](https://github.com/MMDocRAG/MMDocRAG)|
+|[M3DocVQA](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html)|ICCVW|2025|∼40,000 pages|2,441|EN|Txt, Fig|ANLS, F1|[Project](https://github.com/bloomberg/m3docrag)|
+|[ViDoSeek](https://aclanthology.org/2025.emnlp-main.464/)|EMNLP|2025|∼5,400 pages|∼1,140|EN|Txt|nDCG@5, R@5, R@1|[Project](https://github.com/Alibaba-NLP/ViDoRAG)|
+|[UniDoc-Bench](https://arxiv.org/abs/2510.03663)|arXiv|2025|70,000 pages|1,742|EN|Txt, Lay, Tab|P@10, R@10|[Project](https://github.com/SalesforceAIResearch/UniDOC-Bench)|
+|[SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/)|arXiv|2026|∼3,600|1,623 + 30K|EN|Txt, Lay|F1|[Project](https://yuwenhan07.github.io/SciEGQA-project/)|
 
 #### Document QA Benchmarks
 
 |Dataset|Venue|Year|Size|Queries|Language|Channels annotated|Evaluation Metric|Project|
 |---|:-:|:-:|:-:|:-:|:-:|---|:-:|:-:|
 |[DocVQA](https://doi.org/10.1109/WACV48630.2021.00225)|WACV|2021|12,767 images|50,000|EN|Txt|ANLS|[Project](https://www.docvqa.org)|
-|[InfographicVQA](https://scholar.google.com/scholar?q=InfographicVQA)|WACV|2022|5,485 images|30,035|EN|Txt, Lay, Fig|ANLS|[Project](https://www.docvqa.org)|
-|[ChartQA](https://scholar.google.com/scholar?q=ChartQA%3A+A+Benchmark+for+Question+Answering+about+Charts+with+Visual+and+Logical+Reasoning)|ACL Find.|2022|20,882 charts|32,719|EN|Fig|relaxed acc.|[Project](https://github.com/vis-nlp/ChartQA)|
-|[TAT-DQA](https://scholar.google.com/scholar?q=Towards+Complex+Document+Understanding+by+Discrete+Reasoning)|ACM MM|2022|2,758 docs|16,558|EN|Txt, Tab|EM, F1|[Project](https://github.com/NExTplusplus/TAT-DQA)|
-|[SPIQA](https://scholar.google.com/scholar?q=SPIQA%3A+A+Dataset+for+Multimodal+Question+Answering+on+Scientific+Papers)|NeurIPS|2024|-|270K|EN|Txt, Tab, Fig|-|[Project](https://huggingface.co/datasets/google/spiqa)|
-|[LongDocURL](https://aclanthology.org/2025.acl-long.57/)|ACL|2025|396 docs|2,325|EN|Txt, Lay, Tab, Fig|-|[Project](https://github.com/dengc2023/LongDocURL)|
-|[MTVQA](https://aclanthology.org/2025.findings-acl.404/)|ACL Find.|2025|-|-|9 langs|Txt|-|[Project](https://github.com/bytedance/MTVQA)|
+|[InfographicVQA](https://arxiv.org/abs/2104.12756)|WACV|2022|5,485 images|30,035|EN|Txt, Lay, Fig|ANLS|[Project](https://www.docvqa.org)|
+|[ChartQA](https://arxiv.org/abs/2203.10244)|ACL Find.|2022|20,882 charts|32,719|EN|Fig|relaxed acc.|[Project](https://github.com/vis-nlp/ChartQA)|
+|[TAT-DQA](https://arxiv.org/abs/2207.11871)|ACM MM|2022|2,758 docs|16,558|EN|Txt, Tab|EM, F1|[Project](https://github.com/NExTplusplus/TAT-DQA)|
+|[SPIQA](https://arxiv.org/abs/2407.09413)|NeurIPS|2024|25,859 papers|270,194|EN|Txt, Tab, Fig|BLEU, ROUGE, BERTScore, L3Score|[Project](https://huggingface.co/datasets/google/spiqa)|
+|[LongDocURL](https://aclanthology.org/2025.acl-long.57/)|ACL|2025|396 docs|2,325|EN|Txt, Lay, Tab, Fig|Accuracy|[Project](https://github.com/dengc2023/LongDocURL)|
+|[MTVQA](https://aclanthology.org/2025.findings-acl.404/)|ACL Find.|2025|8,794|6,778|9 langs|Txt|Accuracy, ANLS|[Project](https://github.com/bytedance/MTVQA)|
 
 #### Channel-specific Datasets
 
 |Dataset|Venue|Year|Size|Queries|Language|Channels annotated|Evaluation Metric|Project|
 |---|:-:|:-:|:-:|:-:|:-:|---|:-:|:-:|
-|[FUNSD](https://scholar.google.com/scholar?q=FUNSD%3A+A+Dataset+for+Form+Understanding+in+Noisy+Scanned+Documents)|ICDARW|2019|199 forms|-|EN|Txt, Frm|F1|[Project](https://guillaumejaume.github.io/FUNSD/)|
-|[VRDU](https://doi.org/10.1145/3580305.3599929)|KDD|2023|-|-|EN|Txt, Frm|-|[Project](https://github.com/google-research-datasets/vrdu)|
-|[DocLayNet](https://doi.org/10.1145/3534678.3539043)|KDD|2022|80,863 pages|-|EN|Txt, Lay, Tab, Fig, Eqn|mAP|[Project](https://github.com/DS4SD/DocLayNet)|
-|[PubTables-1M](https://scholar.google.com/scholar?q=PubTables-1M%3A+Towards+Comprehensive+Table+Extraction+from+Unstructured+Documents)|CVPR|2022|-|-|EN|Tab|GriTS|[Project](https://github.com/microsoft/table-transformer)|
-|[UniMER](https://openaccess.thecvf.com/content/CVPR2026/html/Gu_UniMERNet_A_Universal_Network_for_Real-World_Mathematical_Expression_Recognition_CVPR_2026_paper.html)|CVPR|2026|-|-|-|Eqn|-|[Project](https://github.com/opendatalab/UniMERNet)|
-|[SPODS](https://doi.org/10.1007/978-3-319-68124-5_19)|ICVGIP-W|2017|-|-|-|Stp|-|[Project](https://facweb.iitkgp.ac.in/~jay/spods/index.html)|
-|[ReST](https://arxiv.org/pdf/2304.11966)|ICDAR|2023|-|-|ZH|Stp|-|-|
-|[DKDS](https://doi.org/10.1007/s10032-026-00595-5)|IJDAR|2026|-|-|JA|Stp|-|[Project](https://github.com/RuiyangJu/DKDS)|
-|[TexTAR](https://doi.org/10.1007/978-3-032-04614-7_16)|ICDAR|2025|-|-|multi|Txt, Typ|-|[Project](https://github.com/tex-tar/tex-tar)|
+|[FUNSD](https://arxiv.org/abs/1905.13538)|ICDARW|2019|199 forms|-|EN|Txt, Frm|F1|[Project](https://guillaumejaume.github.io/FUNSD/)|
+|[VRDU](https://doi.org/10.1145/3580305.3599929)|KDD|2023|641 + 1,413|-|EN|Txt, Frm|F1|[Project](https://github.com/google-research-datasets/vrdu)|
+|[DocLayNet](https://doi.org/10.1145/3534678.3539043)|KDD|2022|80,863 pages|80,863|EN|Txt, Lay, Tab, Fig, Eqn|mAP|[Project](https://github.com/DS4SD/DocLayNet)|
+|[PubTables-1M](https://arxiv.org/abs/2110.00061)|CVPR|2022|568,588|-|EN|Tab|AP, GriTS|[Project](https://github.com/microsoft/table-transformer)|
+|[UniMER](https://openaccess.thecvf.com/content/CVPR2026/html/Gu_UniMERNet_A_Universal_Network_for_Real-World_Mathematical_Expression_Recognition_CVPR_2026_paper.html)|CVPR|2026|1,061,791|23,757|EN|Eqn|CDM|[Project](https://github.com/opendatalab/UniMERNet)|
+|[SPODS](https://doi.org/10.1007/978-3-319-68124-5_19)|ICVGIP-W|2017|-|-|EN|Stp|F1|[Project](https://facweb.iitkgp.ac.in/~jay/spods/index.html)|
+|[ReST](https://arxiv.org/pdf/2304.11966)|ICDAR|2023|∼10,000|-|ZH|Stp|Accuracy, F1|[Project](https://arxiv.org/pdf/2304.11966)|
+|[DKDS](https://doi.org/10.1007/s10032-026-00595-5)|IJDAR|2026|-|-|JA|Stp|F1|[Project](https://github.com/RuiyangJu/DKDS)|
+|[TexTAR](https://doi.org/10.1007/978-3-032-04614-7_16)|ICDAR|2025|1,623|-|multi|Txt, Typ|F1, P, R|[Project](https://github.com/tex-tar/tex-tar)|
 
 ### Benchmarks Released at 2025-2026 Venues
 
@@ -257,7 +285,7 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |[Any Information Is Just Worth One Single Screenshot: Unifying Search with Visualized Information Retrieval](https://aclanthology.org/2025.acl-long.943/)|ACL 2025|-|
 |[VisRAG 2.0: Evidence-Guided Multi-Image Reasoning in Visual Retrieval-Augmented Generation](https://arxiv.org/abs/2510.09733)|arXiv 2025|[Code](https://github.com/OpenBMB/VisRAG)|
 |[GlobalDoc: A Cross-Modal Vision-Language Framework for Real-World Document Image Retrieval and Classification](https://openaccess.thecvf.com/content/WACV2025/html/Bakkali_GlobalDoc_A_Cross-Modal_Vision-Language_Framework_for_Real-World_Document_Image_Retrieval_WACV_2025_paper.html)|WACV 2025|-|
-|[Unifying Multimodal Retrieval via Document Screenshot Embedding](https://arxiv.org/pdf/2406.11251)|EMNLP 2024|-|
+|[Unifying Multimodal Retrieval via Document Screenshot Embedding](https://arxiv.org/abs/2406.11251)|EMNLP 2024|-|
 
 ### Late Interaction
 
@@ -309,7 +337,7 @@ The 73 methods of the survey (paper Tables 4-5). Objective, index, returned unit
 |[VRAG-RL: Empower Vision-Perception-Based RAG for Visually Rich Information Understanding via Iterative Reasoning with Reinforcement Learning](https://openreview.net/forum?id=EeAHhNwXPV)|NeurIPS 2025|[Code](https://github.com/Alibaba-NLP/VRAG)|
 |[MoLoRAG: Bootstrapping Document Understanding via Multi-modal Logic-aware Retrieval](https://aclanthology.org/2025.emnlp-main.708/)|EMNLP 2025|[Code](https://github.com/WxxShirley/MoLoRAG)|
 |[HKRAG: Holistic Knowledge Retrieval-Augmented Generation over Visually-Rich Documents](https://arxiv.org/pdf/2511.20227)|arXiv 2025|-|
-|[VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation](https://scholar.google.com/scholar?q=VisDoM%3A+Multi-Document+QA+with+Visually+Rich+Elements+Using+Multimodal+Retrieval-Augmented+Generation)|NAACL 2025|[Code](https://github.com/MananSuri27/VisDoM)|
+|[VisDoM: Multi-Document QA with Visually Rich Elements Using Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2412.10704)|NAACL 2025|[Code](https://github.com/MananSuri27/VisDoM)|
 |[SimpleDoc: Multi‐Modal Document Understanding with Dual‐Cue Page Retrieval and Iterative Refinement](https://aclanthology.org/2025.emnlp-main.1443/)|EMNLP 2025|[Code](https://github.com/ag2ai/SimpleDoc)|
 |[NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering](https://aclanthology.org/2025.acl-long.311/)|ACL 2025|-|
 |[Doc-React: Multi-page Heterogeneous Document Question-answering](https://aclanthology.org/2025.acl-short.6/)|ACL 2025|-|
@@ -419,11 +447,15 @@ Every paper of each venue-year was retrieved from the official record and screen
 |arXiv|2026|543|65|[arXiv 2026](pages/venues/arXiv2026.md)|[list](pages/lists/arXiv2026_p1.md) · [CSV](data/venues/all/arXiv2026.csv)|
 |**Total**| |**78,352**|**2,014**| | |
 
+## Works Not Included in the Paper
+
+Because of the TPAMI page limit, **74 of the 291 collected works** are not cited in the paper. All of them are listed, with clickable links, in **[pages/further_reading.md](pages/further_reading.md)** (32 benchmarks and datasets, 42 related works) and in Part B of the [Master list PDF](supplementary/Master_List.pdf). The 217 works cited in the paper are flagged `CitedInPaper = yes` in [data/references.csv](data/references.csv).
+
 ## Further Reading
 
 - [pages/all_works.md](pages/all_works.md): all 291 collected works A-Z, each with a clickable link.
 - [pages/further_reading.md](pages/further_reading.md): works collected for the survey but not cited in the paper because of the page limit.
-- [supplementary/Master_List.pdf](supplementary/Master_List.pdf): every collected work A-Z and every related paper of every venue-year, all clickable.
+- [supplementary/Master_List.pdf](supplementary/Master_List.pdf): the 217 cited works, the 74 works not in the paper, the 73 methods, the 61 benchmarks, and the 2,014 related papers of all 42 venue-years in the order of the [Venues](#venues) table, all clickable.
 - [supplementary/Supplementary_Lists.pdf](supplementary/Supplementary_Lists.pdf): venue table, all 73 methods, the 36 new benchmarks, further reading and scores, as one PDF.
 
 ## Data Files and Scripts
@@ -442,4 +474,8 @@ GitHub shows CSV files as plain tables without clickable links, so every data fi
 |related papers of every venue-year|[pages/venues/TPAMI2026.md](pages/venues/TPAMI2026.md) (one page per venue, linked in [Venues](#venues))|[`data/venues/related/`](data/venues/related/)|
 |BibTeX of all references|-|[`data/vdu_rag.bib`](data/vdu_rag.bib)|
 |Python scripts used to collect the lists, datasets and scores|-|[`scripts/`](scripts/)|
+|scripts that rebuild the clickable list pages and the master list PDF, and re-run the release checks|-|[`build_list_pages.py`](scripts/build_list_pages.py) · [`build_master_list.py`](scripts/build_master_list.py) · [`verify_repo.py`](scripts/verify_repo.py)|
 
+## Verification
+
+Every list and link in this repository was checked before release; the checks, their results and what could not be checked from a script are in **[VERIFICATION.md](VERIFICATION.md)**. The same checks can be re-run with `python scripts/verify_repo.py`.

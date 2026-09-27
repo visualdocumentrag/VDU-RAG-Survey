@@ -1,5 +1,11 @@
 # Stamps and Seals
 
+[← Form fields](form-fields.md) · [All eight channels](../../README.md#the-eight-channels) · [Typography →](typography.md)
+
+<img src="../../images/channels/stamps-and-seals.jpg" width="60%" alt="Stamps and seals channel example (paper Fig. 2)">
+
+*Example region of the stamps and seals channel, as shown around the hub in paper Fig. 2.*
+
 Impressions marking authority, receipt or validity, printed on top of other content by construction. Work has detected them, surveyed seal-based retrieval, read the text inside 10,000 real seals, erased them and checked them for forgery, on a handful of datasets. Each line treats the stamp as something to find, read, remove or verify; no retrieval system since 2020 that we found evaluates on it.
 
 ## Coverage in the channel x paradigm matrix (paper Table 7)
@@ -33,3 +39,5 @@ Impressions marking authority, receipt or validity, printed on top of other cont
 |[DKDS: A Benchmark Dataset of Degraded Kuzushiji Documents with Seals for Detection and Binarization](https://doi.org/10.1007/s10032-026-00595-5)|Int. J. Document Analysis and Recognition (IJDAR)|2026|
 
 [Back to the channels](../../README.md#the-eight-channels)
+
+[← Form fields](form-fields.md) · [All eight channels](../../README.md#the-eight-channels) · [Typography →](typography.md)
