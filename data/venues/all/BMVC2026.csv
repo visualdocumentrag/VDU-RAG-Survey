@@ -14,7 +14,7 @@ No,Type,Title
 13,Dataset,EgoMaize: A First-Person Maize Instance Segmentation Benchmark under Severe Field Occlusion
 14,Dataset,A Structured Benchmark for Text-Guided Anomaly Detection: When Language Stops Conditioning the Decision
 15,Dataset,Advancing Semiconductor Inspection: A New Dataset and Approach for Robust Anomaly Detection with Large Vision Language Models
-16,Dataset,$\text{DA}^2$: Dataset-Aware Adaptive Augmentation for Few-Shot Class-Incremental Learning
+16,Dataset,DA²: Dataset-Aware Adaptive Augmentation for Few-Shot Class-Incremental Learning
 17,Dataset,RevalExo: A Functional Daily-Activity Benchmark for Inertial and Visual Locomotion Mode Recognition in Older Adults and Clinical Cohorts
 18,Dataset,SynthFaces: Balanced Large Scale Human Dataset
 19,Dataset,Motion-Equivariant Pseudo-Video Augmentation: Video-Style Generalization from a Single Static Polyp Dataset
@@ -53,7 +53,7 @@ No,Type,Title
 52,Method,Efficient and Explicit Emotion-Controllable Video Dubbing Synthesis via Audio-Visual Alignment onto Implicit Motion Space
 53,Method,Parameter-efficient Latent Diffusion for Label-free Virtual Staining in High-content Microscopy
 54,Method,TeCoNeRV: Leveraging Temporal Coherence for Compressible Neural Representations for Videos
-55,Method,Hyper$^2$: Unleashing Hyperbolic Geometry's Full Potential via Dual-Space Consistency
+55,Method,Hyper²: Unleashing Hyperbolic Geometry's Full Potential via Dual-Space Consistency
 56,Method,CoDehaze: Color-Driven Diffusion with Structured Haze Guidance for Image Dehazing
 57,Method,ML-CLIPSim: Multi-Layer CLIP Similarity for Machine-Oriented Image Quality
 58,Method,3D-MRL: Nested Multimodal 3D Representations via Matryoshka Representation Learning
@@ -133,7 +133,7 @@ No,Type,Title
 132,Method,SOS! : A Streamlined Object-Conditional Transformer for Model-free Segmentation
 133,Method,Uni- and Bi-Directional Granularity-Aware Prompt Learning for Face Anti-Spoofing
 134,Method,From Words to Wavelengths: VLMs for Few-Shot Multispectral Object Detection
-135,Method,"RS$^3$-Prune: Read-Sparse, Store-Sparse Token Pruning for Video Object Segmentation"
+135,Method,"RS³-Prune: Read-Sparse, Store-Sparse Token Pruning for Video Object Segmentation"
 136,Method,Robust Image Quality Assessment via Feature-Space Smoothing
 137,Method,Depth-to-Image Synthesis-Driven Generative Unguided Depth Completion
 138,Method,PathoClass-BRCA: Reframing Pathology Report Generation as Guideline-Aligned Multi-Task Classification
@@ -361,7 +361,7 @@ No,Type,Title
 360,Method,Reachability Is Not Generalization: Understanding Verb--Noun Decomposition in Assembly Action Recognition
 361,Method,MedCORE: Criteria-Grounded Clinical Reasoning for Interpretable Medical Image Diagnosis
 362,Method,AMGF3D: Adaptive Multi-scale Gated Fusion for Robust Indoor RGB-D 3D Object Detection
-363,Method,X$^2$Localizer: Cross-Grained Alignment for Progressive Cross-View Video Geo-Localization
+363,Method,X²Localizer: Cross-Grained Alignment for Progressive Cross-View Video Geo-Localization
 364,Method,Few-Shot Logical Anomaly Detection via Symbolic Constraint Extraction with Grounded Explanations
 365,Method,A Feasibility Study on Self-Supervised LLM-Inspired Training for Generalizable Human Motion Understanding
 366,Method,Evaluating Video LLMs’ Understanding of Corner Cases in Autonomous Driving

@@ -16,7 +16,7 @@ for _,x in m.iterrows():
     o.append('|'+'|'.join(v)+'|')
 open('data/methods.md','w',encoding='utf-8').write('\n'.join(o)+'\n')
 # pages/methods.md grouped by the venue column of the paper
-o=['# Methods (73)','','All visual document RAG methods tracked by the survey, grouped and ordered by venue exactly as in paper Tables 4-5. Cut-off: 24 September 2026.','',
+o=['# Methods (73)','','[Paper Table 4 (HD)](figures_tables.md#table-4) · [Table 5 (HD)](figures_tables.md#table-5)','','All visual document RAG methods tracked by the survey, grouped and ordered by venue exactly as in paper Tables 4-5. Cut-off: 24 September 2026.','',
 '*Objective*: what the method optimizes. *Index / Unit*: vectors stored per unit and what is returned. *Datasets*: benchmarks named at least three times in the paper\'s full text (or its abstract); the paper shows at most four and "+n" for the rest. **new** = added from the 2025-2026 venue lists. *Paper* opens the paper page; *link in paper* is the link printed in the paper table. Source: [`data/methods.csv`](../data/methods.csv).','',
 '[Back to README](../README.md#visual-document-rag-methods)','']
 for ven,g in m.groupby('Paper_Venue',sort=False):

@@ -1,5 +1,7 @@
 # What encoder families preserve and destroy (paper Table 3)
 
+[Paper Table 3 (HD)](figures_tables.md#table-3) · [Fig. 7 (HD)](figures_tables.md#fig-7) · [Fig. 9 (HD)](figures_tables.md#fig-9)
+
 [Back to README](../README.md#paper-to-repository-map)
 
 |Family|Preserves|Destroys|

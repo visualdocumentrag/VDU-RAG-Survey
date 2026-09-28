@@ -1,8 +1,10 @@
 # Application domains (paper Fig. 11)
 
+[Paper Fig. 11 (HD)](figures_tables.md#fig-11)
+
 [Back to README](../README.md#paper-to-repository-map)
 
-<img src="../images/fig_applications.png" width="90%">
+<img src="../images/fig_applications.png" width="100%">
 
 The domains with the greatest need lean on the least-studied channels (paper Table 7).
 

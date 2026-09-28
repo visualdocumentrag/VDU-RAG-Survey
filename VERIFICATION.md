@@ -14,6 +14,11 @@ Literature cut-off: **24 September 2026**. Every check below can be re-run with 
 | Scores (paper Table 9) | every value, footnote letter and printed link equal to the paper table ([pages/scores.md](pages/scores.md)) |
 | Channel x paradigm matrix (paper Table 7) | equal to the [channel table](README.md#the-eight-channels) |
 | Abstract | word for word equal to the paper |
+| Citations inside figures and tables | every work cited in Tables 1-9 and Figs. 1-11 is linked on the matching clickable page (including the notes of Tables 7 and 9) |
+| Fig. 1 and Fig. 3 values | works per year (2020-2026: 5, 8, 14, 10, 19, 73, 67) and every PRISMA count equal to the data files |
+| Reference numbers | [pages/paper_references.md](pages/paper_references.md) lists [1]-[217] exactly as numbered in the paper, and the works each section cites |
+| Benchmarks cited only in the text | 21, listed with links in [pages/datasets.md](pages/datasets.md#3-other-benchmarks-and-datasets-cited-in-the-paper-21) |
+| Figures 1-11 and Tables 1-9 | rendered at 400 dpi from the paper source, with the paper's citation numbers ([pages/figures_tables.md](pages/figures_tables.md)) |
 | Counts stated in the paper | 42 venue-year lists, 78,352 records, 2,014 related, 73 methods, 61 benchmarks: equal to the data files |
 
 ## Venue lists

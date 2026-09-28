@@ -52,7 +52,7 @@ Papers kept after title/abstract screening, before the (C1)-(C4) eligibility cri
 | 42 | [DocPC: Document-Level Visual Retrieval via Representative Page Composition](https://arxiv.org/abs/2608.25434) | TOP VisualDoc RAG |  |
 | 43 | [Spatial Matryoshka Training for Multi-Granularity Visual Document Retrieval](https://arxiv.org/abs/2608.29951) | TOP VisualDoc RAG |  |
 | 44 | [NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference](https://arxiv.org/abs/2609.01657) | TOP VisualDoc RAG |  |
-| 45 | [ViSAR: Training-Free Adaptive-$k$ Retrieval for Visual Document Question Answering](https://arxiv.org/abs/2609.02486) | TOP VisualDoc RAG |  |
+| 45 | [ViSAR: Training-Free Adaptive-k Retrieval for Visual Document Question Answering](https://arxiv.org/abs/2609.02486) | TOP VisualDoc RAG |  |
 | 46 | [Query-Aware Token Budgeting for Efficient Late-Interaction Visual Document Retrieval](https://arxiv.org/abs/2609.07262) | TOP VisualDoc RAG |  |
 | 47 | [Capability-Routed Visual Retrieval and Evidence Threading for Long-Context Document Question Answering](https://arxiv.org/abs/2609.13268) | TOP VisualDoc RAG |  |
 | 48 | [Generative Late-Interaction Embeddings For Visual Document Retrieval](https://arxiv.org/abs/2609.11808) | TOP VisualDoc RAG |  |

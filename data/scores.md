@@ -1,5 +1,7 @@
 # Reported scores (paper Table 9)
 
+[Paper Table 9 (HD)](../pages/figures_tables.md#table-9) · [Fig. 6 (HD)](../pages/figures_tables.md#fig-6)
+
 [Back to README](../README.md#metrics-and-reported-scores) · [Metrics](../pages/metrics.md) · [Raw file](scores.csv)
 
 Scores as reported by each paper for itself, copied from its own result table and not re-run or rescaled. ViDoRe V2 averages cover different subsets across papers (letters), so V2 values compare only within a letter. In the end-to-end part the reader model differs by row and dominates the score. "-" = not reported.
@@ -41,7 +43,7 @@ ViDoRe V2 subsets: (a) nine incl. multilingual; (b) English; (c) MMEB-V2 protoco
 
 **Also reported** (paper Table 9 notes): ColParse ViDoSeek 84.12; HEAVEN ViDoSeek R@1 75.04; ReAlign 75.4 avg. nDCG@5 on six VisRAG sets; VisDoMRAG 44.11 / 63.28 / 67.22 on PaperTab / FetaTab / SlideVQA; HKRAG SlideVQA 74.0, DUDE 68.8; SlideAgent SlideVQA 84.9; SCoPE VLM MMLongBench-Doc ANLS 17.90.
 
-**Relative gains reported over each paper's own baselines**: DSE +17 points top-1 over BM25 on Wiki-SS; VisRAG 20-40% end-to-end over text-based RAG; VisDoMRAG 12-20% on VisDoMBench; ViDoRAG over 10% on ViDoSeek; MDocAgent +12.1% on average over five benchmarks; RegionRAG +10.02% R@1 and +3.56% accuracy with 71.42% of the visual tokens.
+**Relative gains reported over each paper's own baselines**: [DSE](https://arxiv.org/abs/2406.11251) +17 points top-1 over BM25 on Wiki-SS; [VisRAG](https://openreview.net/forum?id=zG459X3Xge) 20-40% end-to-end over text-based RAG; [VisDoMRAG](https://arxiv.org/abs/2412.10704) 12-20% on VisDoMBench; [ViDoRAG](https://aclanthology.org/2025.emnlp-main.464/) over 10% on ViDoSeek; [MDocAgent](https://arxiv.org/pdf/2503.13964) +12.1% on average over five benchmarks; [RegionRAG](https://ojs.aaai.org/index.php/AAAI/article/view/37597) +10.02% R@1 and +3.56% accuracy with 71.42% of the visual tokens.
 
 ## Every value with its source table
 

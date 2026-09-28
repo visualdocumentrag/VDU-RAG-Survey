@@ -41,7 +41,7 @@ Papers kept after title/abstract screening, before the (C1)-(C4) eligibility cri
 | 31 | [Text2Vis: A Challenging and Diverse Benchmark for Generating Multimodal Visualizations from Text](https://aclanthology.org/2025.emnlp-main.1622/) | 3 Chart Table Slide | D |
 | 32 | [Doc2Chart: Intent-Driven Zero-Shot Chart Generation from Documents](https://aclanthology.org/2025.emnlp-main.1770/) | 3 Chart Table Slide | D |
 | 33 | [StatsChartMWP: A Dataset for Evaluating Multimodal Mathematical Reasoning Abilities on Math Word Problems with Statistical Charts](https://aclanthology.org/2025.findings-emnlp.695/) | 3 Chart Table Slide | D |
-| 34 | [ChartM^3: A Multi-Stage Code-Driven Pipeline for Constructing Multi-Dimensional and Multi-Step Visual Reasoning Data in Chart Comprehension](https://aclanthology.org/2025.findings-emnlp.701/) | 3 Chart Table Slide | D |
+| 34 | [ChartM³: A Multi-Stage Code-Driven Pipeline for Constructing Multi-Dimensional and Multi-Step Visual Reasoning Data in Chart Comprehension](https://aclanthology.org/2025.findings-emnlp.701/) | 3 Chart Table Slide | D |
 | 35 | [MTabVQA: Evaluating Multi-Tabular Reasoning of Language Models in Visual Space](https://aclanthology.org/2025.findings-emnlp.1083/) | 3 Chart Table Slide | D |
 | 36 | [F2TEval: Human-Aligned Multi-Dimensional Evaluation for Figure-to-Text Task](https://aclanthology.org/2025.emnlp-main.195/) | 3 Chart Table Slide | D |
 | 37 | [SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design](https://aclanthology.org/2025.emnlp-main.458/) | 3 Chart Table Slide | D |

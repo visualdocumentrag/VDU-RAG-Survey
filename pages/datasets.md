@@ -1,5 +1,7 @@
 # Datasets and benchmarks (61)
 
+[Paper Table 8 (HD)](figures_tables.md#table-8)
+
 Cut-off: 24 September 2026. Source: [`data/datasets.csv`](../data/datasets.csv).
 
 ## 1. Channel coverage of key benchmarks (paper Table 8)
@@ -76,3 +78,33 @@ Found in the venue lists of the survey; not yet channel-annotated. *Focus* follo
 |Multilingual and Indic|HW-MLVQA|IJDAR'25|Handwritten multilingual VQA|[paper](https://doi.org/10.1007/s10032-025-00560-8)||
 |Multilingual and Indic|IndicDLP|ICDAR'25|Multilingual, multi-domain Indic layout parsing|[paper](https://doi.org/10.1007/978-3-032-04614-7_2)||
 |Multilingual and Indic|IndianPCL|IJDAR'26|Multimodal legal document understanding|[paper](https://doi.org/10.1007/s10032-026-00601-w)||
+
+## 3. Other benchmarks and datasets cited in the paper (21)
+
+Cited in the text of the paper but not part of Table 8 or of the 61 benchmarks counted in the survey. *Cited in* gives the sections of the paper that use each one.
+
+|Dataset|Venue|Year|What it tests|Cited in|Paper|
+|---|---|:-:|---|:-:|:-:|
+|DUDE|Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)|2023|Multi-page document understanding|Sec. 10|[paper](https://doi.org/10.1109/iccv51070.2023.01789)|
+|MMLongBench-Doc|Adv. Neural Inf. Process. Syst. (NeurIPS)|2024|Long-context document understanding (end-to-end column of Table 9)|Sec. 10|[paper](https://arxiv.org/abs/2407.01523)|
+|PlotQA|Proc. IEEE/CVF Winter Conf. Appl. Comput. Vis. (WACV)|2020|Question answering over scientific plots|Sec. 5, Sec. 10, Sec. 11|[paper](https://arxiv.org/abs/1909.00997)|
+|CharXiv|Proc. Adv. Neural Inf. Process. Syst. (NeurIPS)|2024|Realistic chart understanding|Sec. 5|[paper](https://doi.org/10.52202/079017-3609)|
+|Chart-HQA|Proc. ACM Int. Conf. Multimedia (ACM MM)|2025|Hypothetical (counterfactual) chart questions|Sec. 4|[paper](https://doi.org/10.1145/3746027.3758288)|
+|Misleading-chart benchmark|Proc. Conf. Empirical Methods Natural Language Process. (EMNLP)|2025|Charts designed to mislead|Sec. 4|[paper](https://aclanthology.org/2025.emnlp-main.695/)|
+|XFUND|Findings Assoc. Comput. Linguistics: ACL|2022|Multilingual form understanding|Sec. 5|[paper](https://doi.org/10.18653/v1/2022.findings-acl.253)|
+|UNIKIE-Bench|Proc. Annu. Meeting Assoc. Comput. Linguistics (ACL)|2026|Key information extraction|Sec. 5|[paper](https://aclanthology.org/2026.acl-long.287/)|
+|PubLayNet|Proc. Int. Conf. Document Analysis and Recognition (ICDAR)|2019|Document layout analysis|Sec. 5|[paper](https://arxiv.org/abs/1908.07836)|
+|MIRACL-Vision|arXiv preprint arXiv:2505.11651|2025|Multilingual visual document retrieval|Sec. 10, Sec. 12|[paper](https://arxiv.org/abs/2505.11651)|
+|VisR-Bench|arXiv preprint arXiv:2508.07493|2025|Multilingual long-document visual RAG|Sec. 10, Sec. 11, Sec. 12|[paper](https://arxiv.org/abs/2508.07493)|
+|IndicVisionBench|Proc. Int. Conf. Learning Representations (ICLR)|2026|Indic cultural and multilingual understanding|Sec. 4, Sec. 10, Sec. 12|[paper](https://openreview.net/forum?id=LmJoLn04iL)|
+|irpapers|arXiv preprint arXiv:2602.17687|2026|Scientific-paper retrieval and QA|Sec. 10|[paper](https://arxiv.org/abs/2602.17687)|
+|CiteVQA|arXiv preprint arXiv:2605.12882|2026|Evidence attribution in document QA|Sec. 6, Sec. 7, Sec. 12|[paper](https://arxiv.org/abs/2605.12882)|
+|OCR-robustness benchmark|Proc. Annu. Meeting Assoc. Comput. Linguistics: Industry Track (ACL)|2026|OCR errors in retrieval-augmented generation|Sec. 4, Sec. 9|[paper](https://aclanthology.org/2026.acl-industry.60/)|
+|VisDoMBench|Proc. Conf. Nations Americas Chapter Assoc. Comput. Linguistics (NAACL)|2025|Multi-document QA with visually rich elements|Sec. 4, Sec. 7, Sec. 9, Sec. 12|[paper](https://arxiv.org/abs/2412.10704)|
+|Token-compression evaluation|Proc. Annu. Meeting Assoc. Comput. Linguistics (ACL)|2026|Benchmarks for visual token compression|Sec. 7|[paper](https://aclanthology.org/2026.acl-long.195/)|
+|MultiOCR-QA|arXiv preprint arXiv:2502.16781|2025|QA on noisy multilingual OCR text|Sec. 9|[paper](https://arxiv.org/abs/2502.16781)|
+|ST-VQA|Proc. IEEE/CVF Int. Conf. Comput. Vis. (ICCV)|2019|Scene-text VQA; introduced the ANLS metric|Sec. 10|[paper](https://arxiv.org/abs/1905.13648)|
+|ICDAR 2021 HDC|Proc. Int. Conf. Document Analysis and Recognition (ICDAR)|2021|Historical font and script classification (typography)|Sec. 5, Sec. 8, Sec. 10, Sec. 12|[paper](https://doi.org/10.1007/978-3-030-86337-1_41)|
+|VRD-IU|arXiv preprint arXiv:2506.01388|2025|Competition on visually rich document understanding|Sec. 3, Sec. 12|[paper](https://arxiv.org/abs/2506.01388)|
+
+[Back to README](../README.md#datasets)

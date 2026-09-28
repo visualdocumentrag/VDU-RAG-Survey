@@ -21,10 +21,10 @@ This is the repository of **Toward Channel-Aware Visual Document Understanding W
 ## Menu
 
 - [Master list PDF (every paper, clickable)](supplementary/Master_List.pdf) · [Supplementary lists PDF](supplementary/Supplementary_Lists.pdf)
-- [News](#-news) · [Abstract](#abstract) · [Overview](#overview) · [Paper-to-Repository Map](#paper-to-repository-map)
+- [News](#-news) · [Abstract](#abstract) · [Overview](#overview) · [Paper-to-Repository Map](#paper-to-repository-map) · [All figures and tables (HD)](pages/figures_tables.md) · [All 217 references, by section](pages/paper_references.md)
 - [The Eight Channels](#the-eight-channels)
   - [Plain text](pages/channels/plain-text.md) · [Layout](pages/channels/layout-structure.md) · [Tables](pages/channels/tables.md) · [Figures and charts](pages/channels/figures-and-charts.md) · [Equations](pages/channels/equations.md) · [Form fields](pages/channels/form-fields.md) · [Stamps and seals](pages/channels/stamps-and-seals.md) · [Typography](pages/channels/typography.md)
-- [Datasets](#datasets) ([all 61 with channel coverage](pages/datasets.md))
+- [Datasets](#datasets) ([all 61 with channel coverage](pages/datasets.md) · [21 more cited in the paper](pages/datasets.md#3-other-benchmarks-and-datasets-cited-in-the-paper-21))
   - [Channel-audited Benchmarks](#channel-audited-benchmarks): [Retrieval and RAG](#retrieval-and-rag-benchmarks) · [Document QA](#document-qa-benchmarks) · [Channel-specific](#channel-specific-datasets)
   - [Benchmarks Released at 2025-2026 Venues](#benchmarks-released-at-2025-2026-venues): [Retrieval and RAG](#retrieval-and-rag) · [Long-document QA](#long-document-qa-and-reasoning) · [Grounding, parsing and OCR](#grounding-parsing-and-ocr) · [Multilingual and Indic](#multilingual-and-indic)
 - [Visual Document RAG Methods](#visual-document-rag-methods) ([all 73 with datasets, objective and index](pages/methods.md))
@@ -108,28 +108,31 @@ A reader who opens an invoice, a contract or a lab report does not read characte
 
 ## Paper-to-Repository Map
 
-Every table and figure of the paper has a clickable counterpart here, with a link for each work it cites.
+Every figure and table of the paper, in the order it appears, with an HD image rendered from the paper source and a clickable version with a link for each work it cites. All of them are also on one page: **[Figures and tables of the paper (HD)](pages/figures_tables.md)**.
 
-|In the paper|What it shows|In this repository|
-|---|---|---|
-|Fig. 1|works surveyed per year|<img src="./images/fig_pubs.png" width="200"> · [all works A-Z](pages/all_works.md)|
-|Fig. 2|the eight channels around a page|[channel gallery](#the-eight-channels) · one page per channel|
-|Table 1|existing surveys and their organizing axis|[pages/related_surveys.md](pages/related_surveys.md)|
-|Table 2, Fig. 3|search terms and PRISMA flow|[pages/search_terms.md](pages/search_terms.md) · [PRISMA figure](images/fig_prisma.png) · [venue lists](#venues)|
-|Fig. 4|five paradigms and three axes of development|[figure](images/fig_development.png)|
-|Table 3|what encoder families preserve and destroy|[pages/encoders.md](pages/encoders.md)|
-|Figs. 5-7|granularity, index cost, where the channel label is lost|[granularity](images/fig_granularity.png) · [cost](images/fig_cost.png) · [failures](images/fig_failures.png)|
-|Tables 4-5|the 73 methods|[pages/methods.md](pages/methods.md) · [data/methods.md](data/methods.md)|
-|Table 6, Fig. 8|EIOAR frame of representative systems|[data/eioar.md](data/eioar.md) · [figure](images/fig_eioar.png)|
-|Table 7|channel x paradigm matrix|[channel table](#the-eight-channels)|
-|Fig. 9|parse, pixels or both|[figure](images/fig_pipelines.png)|
-|Table 8, Sec. 10|the 61 benchmarks and their channel coverage|[pages/datasets.md](pages/datasets.md) · [data/datasets.md](data/datasets.md)|
-|Sec. 10.4, Eq. 7|metrics and the channel-aware score CARS|[pages/metrics.md](pages/metrics.md)|
-|Table 9|scores as reported by each paper, with source table|[pages/scores.md](pages/scores.md)|
-|Fig. 10|design and reporting checklist (18 items)|[pages/checklist.md](pages/checklist.md)|
-|Fig. 11|application domains|[pages/applications.md](pages/applications.md)|
-|Sec. 3|42 venue-year lists, 78,352 papers|[Venues](#venues) · [master list PDF](supplementary/Master_List.pdf)|
-|References|217 cited, 74 not included (page limit)|[data/references.md](data/references.md) · [pages/further_reading.md](pages/further_reading.md)|
+|In the paper|What it shows|HD image|Clickable version|
+|---|---|:-:|---|
+|Fig. 1|works surveyed per year|[HD](pages/figures_tables.md#fig-1)|[all works A-Z](pages/all_works.md)|
+|Fig. 2|the eight channels around a page|[HD](pages/figures_tables.md#fig-2)|[channel gallery](#the-eight-channels), one page per channel|
+|Table 1|existing surveys and their organizing axis|[HD](pages/figures_tables.md#table-1)|[pages/related_surveys.md](pages/related_surveys.md)|
+|Table 2|search and screening terms|[HD](pages/figures_tables.md#table-2)|[pages/search_terms.md](pages/search_terms.md)|
+|Fig. 3|PRISMA selection flow|[HD](pages/figures_tables.md#fig-3)|[venue lists](#venues) · [master list PDF](supplementary/Master_List.pdf)|
+|Fig. 4|five paradigms and three axes of development|[HD](pages/figures_tables.md#fig-4)|[pages/methods.md](pages/methods.md)|
+|Table 3|what encoder families preserve and destroy|[HD](pages/figures_tables.md#table-3)|[pages/encoders.md](pages/encoders.md)|
+|Fig. 5|granularity of the retrieved unit|[HD](pages/figures_tables.md#fig-5)|[pages/methods.md](pages/methods.md)|
+|Fig. 6|cost-accuracy trade-off|[HD](pages/figures_tables.md#fig-6)|[pages/scores.md](pages/scores.md)|
+|Fig. 7|four failure modes on real pages|[HD](pages/figures_tables.md#fig-7)|[pages/encoders.md](pages/encoders.md)|
+|Tables 4-5|the 73 methods|[HD I](pages/figures_tables.md#table-4) · [HD II](pages/figures_tables.md#table-5)|[pages/methods.md](pages/methods.md) · [data/methods.md](data/methods.md)|
+|Fig. 8, Table 6|EIOAR frame of representative systems|[HD fig](pages/figures_tables.md#fig-8) · [HD table](pages/figures_tables.md#table-6)|[data/eioar.md](data/eioar.md)|
+|Table 7|channel x paradigm matrix|[HD](pages/figures_tables.md#table-7)|[channel table](#the-eight-channels)|
+|Fig. 9|parse, pixels or both|[HD](pages/figures_tables.md#fig-9)|[pages/encoders.md](pages/encoders.md)|
+|Table 8|the 25 channel-audited benchmarks (61 in total)|[HD](pages/figures_tables.md#table-8)|[pages/datasets.md](pages/datasets.md) · [data/datasets.md](data/datasets.md)|
+|Eq. 7|the channel-aware score CARS|-|[pages/metrics.md](pages/metrics.md)|
+|Fig. 10|design and reporting checklist (18 items)|[HD](pages/figures_tables.md#fig-10)|[pages/checklist.md](pages/checklist.md)|
+|Table 9|scores as reported by each paper|[HD](pages/figures_tables.md#table-9)|[pages/scores.md](pages/scores.md)|
+|Fig. 11|application domains|[HD](pages/figures_tables.md#fig-11)|[pages/applications.md](pages/applications.md)|
+|Sec. 3|42 venue-year lists, 78,352 papers|-|[Venues](#venues) · [master list PDF](supplementary/Master_List.pdf)|
+|References|217 cited, 74 not included (page limit)|-|[numbered as in the paper, and by section](pages/paper_references.md) · [pages/further_reading.md](pages/further_reading.md)|
 
 ## The Eight Channels
 
@@ -156,7 +159,11 @@ Every table and figure of the paper has a clickable counterpart here, with a lin
 
 ✓ results reported; ○ established task, but no method of that paradigm reports on it; ✗ nothing reported (paper Table 7).
 
+Stamps are detected, read, erased and verified ([survey](https://doi.org/10.1016/j.cosrev.2016.09.002), [read](https://arxiv.org/pdf/2304.11966), [erased](https://doi.org/10.1109/ICME55011.2023.00281), [verified](https://doi.org/10.1109/ICSIP52628.2021.9688941)), and fonts recognized or generated ([recognized](https://scholar.google.com/scholar?q=Optical+Font+Recognition+Using+Typographical+Features), [classified](https://doi.org/10.1007/978-3-030-86337-1_41), [generated](https://arxiv.org/abs/2312.12142)); none of this work reports a retrieval result, so none occupies a cell (paper Table 7). [Table 7 (HD)](pages/figures_tables.md#table-7)
+
 ## Datasets
+
+The 25 channel-audited benchmarks of paper Table 8 and the 36 released at 2025-2026 venues are below and in [pages/datasets.md](pages/datasets.md); 21 more benchmarks and datasets cited in the text of the paper are listed [there as well](pages/datasets.md#3-other-benchmarks-and-datasets-cited-in-the-paper-21).
 
 ### Channel-audited Benchmarks
 
@@ -443,7 +450,7 @@ Because of the TPAMI page limit, **74 of the 291 collected works** are not cited
 - [pages/all_works.md](pages/all_works.md): all 291 collected works A-Z, each with a clickable link.
 - [pages/further_reading.md](pages/further_reading.md): works collected for the survey but not cited in the paper because of the page limit.
 - [supplementary/Master_List.pdf](supplementary/Master_List.pdf): the 217 cited works, the 74 works not in the paper, the 73 methods, the 61 benchmarks, and the 2,014 related papers of all 42 venue-years in the order of the [Venues](#venues) table, all clickable.
-- [supplementary/Supplementary_Lists.pdf](supplementary/Supplementary_Lists.pdf): venue table, all 73 methods, the 36 new benchmarks, further reading and scores, as one PDF.
+- [supplementary/Supplementary_Lists.pdf](supplementary/Supplementary_Lists.pdf): venue table, the 73 methods, the 61 benchmarks with Table 8 values, 21 further cited benchmarks, the 74 works not included, the 217 references in paper order and every reported score, as one clickable PDF.
 
 ## Data Files and Scripts
 

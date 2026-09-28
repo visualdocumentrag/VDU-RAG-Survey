@@ -29,7 +29,7 @@ No,Type,Title
 28,Method,CLAIR: CLIP-Aided Weakly Supervised Zero-Shot Cross-Domain Image Retrieval
 29,Method,Uncertainty Diffusion: Parameter-Efficient Depth Refinement via Uncertainty-Guided Diffusion Models
 30,Method,Dual-Stream Attention with Multi-Modal Queries for Object Detection in Transportation Applications
-31,Method,M$^2$StyleGS: Multi-Modality 3D Style Transfer with Gaussian Splatting
+31,Method,M²StyleGS: Multi-Modality 3D Style Transfer with Gaussian Splatting
 32,Method,Lang4D: Weakly Supervised Learning of 4D Language Splatting
 33,Method,SemanticControl: A Training-Free Approach for Handling Loosely Aligned Visual Conditions in ControlNet
 34,Method,Spatial-Frequency Domain Aggregation for Visual Place Recognition
@@ -50,7 +50,7 @@ No,Type,Title
 49,Method,Unsupervised Video Continual Learning via Non-Parametric Deep Embedded Clustering
 50,Method,Capture and Reconstruct 3D Clothed Human from Images
 51,Method,REACT: Real-time Efficiency and Accuracy Compromise for Tradeoffs in Scene Graph Generation
-52,Method,S$^2$V2V: Training-Free Video-to-Video with Sparse Points and Motion Guidance
+52,Method,S²V2V: Training-Free Video-to-Video with Sparse Points and Motion Guidance
 53,Method,Revisiting Entropy Minimization for Long-Sequence Continual Test-Time Adaptation
 54,Method,ADIR: Adaptive Diffusion for Image Reconstruction
 55,Method,Enhancing Visual Tracking by Leveraging High-frequency Information within Event Signals
@@ -180,7 +180,7 @@ No,Type,Title
 179,Method,Is Safety Checker Still Safe? A Study on the Covert NSFW Text
 180,Method,UDT : Unsupervised Discovery of Transformations between Fine-Grained Classes in Diffusion Models
 181,Method,TAG: A Simple Yet Effective Temporal-Aware Approach for Zero-Shot Video Temporal Grounding
-182,Method,"${C}^{3}$-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting"
+182,Method,"C³-GS: Learning Context-aware, Cross-dimension, Cross-scale Feature for Generalizable Gaussian Splatting"
 183,Method,Vision Backbone Efficient Selection for Image Classification in Low-Data Regimes
 184,Method,DEAD: Data-Efficient Audiovisual Dubbing using Neural Rendering Priors
 185,Method,A Unified Framework for High-Frame-Rate HDR Video Synthesis

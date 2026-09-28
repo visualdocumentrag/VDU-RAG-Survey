@@ -1,5 +1,7 @@
 # Search and screening terms (paper Table 2)
 
+[Paper Table 2 (HD)](figures_tables.md#table-2) · [Fig. 3 PRISMA (HD)](figures_tables.md#fig-3)
+
 [Back to README](../README.md#paper-to-repository-map)
 
 Venue-year lists were retrieved in full, not by query; groups D, R and E only flag records for manual reading (a record is flagged if its title or abstract matches any term, D OR R OR E). arXiv was queried directly with the phrase groups A1-A5.

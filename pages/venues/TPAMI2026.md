@@ -8,7 +8,7 @@ Papers kept after title/abstract screening, before the (C1)-(C4) eligibility cri
 
 | # | Paper | Group | D |
 |---:|---|---|:-:|
-| 1 | [M$^{3}$3D: A Multimodal, Multilingual and Multitask Dataset for Grounded Document-Level Information Extraction](https://doi.org/10.1109/tpami.2025.3609288) | 1 Core VDU Doc | D |
+| 1 | [M³3D: A Multimodal, Multilingual and Multitask Dataset for Grounded Document-Level Information Extraction](https://doi.org/10.1109/tpami.2025.3609288) | 1 Core VDU Doc | D |
 | 2 | [TextMonkey: An OCR-Free Large Multimodal Model for Understanding Document](https://doi.org/10.1109/tpami.2026.3653415) | 1 Core VDU Doc | D |
 | 3 | [Bridging the Gap in Exam Handwritten Text Recognition: Dataset, Benchmark, and Modeling](https://doi.org/10.1109/tpami.2026.3721731) | 1 Core VDU Doc | D |
 | 4 | [GAN-Based Domain Adaptation for Image-Aware Layout Generation in Advertising Poster Design](https://doi.org/10.1109/tpami.2025.3602846) | 1 Core VDU Doc | D |

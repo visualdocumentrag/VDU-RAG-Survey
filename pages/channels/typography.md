@@ -18,7 +18,7 @@ Typeface, weight, slope and emphasis carry meaning without changing the characte
 
 ## Benchmarks that annotate this channel
 
-- [TexTAR](https://doi.org/10.1007/978-3-032-04614-7_16) (2025)
+- [TexTAR](https://doi.org/10.1007/978-3-032-04614-7_16) (ICDAR 2025) · [link](https://arxiv.org/pdf/2509.13151)
 
 ## Benchmarks where the channel is present but not annotated
 

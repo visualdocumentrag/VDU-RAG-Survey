@@ -1,5 +1,7 @@
 # Existing surveys (paper Table 1)
 
+[Paper Table 1 (HD)](figures_tables.md#table-1)
+
 [Back to README](../README.md#paper-to-repository-map)
 
 How this survey is positioned against existing reviews. **C** organizes by content type on the page; **I** formalizes interaction between co-located types; **A** audits the consistency of the published record; **M** contributes an evaluation instrument. ✓ covered, ∼ partial, ✗ not covered.

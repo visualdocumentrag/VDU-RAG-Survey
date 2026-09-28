@@ -1,5 +1,7 @@
 # Checklist: designing and reporting a VDU-RAG system (paper Fig. 10)
 
+[Paper Fig. 10 (HD)](figures_tables.md#fig-10)
+
 [Back to README](../README.md#paper-to-repository-map)
 
 ## Design (paper Sec. 9.4 and 6.3)

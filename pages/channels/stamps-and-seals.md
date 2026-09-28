@@ -18,9 +18,9 @@ Impressions marking authority, receipt or validity, printed on top of other cont
 
 ## Benchmarks that annotate this channel
 
-- [SPODS](https://doi.org/10.1007/978-3-319-68124-5_19) (2017)
-- [ReST](https://arxiv.org/pdf/2304.11966) (2023)
-- [DKDS](https://doi.org/10.1007/s10032-026-00595-5) (2026)
+- [SPODS](https://doi.org/10.1007/978-3-319-68124-5_19) (ICVGIP-W 2017) · [link](https://facweb.iitkgp.ac.in/~jay/spods/index.html)
+- [ReST](https://arxiv.org/pdf/2304.11966) (ICDAR 2023) · [link](https://arxiv.org/pdf/2304.11966)
+- [DKDS](https://doi.org/10.1007/s10032-026-00595-5) (IJDAR 2026) · [link](https://ruiyangju.github.io/DKDS/pdf/paper.pdf)
 
 ## Benchmarks where the channel is present but not annotated
 

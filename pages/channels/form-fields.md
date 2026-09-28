@@ -18,23 +18,23 @@ Key--value pairs bound by position rather than reading order, in layouts that va
 
 ## Benchmarks that annotate this channel
 
-- [FUNSD](https://arxiv.org/abs/1905.13538) (2019)
-- [VRDU](https://doi.org/10.1145/3580305.3599929) (2023)
+- [FUNSD](https://arxiv.org/abs/1905.13538) (ICDARW 2019) · [link](https://guillaumejaume.github.io/FUNSD/)
+- [VRDU](https://doi.org/10.1145/3580305.3599929) (KDD 2023) · [link](https://github.com/google-research-datasets/vrdu)
 
 ## Benchmarks where the channel is present but not annotated
 
-- [ViDoRe v1](https://openreview.net/forum?id=ogjBpZ8uSi) (2025)
-- [ViDoRe v2](https://arxiv.org/abs/2505.17166) (2025)
-- [ViDoRe v3](https://aclanthology.org/2026.acl-long.755/) (2026)
-- [MMDocIR](https://aclanthology.org/2025.emnlp-main.1576/) (2025)
-- [MMDocRAG](https://scholar.google.com/scholar?q=Benchmarking+Retrieval-Augmented+Multimodal+Generation+for+Document+Question+Answering) (2025)
-- [M3DocVQA](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html) (2025)
-- [ViDoSeek](https://aclanthology.org/2025.emnlp-main.464/) (2025)
-- [UniDoc-Bench](https://arxiv.org/abs/2510.03663) (2025)
-- [SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/) (2026)
-- [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225) (2021)
-- [LongDocURL](https://aclanthology.org/2025.acl-long.57/) (2025)
-- [MTVQA](https://aclanthology.org/2025.findings-acl.404/) (2025)
+- [ViDoRe v1](https://openreview.net/forum?id=ogjBpZ8uSi) (ICLR 2025) · [link](https://arxiv.org/pdf/2407.01449)
+- [ViDoRe v2](https://arxiv.org/abs/2505.17166) (arXiv 2025) · [link](https://arxiv.org/pdf/2505.17166)
+- [ViDoRe v3](https://aclanthology.org/2026.acl-long.755/) (ACL 2026) · [link](https://arxiv.org/pdf/2601.08620)
+- [MMDocIR](https://aclanthology.org/2025.emnlp-main.1576/) (EMNLP 2025) · [link](https://huggingface.co/MMDocIR)
+- [MMDocRAG](https://scholar.google.com/scholar?q=Benchmarking+Retrieval-Augmented+Multimodal+Generation+for+Document+Question+Answering) (NeurIPS 2025) · [link](https://github.com/MMDocRAG/MMDocRAG)
+- [M3DocVQA](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html) (ICCVW 2025) · [link](https://github.com/bloomberg/m3docrag)
+- [ViDoSeek](https://aclanthology.org/2025.emnlp-main.464/) (EMNLP 2025) · [link](https://github.com/Alibaba-NLP/ViDoRAG)
+- [UniDoc-Bench](https://arxiv.org/abs/2510.03663) (arXiv 2025) · [link](https://github.com/SalesforceAIResearch/UniDOC-Bench)
+- [SciEGQA](https://yuwenhan07.github.io/SciEGQA-project/) (arXiv 2026) · [link](https://yuwenhan07.github.io/SciEGQA-project/)
+- [DocVQA](https://doi.org/10.1109/WACV48630.2021.00225) (WACV 2021) · [link](https://arxiv.org/pdf/2007.00398)
+- [LongDocURL](https://aclanthology.org/2025.acl-long.57/) (ACL 2025) · [link](https://github.com/dengc2023/LongDocURL)
+- [MTVQA](https://aclanthology.org/2025.findings-acl.404/) (ACL Find. 2025) · [link](https://github.com/bytedance/MTVQA)
 
 ## Works cited for this channel in the paper
 

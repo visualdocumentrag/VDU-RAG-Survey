@@ -26,7 +26,7 @@ e2e=[('SV-RAG','chensvrag2025','InternVL2','23.0','-','[link](https://arxiv.org/
 ('MARDoc','chen2026mardoc','Qwen3-VL-30B','57.1','-','[link](https://arxiv.org/pdf/2606.05749)'),
 ('MARDoc','chen2026mardoc','Qwen3-VL-8B','52.7','-','[link](https://arxiv.org/pdf/2606.05749)'),
 ('DocLens','zhu2025doclens','Gemini-2.5-Pro','67.6','-','[code](https://dwzhu-pku.github.io/DocLens/)')]
-o=['# Reported scores (paper Table 9)','','[Back to README](../README.md#metrics-and-reported-scores) · [Metrics](metrics.md) · [Raw file](../data/scores.csv)','',
+o=['# Reported scores (paper Table 9)','','[Paper Table 9 (HD)](figures_tables.md#table-9) · [Fig. 6 (HD)](figures_tables.md#fig-6)','','[Back to README](../README.md#metrics-and-reported-scores) · [Metrics](metrics.md) · [Raw file](../data/scores.csv)','',
 'Scores as reported by each paper for itself, copied from its own result table and not re-run or rescaled. ViDoRe V2 averages cover different subsets across papers (letters), so V2 values compare only within a letter. In the end-to-end part the reader model differs by row and dominates the score. "-" = not reported.','',
 '## Retrieval (nDCG@5; ViDoRe V3: nDCG@10)','','|Retriever|Backbone|ViDoRe V1|ViDoRe V2|ViDoRe V3|Link in paper|','|---|---|:-:|:-:|:-:|:-:|']
 o+=[f'|{P(k,n)}|{b}|{v1}|{v2}|{v3}|{l}|' for n,k,b,v1,v2,v3,l in ret]
@@ -34,9 +34,9 @@ o+=['','## End-to-end accuracy (%)','','|Pipeline|Reader|MMLongBench-Doc|LongDoc
 o+=[f'|{P(k,n)}|{r}|{a}|{b}|{l or "-"}|' for n,k,r,a,b,l in e2e]
 o+=['','ViDoRe V2 subsets: (a) nine incl. multilingual; (b) English; (c) MMEB-V2 protocol; (d) four English; (f) seven; (g) nine, zero-shot; (h) multilingual. (e) eight of the ten V1 subsets. (i) filtered subset.','',
 '**Also reported** (paper Table 9 notes): ColParse ViDoSeek 84.12; HEAVEN ViDoSeek R@1 75.04; ReAlign 75.4 avg. nDCG@5 on six VisRAG sets; VisDoMRAG 44.11 / 63.28 / 67.22 on PaperTab / FetaTab / SlideVQA; HKRAG SlideVQA 74.0, DUDE 68.8; SlideAgent SlideVQA 84.9; SCoPE VLM MMLongBench-Doc ANLS 17.90.','',
-'**Relative gains reported over each paper\'s own baselines**: DSE +17 points top-1 over BM25 on Wiki-SS; VisRAG 20-40% end-to-end over text-based RAG; VisDoMRAG 12-20% on VisDoMBench; ViDoRAG over 10% on ViDoSeek; MDocAgent +12.1% on average over five benchmarks; RegionRAG +10.02% R@1 and +3.56% accuracy with 71.42% of the visual tokens.','',
+'**Relative gains reported over each paper\'s own baselines**: '+P('ma2024dse','DSE')+' +17 points top-1 over BM25 on Wiki-SS; '+P('yuvisrag2025','VisRAG')+' 20-40% end-to-end over text-based RAG; '+P('suri2025visdom','VisDoMRAG')+' 12-20% on VisDoMBench; '+P('wang-etal-2025-vidorag','ViDoRAG')+' over 10% on ViDoSeek; '+P('han2025mdocagent','MDocAgent')+' +12.1% on average over five benchmarks; '+P('liregionrag2026','RegionRAG')+' +10.02% R@1 and +3.56% accuracy with 71.42% of the visual tokens.','',
 '## Every value with its source table','','|Method|Paper|Values as reported|Source table|','|---|---|---|---|']
 o+=[f'|{x.Method}|{P(x.Key,"paper") if x.Key in L else ""}|{x.Values}|{x.iloc[2]}|' for _,x in s.iterrows()]
 open('pages/scores.md','w',encoding='utf-8').write('\n'.join(o)+'\n')
-open('data/scores.md','w',encoding='utf-8').write('\n'.join(o).replace('(../README.md','(../README.md').replace('](metrics.md)','](../pages/metrics.md)').replace('](../data/scores.csv)','](scores.csv)')+'\n')
+open('data/scores.md','w',encoding='utf-8').write('\n'.join(o).replace('(../README.md','(../README.md').replace('](metrics.md)','](../pages/metrics.md)').replace('](figures_tables.md','](../pages/figures_tables.md').replace('](../data/scores.csv)','](scores.csv)')+'\n')
 print('ok')

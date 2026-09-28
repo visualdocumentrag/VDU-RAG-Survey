@@ -1,5 +1,7 @@
 # EIOAR frame of representative systems (paper Table 6)
 
+[Paper Table 6 (HD)](../pages/figures_tables.md#table-6) · [Fig. 8 (HD)](../pages/figures_tables.md#fig-8)
+
 Encoder (A: text path, B: visual path), Index unit, retrieval Operator, evidence Aggregator and Reasoner of each system, as in paper Table 6. *Reported result* is the value quoted in paper Table 9 and its notes; "-" = not quoted in the paper.
 
 Raw file: [`eioar.csv`](eioar.csv) · [Figure](../images/fig_eioar.png) · [Back to README](../README.md#paper-to-repository-map)
@@ -13,5 +15,5 @@ Raw file: [`eioar.csv`](eioar.csv) · [Figure](../images/fig_eioar.png) · [Back
 |[M3DocRAG](https://openaccess.thecvf.com/content/ICCV2025W/Findings/html/Cho_M3DocVQA_Multi-modal_Multi-page_Multi-document_Understanding_ICCVW_2025_paper.html)|B: ColPali|page|late interaction (MaxSim)|top-k|Qwen2-VL 7B|-|[code](https://github.com/bloomberg/m3docrag)|
 |[VisDoMRAG](https://arxiv.org/abs/2412.10704)|A + B: text and visual|chunk and page|two parallel paths|consistency-constrained fusion|LLM and VLM|12-20% on VisDoMBench|[code](https://github.com/MananSuri27/VisDoM)|
 |[ViDoRAG](https://aclanthology.org/2025.emnlp-main.464/)|A + B: text and visual|page|hybrid, GMM-weighted|seeker and inspector agents|answer agent|over 10% on ViDoSeek|[code](https://github.com/Alibaba-NLP/ViDoRAG)|
-|[MDocAgent](https://arxiv.org/abs/2503.13964)|A + B: text and image|page|two parallel paths|critical, text and image agents|summarizing agent|+12.1% on average over five benchmarks|[code](https://github.com/aiming-lab/MDocAgent)|
+|[MDocAgent](https://arxiv.org/pdf/2503.13964)|A + B: text and image|page|two parallel paths|critical, text and image agents|summarizing agent|+12.1% on average over five benchmarks|[code](https://github.com/aiming-lab/MDocAgent)|
 |[RegionRAG](https://ojs.aaai.org/index.php/AAAI/article/view/37597)|B: patch-level retriever|region|patches grouped into regions|region crops only|LVLM|+10.02% R@1 and +3.56% accuracy with 71.42% of the visual tokens|[code](https://github.com/Aeryn666/RegionRAG)|
