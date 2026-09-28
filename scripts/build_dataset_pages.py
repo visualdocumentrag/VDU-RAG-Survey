@@ -8,7 +8,7 @@ sym={'annotated':'●','present':'○','absent':'–','':''}
 def cell(v): return v if v else ' '
 t8=d[d.Source_table=='Paper Table 8']
 # pages/datasets.md section 1
-hdr='|Task|Dataset|Venue|Year|Lang.|Scope|Size|Queries|Metric|'+'|'.join(CH)+'|Public|Paper|Data|'
+hdr='|Task|Dataset|Venue|Year|Lang.|Scope|Size|Queries|Metric|'+'|'.join(CH)+'|Public|Paper|Link|'
 rows=[hdr,'|'+'---|'*(len(hdr.split('|'))-2)]
 for _,x in t8.iterrows():
     rows.append(f"|{x.Group}|{x.Dataset}|{x.Venue}|{x.Year}|{x.Language}|{x.Scope}|{cell(x.Size)}|{cell(x.Queries)}|{cell(x.Metric)}|"+'|'.join(sym[x[c]] for c in CH)+f"|{x.Public}|[paper]({L[x.BibKey]})|[link]({x.Link})|")
@@ -30,10 +30,10 @@ open('data/datasets.md','w',encoding='utf-8').write('\n'.join(out)+'\n')
 # README three tables
 r=open('README.md',encoding='utf-8').read()
 for grp,head in [('Retrieval & RAG','#### Retrieval and RAG Benchmarks'),('Document QA','#### Document QA Benchmarks'),('Channel-specific','#### Channel-specific Datasets')]:
-    tb=['|Dataset|Venue|Year|Size|Queries|Language|Channels annotated|Evaluation Metric|Project|','|---|:-:|:-:|:-:|:-:|:-:|---|:-:|:-:|']
+    tb=['|Dataset|Venue|Year|Size|Queries|Language|Channels annotated|Evaluation Metric|Link|','|---|:-:|:-:|:-:|:-:|:-:|---|:-:|:-:|']
     for _,x in t8[t8.Group==grp].iterrows():
         ann=', '.join(ab for c,ab in zip(CH,AB) if x[c]=='annotated') or '-'
-        tb.append(f"|[{x.Dataset}]({L[x.BibKey]})|{x.Venue}|{x.Year}|{x.Size or '-'}|{x.Queries or '-'}|{x.Language}|{ann}|{x.Metric or '-'}|[Project]({x.Link})|")
+        tb.append(f"|[{x.Dataset}]({L[x.BibKey]})|{x.Venue}|{x.Year}|{x.Size or '-'}|{x.Queries or '-'}|{x.Language}|{ann}|{x.Metric or '-'}|[link]({x.Link})|")
     i=r.index(head); j=r.index('\n\n',r.index('|',i))
     r=r[:i]+head+'\n\n'+'\n'.join(tb)+r[j:]
 open('README.md','w',encoding='utf-8').write(r)
