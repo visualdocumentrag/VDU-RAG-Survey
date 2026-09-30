@@ -13,7 +13,7 @@ Literature cut-off: **24 September 2026**. Every check below can be re-run with 
 | EIOAR (paper Table 6) | 9 systems; encoder, index unit, operator, aggregator, reasoner and code equal to the paper table ([data/eioar.md](data/eioar.md)) |
 | Scores (paper Table 9) | every value, footnote letter and printed link equal to the paper table ([pages/scores.md](pages/scores.md)) |
 | Channel x paradigm matrix (paper Table 7) | equal to the [channel table](README.md#the-eight-channels) |
-| Abstract | word for word equal to the paper |
+| Abstract and channel descriptions | word for word equal to the final paper text (abstract and Sec. 5) |
 | Citations inside figures and tables | every work cited in Tables 1-9 and Figs. 1-11 is linked on the matching clickable page (including the notes of Tables 7 and 9) |
 | Fig. 1 and Fig. 3 values | works per year (2020-2026: 5, 8, 14, 10, 19, 73, 67) and every PRISMA count equal to the data files |
 | Reference numbers | [pages/paper_references.md](pages/paper_references.md) lists [1]-[217] exactly as numbered in the paper, and the works each section cites |

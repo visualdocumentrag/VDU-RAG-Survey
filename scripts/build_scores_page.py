@@ -3,7 +3,7 @@ import pandas as pd
 ref=pd.read_csv('data/references.csv'); L=dict(zip(ref.BibKey,ref.Link))
 s=pd.read_csv('data/scores.csv',dtype=str,keep_default_na=False)
 def P(k,n): return f'[{n}]({L[k]})'
-ret=[('ColPali','fayssecolpali2025','PaliGemma-3B','81.3','-','-','[code](https://huggingface.co/vidore)'),
+ret=[('ColPali','fayssecolpali2025','PaliGemma-3B','81.3','-','-','[code](https://github.com/illuin-tech/colpali)'),
 ('ColMate','masry2025colmate','ColPali-3B','85.14','57.61 (a)','-','[link](https://arxiv.org/pdf/2511.00903)'),
 ('ColModernVBERT','teiletche2025modernvbert','0.25B','81.2','56.0 (b)','-','[code](https://huggingface.co/ModernVBERT)'),
 ('VLM2Vec-V2','meng2025vlm2vecv2','','75.5 (c)','44.9 (c)','-','[code](https://tiger-ai-lab.github.io/VLM2Vec/)'),

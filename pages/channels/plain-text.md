@@ -6,7 +6,7 @@
 
 *Example region of the plain text channel, as shown around the hub in paper Fig. 2.*
 
-The characters and their reading order; since order belongs to the layout, perfect character accuracy can still yield an unreadable stream. Four families recognize text: engineered recognizers, sequence models, OCR-free models that generate structured output from pixels, and compact vision-language models that emit markdown, layout and reading order together. Parsing converged on emitting structure just as retrieval converged on vectors that keep none.
+The characters and their reading order; since order belongs to the layout, perfect character accuracy can still yield an unreadable stream. Four families recognize text: engineered recognizers, sequence models, OCR-free models that generate structured output from pixels, and compact vision-language models that emit markdown, layout and reading order together. Parsers now output this structure, while retrievers store vectors that keep none of it.
 
 ## Coverage in the channel x paradigm matrix (paper Table 7)
 

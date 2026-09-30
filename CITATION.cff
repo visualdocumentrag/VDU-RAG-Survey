@@ -3,7 +3,7 @@ message: "If you use this paper list, please cite the survey below."
 title: "Awesome Visual Document RAG"
 repository-code: "https://github.com/visualdocumentrag/VDU-RAG-Survey"
 license: CC-BY-4.0
-date-released: "2026-09-27"
+date-released: "2026-09-30"
 abstract: "Paper list and data release of the survey. Literature cut-off: 24 September 2026."
 authors:
   - name: "TBD"

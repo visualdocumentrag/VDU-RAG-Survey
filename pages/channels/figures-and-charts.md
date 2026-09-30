@@ -6,7 +6,7 @@
 
 *Example region of the figures and charts channel, as shown around the hub in paper Fig. 2.*
 
-Graphical encodings of quantity that mean nothing until decoded through an axis. *Extraction* of the underlying data grew in document-analysis and vision venues and was surveyed in this journal; *question answering* grew from benchmarks and moved to realistic charts and structural extraction. A retriever that drops the mapping from position to value keeps the picture of a chart, not the chart.
+Graphical encodings of quantity that mean nothing until decoded through an axis. *Extraction* of the underlying data grew in document-analysis and vision venues and was surveyed in this journal; *question answering* grew from benchmarks and moved to realistic charts and structural extraction. A retriever that drops the mapping from position to value keeps what a chart looks like, not the values it shows.
 
 ## Coverage in the channel x paradigm matrix (paper Table 7)
 

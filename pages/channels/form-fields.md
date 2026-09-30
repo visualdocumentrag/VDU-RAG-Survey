@@ -6,7 +6,7 @@
 
 *Example region of the form fields channel, as shown around the hub in paper Fig. 2.*
 
-Key--value pairs bound by position rather than reading order, in layouts that vary between issuers; the history is written mostly in language venues. Datasets established the task and extended it to more languages; structural encoding addressed the binding; language-model extraction addressed unseen layouts; and benchmarks tested realistic and adversarial templates. As with layout, a pooled vector keeps the regions without the relation.
+Key–value pairs bound by position rather than reading order, in layouts that vary between issuers; the history is written mostly in language venues. Datasets established the task and extended it to more languages; structural encoding addressed the binding; language-model extraction addressed unseen layouts; and benchmarks tested realistic and adversarial templates. As with layout, a pooled vector keeps the fields but not which key goes with which value.
 
 ## Coverage in the channel x paradigm matrix (paper Table 7)
 

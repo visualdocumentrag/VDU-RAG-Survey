@@ -10,7 +10,7 @@ Scores as reported by each paper for itself, copied from its own result table an
 
 |Retriever|Backbone|ViDoRe V1|ViDoRe V2|ViDoRe V3|Link in paper|
 |---|---|:-:|:-:|:-:|:-:|
-|[ColPali](https://openreview.net/forum?id=ogjBpZ8uSi)|PaliGemma-3B|81.3|-|-|[code](https://huggingface.co/vidore)|
+|[ColPali](https://openreview.net/forum?id=ogjBpZ8uSi)|PaliGemma-3B|81.3|-|-|[code](https://github.com/illuin-tech/colpali)|
 |[ColMate](https://aclanthology.org/2025.emnlp-industry.145/)|ColPali-3B|85.14|57.61 (a)|-|[link](https://arxiv.org/pdf/2511.00903)|
 |[ColModernVBERT](https://openreview.net/forum?id=TyVJlSHke2)|0.25B|81.2|56.0 (b)|-|[code](https://huggingface.co/ModernVBERT)|
 |[VLM2Vec-V2](https://arxiv.org/abs/2507.04590)||75.5 (c)|44.9 (c)|-|[code](https://tiger-ai-lab.github.io/VLM2Vec/)|

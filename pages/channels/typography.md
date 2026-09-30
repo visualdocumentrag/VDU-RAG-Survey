@@ -6,7 +6,7 @@
 
 *Example region of the typography channel, as shown around the hub in paper Fig. 2.*
 
-Typeface, weight, slope and emphasis carry meaning without changing the characters, and transcription is blind to them. Font recognition moved from typographical features to deep models, but vision venues now mostly *generate* fonts. Reading typography survives in historical documents and in TexTAR, the only word-level annotation of bold, italic, underline and strike-out we found. The channel is annotated, and has never been retrieved over.
+Typeface, weight, slope and emphasis carry meaning without changing the characters, and transcription is blind to them. Font recognition moved from typographical features to deep models, but vision venues now mostly *generate* fonts. Reading typography survives in historical documents and in TexTAR, the only word-level annotation of bold, italic, underline and strike-out we found. Typography therefore has annotated data, but no retrieval system has been tested on it.
 
 ## Coverage in the channel x paradigm matrix (paper Table 7)
 

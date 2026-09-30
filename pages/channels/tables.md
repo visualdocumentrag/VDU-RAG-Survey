@@ -6,7 +6,7 @@
 
 *Example region of the tables channel, as shown around the hub in paper Fig. 2.*
 
-A grid in which cell position carries meaning, marked by rules, alignment or white space that are inconsistent and often absent. Two surveys twenty years apart bracket the channel. Structure recognition grew on large corpora, moving from end-to-end decoding to compact tokenizations and logical-location regression, while multi-modal models reason over recovered grids. Li *et al.* solve table structure and form parsing as one relation-parsing problem, the recognition-side counterpart of the paper. Cell adjacency and header scope are exactly what a pooled page vector need not keep.
+A grid in which cell position carries meaning, marked by rules, alignment or white space that are inconsistent and often absent. Two surveys twenty years apart bracket the channel. Structure recognition grew on large corpora, moving from end-to-end decoding to compact tokenizations and logical-location regression, while multi-modal models reason over recovered grids. Li *et al.* solve table structure and form parsing as one relation-parsing problem, the recognition-side counterpart of paper Sec. 2.3. Which cell sits next to which, and which header a cell belongs to, is exactly what a pooled page vector is free to lose.
 
 ## Coverage in the channel x paradigm matrix (paper Table 7)
 

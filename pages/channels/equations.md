@@ -6,7 +6,7 @@
 
 *Example region of the equations channel, as shown around the hub in paper Fig. 2.*
 
-Expressions whose meaning lies in nesting and operator scope. Surveys span a quarter century, retrieval developed under a task series, handwritten recognition advanced through coverage- and counting-aware attention, and printed and real-world expressions moved to large end-to-end models. An expression and its mis-parenthesized variant differ in a few patches that no pooled score weights by what they change.
+Expressions whose meaning lies in nesting and operator scope. Surveys span a quarter century, retrieval developed under a task series, handwritten recognition advanced through coverage- and counting-aware attention, and printed and real-world expressions moved to large end-to-end models. An expression and a copy with one bracket moved differ in only a few patches, and a pooled score gives those patches no special weight.
 
 ## Coverage in the channel x paradigm matrix (paper Table 7)
 
